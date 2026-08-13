@@ -1,0 +1,1007 @@
+Gross dictations
+
+@BONE AND SOFT TISSUE@
+
+#G1.A Lipoma, single piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a well-circumscribed portion of glistening yellow adipose tissue measuring _ cm. Sectioning reveals a solid yellow cut surface without focal lesions. RS x _.$
+
+#G1.B Lipoma, multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of yellow-tan soft tissue measuring _ cm in aggregate dimension. Sectioning reveals solid yellow cut surfaces without focal lesions. RS x _.$
+
+#G1.C Soft tissue mass, non-oriented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single fragment of soft tissue measuring _ cm. The specimen is not oriented. The surgical margin is inked _. Sectioning reveals _. RS x _.$
+
+#G1.D Soft tissue mass, oriented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single piece of _ tissue measuring _ cm. The specimen is oriented with _. The specimen is inked as follows: Superior = Blue, Inferior = Green, Medial = Yellow, Lateral = Orange, Anterior = Red, Posterior = Black. 
+
+The specimen is serially sectioned to reveal a _ cm _. This lesion is present _ cm from the superior margin, _ cm from the inferior margin, _ cm from the medial margin, _ cm from the lateral margin, _ cm from the anterior margin, and _ cm from the posterior margin. The specimen is grossly necrotic, estimated at _% of total tumor. The remaining tissue consists of _. No additional lesions are identified. _ lymph node candidates are identified ranging in size from _ up to _ cm. RS x _.
+
+Cassette Summary:
+1 - _: Representative sections of tumor
+_: Representative section of normal
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G1.E Synovium#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of tan-pink soft tissue measuring _ cm in greatest aggregate dimension. RS/TE x _.$
+
+#G1.F Digit#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an amputated digit measuring _ cm. The skin is _. The underlying bone is _. The margins appear grossly viable. RS x 3.
+
+Cassette Summary:
+1: Skin/soft tissue margin
+2: Bone resection margin (in decalcification solution)
+3: Representative section of lesion (in decalcification solution)$
+
+#G1.G Below knee amputation, non-neoplastic#
+$Received fresh labeled with the patient's name "patientNameVar" and designated "designationVar" is a below the knee amputation with _ cm long portion of tibia. The foot measures _ cm and is notable for _. The skin is remarkable for _. The underlying bone is _. The vasculature is dissected to reveal _. No additional lesions are identified grossly. RS x _.
+
+Cassette Summary:
+1: Skin/soft tissue margin
+2: Bone marrow scrapings at margin
+3: Representative section of lesion
+4: Representative section of vessels
+5: Representative section of bone (in decalcification solution)$
+
+#G1.H Upper arm amputation, non-neoplastic#
+$Received fresh labeled with the patient's name "patientNameVar" and designated "designationVar" is an upper extremity amputation with _ cm long portion of radius/ulna. The hand measures _ cm and is notable for _. The skin is remarkable for _. The underlying bone is _. The vasculature is dissected to reveal _. No additional lesions are identified grossly. RS x _.
+
+Cassette Summary:
+1: Skin/soft tissue margin
+2: Bone marrow scrapings at margin
+3: Representative section of lesion
+4: Representative section of vessels
+5: Representative section of bone (in decalcification solution)$
+
+#G1.I Extremity amputation, neoplastic#
+$Received fresh labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ amputation with _ cm long portion of (bone). The hand/foot measures _ cm and is notable for _. The skin is remarkable for _. The soft tissue is dissected to reveal _ lymph nodes ranging in size from _ up to _ cm. The specimen is sectioned longitudinally to reveal _. Gross image taken for comparison with submitted cassettes. RS x _.
+
+Cassette Summary:
+1: Skin/soft tissue margin
+2: Bone resection margin (in decalcification solution)
+3 - _: Sections of tumor (longitudinal blocks, in decalcification solution)
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G1.J Incidental rib#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of bone measuring _ cm in aggregate. The bone is sectioned to reveal unremarkable bone. RS x 1, cassette placed in decalcification solution.$
+
+#G1.K Knee arthroplasty#
+$Received fresh labeled with the patient's name "patientNameVar" and designated "designationVar" is a total/partial knee arthroplasty specimen received in multiple pieces measuring _ cm in greatest aggregate dimension. Multiple tan-white soft tissue fragments are received measuring _ cm in aggregate. The articular surface is _. RS x 1, cassette placed in decalcification solution.$
+
+#G1.L Hip Arthroplasty#
+$Received fresh labeled with the patient's name "patientNameVar" and designated "designationVar" is a total hip arthroplasty specimen. The femoral head measures _ cm. The femoral neck measures _ cm. Multiple tan-red soft tissue fragments are received measuring _ cm in aggregate. The articular surface is _. Sectioning reveals _. RS x 1, cassette placed in decalcification solution.$
+
+#G1.M Bone biopsy/curettage#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of bone measuring _ cm in aggregate. TE x _, specimen placed in decalcification solution.$
+
+#G1.N Cartilage shavings/loose bodies#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments cartilage measuring _ cm in aggregate. TE x _.$
+
+#G1.O Ganglion cyst#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of rubbery tan-pink and white tissue measuring _ cm. The specimen is sectioned to reveal a _ cm simple cyst filled with gelatinous material. RS x _.$
+
+#G1.P Tendon sheath#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of rubbery tan-pink and white tissue consistent with tendon measuring _ cm. No lesions are grossly identified. RS x _.$
+
+#G1.Q Gout curettings#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of rubbery tan-pink tissue and tan-white gritty material measuring _ cm in aggregate. RS x _.$
+
+@BREAST@
+
+#G2.A Breast needle biopsy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" with cold ischemic time of _ minutes are _ tan-white to yellow fragments of tissue measuring _ cm in greatest diameter with lengths ranging from _ up to _ cm. TE x 1. Total time in formalin = _ hours.$
+
+#G2.B Breast lumpectomy, unoriented#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" with a cold ischemic time of _ is a _ gram single fragment of yellow tan fibrofatty tissue measuring _ cm. The specimen is received unoriented. The surgical margins are inked _ and the specimen is serially sectioned to reveal _. TE x _. Total time in formalin = _ hours.$
+
+#G2.C Breast lumpectomy, oriented#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" with a cold ischemic time of _ is a _ gram portion of pink and yellow-tan soft tissue (_ cm, S-I, M-L, A-P) with attached sutures and inserted guide wire.  The inserted wire is removed. The specimen is inked as follows;  lateral margin is inked _, the medial margin is inked _, anterior (superficial) margin is inked _, the deep margin is inked _, superior margin is inked _, and the inferior margin is inked _.  The specimen is serially sectioned from medial to lateral into _ slices to reveal _. The remainder of the tissue consists of unremarkable fibroadipose tissue. TE x _. Total time in formalin = _ hours. 
+
+Cassette Summary:
+1: slice 1
+2: slice 2
+3: slice 3
+4: slice 4
+5: slice 5
+6: slice 6
+7: slice 7
+8: slice 8
+9: slice 9
+10: slice 10$
+
+#G2.D Gynecomastia#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are pieces of yellow-tan fibroadipose tissue weight _ grams and measuring _ cm in aggregate. Sectioning reveals unremarkable fibroadipose tissue with no lesions identified. RS x _.$
+
+#G2.E Mastectomy#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" with a cold ischemic time of _ is a _ gram mastectomy specimen. The specimen is received oriented with _. The specimen measures _ cm (M-L, S-I, A-P). The specimen is inked as follows: Superior = Blue, Inferior = Green, Medial = Yellow, Lateral = Orange, Anterior = Red, Posterior = Black.
+
+The specimen contains an elliptical portion of skin (_ cm) with nipple (_ cm). The specimen is sectioned to reveal _ measuring _ cm. A clip is _. The lesion is present _ cm from the anterior/skin surface and _ cm from the nipple, and _ cm from superior, _ cm from inferior, _ cm from medial, _ cm from lateral, and _ cm from the deep/posterior margins. The remaining tissue consists of unremarkable fibroadipose tissue. No lymph nodes are identified. RS x _. Total time in formalin = _ hours.
+
+Cassette Summary:
+1: Nipple, serially sectioned
+2: Areola/Nipple base
+3 - _: Representative sections of mass (tissue surrounding clip in cassette _)
+_: Upper inner quadrant
+_: Upper outer quadrant
+_: Lower inner quadrant
+_: Lower outer quadrant
+_: _$
+
+#G2.F Mastectomy, skin sparing#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" with a cold ischemic time of _ is a _ gram skin and nipple sparing mastectomy specimen. The specimen is received oriented with _. The specimen measures _ cm (M-L, S-I, A-P). The specimen is inked as follows: Superior = Blue, Inferior = Green, Medial = Yellow, Lateral = Orange, Anterior = Red, Posterior = Black.
+
+The specimen is sectioned to reveal _ measuring _ cm. A clip is _. The lesion is present _ cm from superior, _ cm from inferior, _ cm from medial, _ cm from lateral, _ cm from anterior, and and _ cm from the deep/posterior margins. The remaining tissue consists of unremarkable fibroadipose tissue. No lymph nodes are identified. RS x _. Total time in formalin = _ hours.
+
+Cassette Summary:
+1 - _: Representative sections of mass (tissue surrounding clip in cassette _)
+_: Upper inner quadrant
+_: Upper outer quadrant
+_: Lower inner quadrant
+_: Lower outer quadrant
+_: _$
+
+#G2.G FNA Core, in Formalin#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are _ tan-white to light yellow needle biopsies. The biopsies measure _ cm in greatest diameter and ranges in length from _ to _ cm. The tissue is totally submitted.  TE x _.$
+
+#G2.H FNA Core, in Saline#
+$Received in saline, labeled with the patient's name "patientNameVar" and designated "designationVar" are _ tan-white to light yellow needle biopsies. The biopsies measure _ cm in greatest diameter and ranges in length from _ to _ cm. The tissue is totally submitted.  TE x _.$
+
+#G2.I Breast margin, oriented#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" with a cold ischemic time of _ is a _ gram portion of pink and yellow-tan soft tissue (_ cm, S-I, M-L, A-P) with attached sutures.  The specimen is inked as follows;  old margin is inked _, new margin is inked _.  The specimen is serially sectioned to reveal _. TE x _. Total time in formalin = _ hours. 
+
+
+@CARDIOVASCULAR@
+
+#G3.A Artery for arteritis#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a segment of blood vessel measuring _ cm in length x _ cm in diameter. The specimen is entirely submitted in 1 cassette for sectioning by histology.$
+
+#G3.B Artery general#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm long vessel with diameter of _ cm. The specimen is serially sectioned to reveal _. RS x _.$
+
+#G3.C Endarterectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are yellow-tan calcified soft tissue fragments with aggregate measurement of _ cm. The specimen is placed in decalcification solution. RS x _.$
+
+@DERMATOPATHOLOGY@
+
+#G4.A Skin ellipse, oriented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single skin ellipse measuring _ cm. The skin surface shows a _ measuring _ cm. The specimen is received with a suture attached to one tip designated as _. The superior skin margin is inked _, the inferior skin margin is inked _, and the deep margin is inked _. The skin surface _. The specimen is serially sectioned to reveal _. TE x 2.
+
+Cassette Summary:
+1: tips
+2: remainder serially sectioned$
+
+#G4.B Skin ellipse, unoriented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single skin ellipse measuring _ cm. The skin surface shows a _ measuring _ cm. The specimen is received unoriented. The skin margin is inked black. The tips are removed and submitted in cassette 1. The remainder is serially sectioned and submitted in cassettes 2-_. TE x _.$
+
+#G4.C Skin shave#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single skin shave measuring _ cm. The skin surface shows a _ measuring _ cm. The specimen is received unoriented. The surgical margin is inked _. The specimen is sectioned and totally submitted. TE x 1.$
+
+#G4.D Skin punch#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm punch biopsy of skin measuring _ cm in depth. The skin surface shows a _ measuring _ cm. The lesion is contained within the punch biopsy. The specimen is bisected and totally submitted. TE x 1.$
+
+#G4.E Skin tag#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single polypoid tan skin shave biopsy measuring _ cm. The skin surface is grossly unremarkable. The specimen is sectioned and totally submitted.TE x 1.$
+
+#G4.F Skin cyst, intact#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a skin excision measuring _ cm. The skin surface is unremarkable. The specimen is received unoriented. The surgical margin is inked _. The specimen is sectioned to reveal a cystic structure filled with a white chalky substance. TE x 1.$
+
+#G4.G Skin cyst, fragmented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple fragments of soft tissue and keratin debris measuring _ cm in aggregate dimension.  RS x 1.$
+
+#G4.H Cicatrix#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a linear skin excision measuring _ cm with a central pink-white scar. RS x 1.$
+
+#G4.I Nail#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is multiple fragments of nail with greatest dimensions ranging from _ cm. TE x 1.$
+
+#G4.J Alopecia, horizontal section#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm punch biopsy specimen. The specimen is bisected horizontally and totally submitted. TE x 1.$
+
+#G4.K Alopecia, vertical section#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm punch biopsy specimen. The specimen is bisected vertically and totally submitted. TE x 1.$
+
+#G4.L Skin punch for DIF#
+$Received in Michel's/DIF fixative, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single cylindrical punch biopsy of skin measuring _ cm in depth. The specimen is submitted for immunofluorescent studies. TE x 1.$
+
+@GASTROINTESTINAL@
+
+#G5.A GI biopsy 1 piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single fragment of pale-tan tissue measuring _ cm in greatest dimension. TE x 1.$
+
+#G5.B GI biopsies multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are _ fragments of pale-tan tissue measuring _ cm in aggregate dimension. TE x 1.$
+
+#G5.C GI polyp 1 piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single polypoid fragment of pale-tan tissue measuring _ cm. A stalk is present and is inked _. The specimen is sectioned. TE x 1.$
+
+#G5.D GI polyp multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of pale-tan tissue measuring _ cm in aggregate dimension. TE x 1.$
+
+#G5.E Small bowel, non-neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of intact small bowel measuring _ cm in length with average diameter of _ cm. The serosa is smooth and glistening with no lesions identified. The specimen is opened to reveal unremarkable mucosa with stool contents. RS x _.
+
+Cassette Summary:
+1: Margin 1
+2: Margin 2
+3 - _: Representative sections of normal appearing mucosa$
+
+#G5.F Small bowel, neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of intact small bowel measuring _ cm in length with average diameter of _ cm. The serosa is notable for _. The margins are designated _. The specimen is opened to reveal _. Multiple lymph nodes are identified ranging in size from _ cm up to _ cm. RS x _.
+
+Cassette Summary:
+1: Margin 1
+2: Margin 2
+3 - _: Representative sections of lesion
+_: Representative sections of normal appearing mucosa
+_: _$
+
+#G5.G Endoscopic mucosal resection (EMR)#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm endoscopic mucosal resection excised to a depth of _ cm. The resection margin is inked black. The specimen is serially sectioned to reveal _. The lesion is located _ cm from the nearest resection margin. TE x _.$
+
+#G5.H Anastomotic ring/Donut#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are two circular pieces of bowel measuring _ cm and _ cm. The serosa is pink-tan and unremarkable. The specimen is sectioned to reveal unremarkable enteric mucosa with suture material. RS x 1.$
+
+#G5.I Ileostomy, End#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of bowel (_ cm) with stoma (_ cm). The serosa is pink-tan and unremarkable. There is/is not skin present at the stoma site. The mucosa at the stoma is hemorrhagic and granular appearing. RS x _.$
+
+#G5.J Ileostomy, Loop#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of bowel (_ cm) with a stoma located in the center (_ cm). The longer side of bowel measures _ cm in length, and the shorter segment measures _ cm in length. There is/is not skin present at the stoma site. The serosa is pink-tan and unremarkable. The stoma is hemorrhagic and granular appearing. RS x _.$
+
+#G5.K Esophagectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an intact/disrupted esophagectomy specimen measuring _ cm in length with diameter ranging from _ cm up to _ cm. The specimen is closed at either end with a staple line. The adventitial surface is notable for _ cm. The adventitial margin is inked black. 
+
+The specimen is opened to reveal _. Sectioning of the lesion reveals a maximum depth of _ cm. The lesion is present _ cm from the proximal margin, _ cm from the distal margin, and _ cm from the adventitial surface. The remainder of the esophageal mucosa is pink-tan, glistening, and unremarkable with longitudinal folds.
+
+_ lymph nodes are identified ranging in size from _ cm up to _ cm. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3 - _: Representative sections of lesion
+_: Representative section of normal appearing esophagus
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.L Esophagogastrectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an intact/disrupted esophagogastrectomy specimen. The esophagus measures _ cm in length with diameter ranging from _ cm up to _ cm. The stomach measures _ cm along the greater curvature, _ cm along the lesser curvature, and _ cm in circumference. Both ends of the specimen are closed with staple lines. The adventitial surface is pink-tan and glistening. The specimen is inked as follows: Esophageal adventitial margin = Black, Serosa near tumor = Blue. 
+
+The specimen is opened to reveal _. Sectioning of the lesion reveals a maximum depth of _ cm. The lesion is present _ cm from the proximal margin, _ cm from the distal margin, and _ cm from the adventitial surface. The remainder of the esophageal mucosa is pink-tan, glistening, and unremarkable with longitudinal folds. The gastric mucosa is tan, rugated, and unremarkable.
+
+_ lymph nodes are identified ranging in size from _ cm up to _ cm. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3 - _: Representative sections of lesion
+_: Representative section of normal appearing esophagus
+_: Representative section of normal appearing stomach
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.M Sleeve gastrectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm sleeve gastrectomy specimen. The specimen is closed with a _ cm long staple line. The serosal surface is tan-pink, glistening, and unremarkable. The specimen is opened to reveal unremarkable tan rugated gastric mucosa. RS x _.$
+
+#G5.N Gastrectomy, partial#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a partial gastrectomy specimen measuring _ cm along the greater curvature, _ cm along the lesser curvature, and _ cm in circumference. The serosa is pink-tan and glistening. There is a palpable lesion located _. The serosa associated with the lesion is inked black.
+
+The specimen is opened to reveal _. Sectioning of the lesion reveals a maximum depth of _ cm. The lesion is present _ cm from the proximal margin, _ cm from the distal margin, and _ cm from the nearest omental margin. The remaining mucosa is tan, rugated, and unremarkable.
+
+_ lymph nodes are identified ranging in size from _ cm up to _ cm. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3: Omental margin
+4 - _: Representative sections of lesion
+_: Representative section of normal appearing stomach
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.O Gastrectomy, total#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a gastrectomy specimen measuring _ cm along the greater curvature, _ cm along the lesser curvature, and _ cm in circumference. The serosa is pink-tan and glistening. There is a palpable lesion located _. The serosa associated with the lesion is inked black. 
+
+The specimen is opened to reveal _. Sectioning of the lesion reveals a maximum depth of _ cm. The lesion is present _ cm from the proximal margin and _ cm from the distal margin. The remaining mucosa is tan, rugated, and unremarkable.
+
+_ lymph nodes are identified ranging in size from _ cm up to _ cm. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3: Omental margin
+4 - _: Representative sections of lesion
+_: Representative section of normal appearing stomach
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.P Colon, diverticula#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm long segment of colon with diameter ranging from _ up to _ cm. The specimen is closed at either end by a staple line. The serosa is tan-pink and smooth without lesions or puckering. The specimen is opened to reveal _. Sectioning reveals no evidence of gross perforation or abscess formation. The remaining mucosa is tan, rugated, and unremarkable. The margins of resection appear grossly viable. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3 - _: Representative sections of diverticula
+_: Representative section of normal colon$
+
+#G5.Q Colon, ischemic bowel#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm long segment of colon with diameter ranging from _ up to _ cm. The specimen is closed at either end by a staple line. The serosal surface is remarkable for _. The specimen is opened to reveal areas of flattened tan-red mucosa consistent with ischemia. The uninvolved mucosa is tan, rugated, and unremarkable.  The margins of resection appear grossly viable. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3 - _: Representative sections of lesion
+_: Representative section of normal colon$
+
+#G5.R Colon, neoplastic#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm long segment of bowel consistent with transverse/left/sigmoid/etc with diameter ranging from _ up to _ cm. There is a palpable mass in the _. No puckering or gross perforation is noted in the associated serosa. The serosa overlying the lesion is inked black, and the mesenteric/radial margin is inked blue. 
+
+The specimen is opened to reveal a _ cm mass. The mass involves _% of the circumference of bowel. Sectioning reveals a friable tan-brown appearance. The mass is grossly superficial/extends to the muscularis propria/serosa. It is present _ cm from the radial/mesenteric margin, _ cm from the proximal margin, and _ cm from the distal margin. The remaining mucosa is tan, rugated, and unremarkable.
+
+_ lymph nodes are identified ranging in size from _ up to _ cm. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3: Mesenteric/radial margin
+4 - _: Representative sections of mass
+_: Representative section of normal colon
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.S Right hemicolectomy#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a right hemicolectomy specimen consisting of _ cm of small bowel, _ cm of colon, and a _ cm long appendix with diameter ranging from _ up to _ cm. The specimen is closed at either end by a staple line. There is a palpable mass in the _. No puckering or gross perforation is noted in the associated serosa. The serosa overlying the lesion is inked black, and the radial margin is inked blue.  
+
+The specimen is opened to reveal a _ cm mass. The mass involves _% of the circumference of bowel. Sectioning reveals a friable tan-brown appearance. The mass is grossly superficial/extends to the muscularis propria/serosa. It is present _ cm from the radial margin, _ cm from the proximal margin, and _ cm from the distal margin. The remaining mucosa is tan, rugated, and unremarkable.
+
+The appendix is sectioned to reveal _. The appendiceal walls measures up to _ cm in maximum thickness.
+
+_ lymph nodes are identified ranging in size from _ up to _ cm. RS x _
+
+1: Small bowel margin
+2: Colonic margin
+3: Radial margin
+4 - _: Representative sections of mass
+_: Representative section of normal colon
+_: Appendiceal tip and additional transverse sections
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.T Low anterior resection (LAR)#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a low anterior resection specimen measuring _ cm in length with diameter ranging from _ up to _ cm. There is a palpable mass in the _. No puckering or gross perforation is noted in the associated serosa. The mesorectum is complete/incomplete. The serosa overlying the lesion is inked black, and the mesenteric/radial/retroperitoneal margin is inked blue.
+
+The specimen is opened to reveal a _ cm mass. The mass involves _% of the circumference of bowel. Sectioning reveals a friable tan-brown appearance. The mass is grossly superficial/extends to the muscularis propria/serosa. It is present _ cm from the radial/mesenteric margin, _ cm from the proximal margin, and _ cm from the distal margin. The remaining mucosa is tan, rugated, and unremarkable.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3: Mesenteric/radial margin
+4 - _: Representative sections of mass
+_: Representative section of normal colon
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.U Whipple#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a pancreaticoduodenectomy specimen. The pancreatic head measures _ cm in length x _ cm in cross sections. There is/is no portion of vessel wall identified. The common bile duct measures _ cm in length and _ cm in average diameter. The small bowel measures _cm in length and _ cm in diameter. The stomach measures _ cm. The specimen is inked as follows: posterior pancreatic soft tissue = blue, anterior pancreatic soft tissue = green, vascular groove = orange, uncinate margin = black.
+
+The specimen is serially sectioned to reveal a _ lesion located in the _. The lesion is _ cm. It is located _ cm from the pancreatic neck margin, _ cm from the common bile duct margin, _ cm from the uncinate margin, _ cm from the small bowel margin, _ cm from the posterior soft tissue margin, and _ from the anterior soft tissue margin. The pancreatic duct is/is not patent. The diameter measures _ cm distal to lesion, and _ cm proximal to the lesion. The lesion extends to _ cm from the pancreatic duct/involves _ cm of the pancreatic duct.
+
+The remaining pancreatic parenchyma is lobulated and unremarkable. The small bowel and stomach are grossly unremarkable. _ lymph nodes are identified ranging in size from _ up to _ cm. RS x _.
+
+Cassette Summary:
+1: Proximal gastric/small bowel margin
+2: Distal small bowel margin
+3: Common bile duct margin
+4: Vascular groove
+5 - _: Uncinate margin
+_ - _: Representative sections of lesion
+_: Representative section of normal pancreas
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+#G5.V Omentum#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a membranous portion of fibroadipose tissue consistent with omentum measuring _ cm with a thickness of _. No lesions are grossly visible. RS x _.$
+
+@GENERAL SURGERY@
+
+#G6.A Appendix, non-neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an appendectomy specimen with attached mesoappendix measuring _ cm in length and _ cm in greatest diameter. The serosa is smooth, glistening, and unremarkable. The surgical margin is resected and submitted in cassette 1.  The appendix is _. The appendiceal tip is amputated, bisected and submitted in cassette 2. The remaining specimen is serially sectioned to reveal _. No areas of perforation are grossly identified. Representative sections are submitted. RS x 3.
+
+Cassette Summary:
+1: Surgical margin
+2: Appendiceal tip (bisected)
+3: Representative sections of appendix$
+
+#G6.B Hernia sac#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a fragment of pink-tan fibromembranous tissue measuring _ cm. No masses or focal lesions are identified. RS x 1.$
+
+#G6.C Hemorrhoidal tissue, multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of tan wrinkled soft tissue measuring _ cm. The specimen is sectioned to reveal dilated submucosa vessels. RS x 1.$
+
+#G6.D Varicose veins#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragment(s) of resected vein ranging in length from _ to _.  Representative sections are taken and submitted in two cassettes. RS x 2.$
+
+#G6.E Appendix, neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an intact/ruptured appendectomy specimen measuring _ cm in length by _ cm in diameter. The attached mesoappendiceal fibroadipose tissue measures up to _ cm. The proximal resection margin is closed with a staple line. The serosa is notable for _. The specimen is inked as follows: Proximal margin = Black, Serosa overlying lesion = Blue. The specimen is serially sectioned to reveal _. The tumor grossly extends into the wall of the appendix/serosa. The tumor is _ cm from the proximal margin, and _ cm from the serosal surface. The lumen contains _. The remainder of the serosa and mucosa is unremarkable. TE x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal tip, bisected
+3 - _: Remainder of appendix$
+
+#G6.F Hemorrhoidal tissue, single piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single piece of tan wrinkled soft tissue measuring _ cm. The specimen is sectioned to reveal dilated submucosa vessels. RS x 1.$
+
+@GENITOURINARY@
+
+#G7.A Vas deferens#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a gray tubular structure consistent with vas deferens measuring _ cm. TE x 1.$
+
+#G7.B Prostate biopsy, 1 piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single thread-like fragment of tan tissue measuring _ cm in length and < 0.1 cm in diameter. TE x 1.$
+
+#G7.C Prostate biopsy, 2 pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are two thread-like fragments of tan tissue measuring _ cm and _ cm in length, with diameters of < 0.1 cm. TE x 1.$
+
+#G7.D Prostate biopsy, 3 pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are three thread-like fragments of tan tissue measuring _ cm, and _ cm, and _ cm in length, with diameters of < 0.1 cm. TE x 1.$
+
+#G7.E Prostate biopsy, multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple thread-like fragments of tan tissue measuring _ cm in aggregate, with diameters of < 0.1 cm. TE x 1.$
+
+#G7.F Penile foreskin#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of grossly unremarkable wrinkled soft tissue measuring _ cm in aggregate. RS x 1.$
+
+#G7.G Adrenalectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram adrenalectomy specimen measuring _ cm. The specimen is received intact/disrupted/morcellated. The specimen is inked _. Sectioning reveals _. The tumor is confined to the adrenal gland. The uninvolved cortex is yellow/tan and unremarkable. The medulla is maroon/brown and unremarkable. RS x _.
+
+Cassette Summary:
+1 - _: Representative sections of lesion
+_: Representative section of normal appearing cortex and medulla
+_: _$
+
+#G7.H Transurethral resection of bladder tumor (TURBT)#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is _ grams of firm pink-tan tissue fragments with aggregate measurement of _ cm. All pieces appear homogenous in color. The specimen is entirely submitted. TE x _.$
+
+#G7.I Cystectomy, partial#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm partial cystectomy specimen including _(ureters/urethra). The specimen is inked as follows: Soft tissue/deep margin = _, Peripheral margin = _. The bladder mucosa is notable for a _ cm mass present in the _. Sectioning of the mass reveals _. The mass is _ cm from the nearest peripheral margin. The remaining bladder mucosa is unremarkable. RS x _.
+
+Cassette Summary:
+1: Representative section of mass and closest peripheral margin
+2: Representative section of mass and deepest point of invasion
+3 - _: Additional sections of mass
+_-_: Representative sections of normal$
+
+#G7.J Cystectomy, Total#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a intact/disrupted/previously incised_ cystectomy specimen measuring _ cm. The right ureter measure _ cm in length x _ cm in diameter. The left ureter measure _ cm in length x _ cm in diameter. The specimen is inked as follows: Right = _, Left = _. The bladder is opened along the anterior aspect to reveal a _ cm mass which is _. The mass is located in the _. Sectioning of the mass reveals _. The lesion measures _ cm from the soft tissue margin, _ cm from the right ureteral margin, _ cm from the left ureteral margin, and _ cm from the urethral margin. The remaining mucosa is unremarkable. _ lymph nodes are identified ranging in size from _ up to _ cm.
+
+Cassette Summary:
+1: Right ureteral resection margin
+2: Left ureteral resection margin
+3: Urethral resection margin
+4 - _: Representative sections of mass
+_: Representative section of anterior wall
+_: Representative section of posterior wall
+_: Representative section of trigone
+_: Representative section of dome
+_: Representative section of right lateral wall
+_: Representative section of left lateral wall
+_: Representative section of right ureteral orifice
+_: Representative section of left ureteral orifice
+_: One lymph node
+_: _ lymph nodes$
+
+#G7.K Radical prostatectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram radical prostatectomy specimen. The prostate measures _ cm (S-I, R-L, A-P). The external surface shows focal cautery artifact but is otherwise smooth and unremarkable. The right seminal vesicle measures _ cm, and the right vas deferens measures _ cm. The left seminal vesicle measures _cm, and the left vas deferens measures _ cm. The specimen is inked as follows: Right =  Orange, Left = Yellow, Anterior = Blue, and Posterior = Black.
+
+The prostate is sectioned from apex to base into _ slices. The cut surface is remarkable for _ measuring _ cm located in _. The remainder of the prostatic mucosa is grossly unremarkable. RS/TE x _.
+
+Cassette Summary:
+1: Right seminal vesicle base
+2: Left seminal vesicle base
+3: Right vas deferens margin
+4: Left vas deferens margin
+5: Right prostatic base margin
+6: Left prostatic base margin
+7: Right apex margin
+8: Left apex margin
+9 - _: _$
+
+#G7.L Cystoprostatectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a cystoprostatectomy specimen measuring _ cm in greatest overall dimensions. The specimen is inked as follows: Right = Orange, Left = Yellow, Anterior = Blue, and Posterior = Black.
+
+The bladder measures _ cm. The right ureter measures _ cm in length and _ cm in diameter. The left ureter measures _ cm in length and _ cm in diameter. The bladder is opened along the anterior aspect to reveal a _ cm mass which is _. The mass is located in the _. Sectioning of the mass reveals _. The lesion measures _ cm from the soft tissue margin, _ cm from the right ureteral margin, _ cm from the left ureteral margin, and _ cm from the urethral margin. The remaining bladder mucosa is unremarkable. 
+
+The prostate weights _ grams and measures _ cm (S-I, R-L, A-P). The external surface shows focal cautery artifact but is otherwise smooth and unremarkable. The right seminal vesicle measures _ cm, and the right vas deferens measures _ cm. The left seminal vesicle measures _cm, and the left vas deferens measures _ cm. The prostate is sectioned from apex to base into _ slices. The cut surface is remarkable for _ measuring _ cm located in _. The remainder of the prostatic mucosa is grossly unremarkable.
+
+There are _ identified lymph nodes with greatest dimensions ranging from _ up to _ cm. All lymph nodes are submitted entirely, with additional representative sections submitted for the case. RS x _.
+
+Cassette Summary:
+1: Right ureteral resection margin
+2: Right ureteral resection margin
+3: Urethral resection margin
+4 - _: Representative sections of mass
+_: Representative section of anterior wall
+_: Representative section of posterior wall
+_: Representative section of trigone
+_: Representative section of dome
+_: Representative section of right lateral wall
+_: Representative section of left lateral wall
+_: Representative section of right ureteral orifice
+_: Representative section of left ureteral orifice
+_: Right seminal vesicle base
+_: Left seminal vesicle base
+_: Bladder neck
+_: Prostatic urethra
+_: Right apex margin
+_: Left apex margin
+_ - _: Representative sections of prostate$
+
+#G7.M Ureterectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a segment of ureter measuring _ cm in length by _ cm in diameter. A bladder cuff margin is present/not present. The adventitial surface is _. The specimen is inked as follows: Proximal third = Blue, Mid third = Black, Distal third = Green, and bladder cuff margin = Red. The specimen is sectioned to reveal a _ cm lesion present in _. This lesion is _cm from the proximal margin, and _ cm from the distal margin. The lesion has a maximum depth/thickness of _ cm and is _ cm from the closest circumferential margin. The uninvolved mucosa is tan-pink and unremarkable. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2: Distal margin
+3 - _: Representative sections of lesion and circumferential margin
+_: Representative section of uninvolved ureter$
+
+#G7.N Transurethral resection of prostate (TURP)#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are _ grams of semi-firm tan-pink tissue fragments measuring _ cm in aggregate. TE x _.$
+
+#G7.O Renal calculi#
+$Received in specimen container, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple firm _ calculi measuring _ cm in aggregate measurement. The fragments range in size from _ up to _ cm. No tissue is received in the container. Gross examination only.$
+
+#G7.P Nephrectomy, partial#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram partial nephrectomy specimen measuring _ cm. The specimen is inked as follows: Parenchymal margin = blue, Perinephric fat margin = black. The specimen is serially sectioned to reveal _. The lesion is located _cm from the parenchymal margin and _ cm from the perinephric fat margin. The uninvolved renal parenchyma is red-brown and unremarkable. RS x _.$
+
+#G7.Q Nephrectomy, neoplastic#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram total nephrectomy specimen. The kidney measures _ cm. The ureter measures _ cm in length with diameter of _ cm. The renal artery measures _ cm in length with diameter of _ cm. The renal vein measures _ cm in length with diameter of _ cm. The perinephric fat margin (Gerota's fascia) is inked black. 
+
+The specimen is bivalved through the renal hilum to reveal _. The lesion is present in _ and measures _ cm. The lesion extends/does not extend into the renal sinus/perinephric fat. It extends to within _ cm from the renal vein margin and _ cm from the perinephric fat margin. The uninvolved renal parenchyma is red-brown and unremarkable. RS x _.
+
+Cassette Summary:
+1: Ureteral margin
+2: Vascular margins
+3 - _: Representative sections of tumor
+_: Representative sections of normal appearing kidney$
+
+#G7.R Nephrectomy, non-neoplastic#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram total nephrectomy specimen. The kidney measures _ cm. The ureter measures _ cm in length with diameter of _ cm. The renal artery measures _ cm in length with diameter of _ cm. The renal vein measures _ cm in length with diameter of _ cm.
+
+The renal capsule is _. The specimen is bivalved through the renal hilum to reveal _. The corticomedullary junction is distinct/indistinct. The cortex is _. The pelvicalyceal system is _. The vessels are unremarkable/remarkable for _. No lesions or masses are identified. RS x _.
+
+Cassette Summary:
+1: Ureteral margin
+2: Vascular margins
+3 - _: Representative sections of kidney$
+
+#G7.S Penectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a partial/total penectomy specimen measuring _ cm, including the glans penis measuring _ cm and shaft of penis measuring _ cm. There is a _ cm lesion on the _ aspect of the glans/shaft/urethral meatus. The mass invades to a maximum depth of _ cm. It is present _ cm from the proximal margin. The remainder of the specimen is unremarkable. RS x _.
+
+Cassette Summary:
+1: Proximal margin
+2 - _: Sections of lesion
+_: Section of normal$
+
+#G7.T Orchiectomy, neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram orchiectomy specimen measuring _ cm. The specimen consists of spermatic cord (_ cm in length x _ cm in diameter), testis (_ cm) and epididymis (_ cm). The tunica vaginalis is intact/disrupted and is inked black. The specimen is bivalved through the testicular hilum and epididymis to reveal a _ cm lesion. The lesion is _. The remaining testicular parenchyma is grossly unremarkable. The lesion is entirely submitted. RS x _.
+
+Cassette Summary:
+1: Proximal spermatic cord margin
+2: Mid spermatic cord
+3: Distal spermatic cord
+4 - _: Sections of lesion
+_: Section of epididymis
+_: Section of testicular hilum/rete testis$
+
+#G7.U Epididymis#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of tan-brown rubbery tissue measuring _ cm. No lesions are grossly identified. TE x _.$
+
+#G7.V Hydrocele sac#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a fragment of pink-tan fibromembranous tissue measuring _ cm. No masses or focal lesions are identified. RS x 1.$
+
+#G7.W Spermatocele#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a fragment of pink-tan fibromembranous tissue measuring _ cm. The specimen is serially sectioned to reveal _. No additional lesions are identified. RS x _.$
+
+#G7.X Bladder biopsy 1 piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single tan tissue fragment measuring _ cm. TE x 1.$
+
+#G7.Y Bladder biopsy multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple tan tissue fragments measuring _ cm in aggregate. TE x 1.$
+
+#G7.Z Orchiectomy, non-neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram orchiectomy specimen measuring _ cm. The specimen consists of spermatic cord (_ cm in length x _ cm in diameter), testis (_ cm) and epididymis (_ cm). The tunica vaginalis is intact/disrupted and is inked black. The specimen is bivalved through the testicular hilum and epididymis to reveal unremarkable testicular parenchyma. No lesions are grossly identified. RS x _.
+
+Cassette Summary:
+1: Proximal spermatic cord margin
+2: Distal spermatic cord
+3 - _: Sections of testis and hilum$
+
+@GYNECOLOGICAL@
+
+#G8.A ECC#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are mucoid _ tissue fragments with greatest aggregate dimension of _ cm.  The tissue is totally submitted. TE x 1.$    
+
+#G8.B Cervix biopsy 1 piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single tan soft tissue fragment measuring _ cm in greatest dimension. TE x 1.$
+
+#G8.C Cervix biopsy multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are _ fragments of tan soft tissue measuring _ cm in aggregate. TE x 1.$
+
+#G8.D Endometrial biopsy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple cylindrical fragments of red-tan tissue with greatest aggregate dimension of _ cm.  TE x 1.$
+
+#G8.E IUD no tissue#
+$Received without formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a T-shaped plastic device.  The specimen measures 3.0 cm in greatest dimension. No soft tissue is identified. GDO.$
+
+#G8.F IUD w/ tissue#
+$Received without formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a T-shaped plastic device and attached soft tissue.  The specimen measures 3.0 cm in greatest dimension. The soft tissue measure _ cm in aggregate and is totally submitted in one cassette.$
+
+#G8.G POC#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple fragments of dark red and pink membranous soft tissue and blood clot measuring _ in aggregate. No hydropic villi or fetal parts are grossly identified. Representative sections are submitted. RS x _.$
+
+#G8.H Cervical LEEP#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single tan fragment of unoriented mucosal tissue measuring _ cm. The mucosal surface contains the os and the surrounding transformation zone. The ectocervical margin is inked _; the endocervical margin is inked _. The specimen is serially sectioned and totally submitted. TE x 4.$
+
+#G8.I Fallopian tube#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single fallopian tube with fimbriated end measuring _ cm in length with diameter ranging from _ up to _ cm in diameter. The fallopian tube is unremarkable. RS x 2 to include entire fimbriae and additional transverse sections.$
+
+#G8.J Hysterectomy w/o tubes/ovaries#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram hysterectomy specimen without fallopian tubes or ovaries measuring _ cm (superior-inferior, cornu-cornu, anterior-posterior). The cervix measures _ cm with a closed/slit-like cervical os. The specimen is oriented anatomically and opened through the cervical canal into anterior and posterior halves. The endocervical canal measures _ cm in length. The endometrial cavity measures _ cm, with the maximum endometrial thickness of _ cm. The myometrium measures up to _ cm in maximum thickness. No lesions are identified on sectioning of the specimen. RS x 4.
+
+Cassette Summary:
+1: Anterior cervix and lower uterine segment
+2: Posterior cervix and lower uterine segment
+3: Anterior endomyometrium
+4: Posterior endomyometrium$
+
+#G8.K Hysterectomy w/ tubes#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram hysterectomy specimen with fallopian tubes measuring _ cm (superior-inferior, cornu-cornu, anterior-posterior). No ovaries are received in the container. The cervix measures _ cm with a closed/slit-like cervical os. The specimen is oriented anatomically and opened through the cervical canal into anterior and posterior halves. The endocervical canal measures _ cm in length. The endometrial cavity measures _ cm, with the maximum endometrial thickness of _ cm. The myometrium measures up to _ cm in maximum thickness. No lesions are identified on sectioning of the uterus. The left fallopian tube with fimbriated end measures _ cm in length with diameter ranging from _ up to _ cm in diameter and is unremarkable. The right fallopian tube with fimbriated end measures _ cm in length with diameter ranging from _ up to _ cm in diameter and is unremarkable. RS x 6.
+
+Cassette Summary:
+1: Anterior cervix and lower uterine segment
+2: Posterior cervix and lower uterine segment
+3: Anterior endomyometrium
+4: Posterior endomyometrium
+5: Left fallopian tube with entire fimbrae
+6: Right fallopian tube with entire fimbrae$
+
+#G8.L Hysterectomy w/ tubes and ovaries#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram hysterectomy specimen with fallopian tubes and ovaries measuring _ cm (superior-inferior, cornu-cornu, anterior-posterior). The cervix measures _ cm with a closed/slit-like cervical os. The specimen is oriented anatomically, and opened through the cervical canal into anterior and posterior halves. The endocervical canal measures _ cm in length. The endometrial cavity measures _ cm, with the maximum endometrial thickness of _ cm. The myometrium measures up to _ cm in maximum thickness. No lesions are identified on sectioning of the uterus. The left adnexa contains a fallopian tube with fimbriated end (_ cm in length with diameter ranging from _ up to _ cm in diameter) and ovary (_ cm) which are unremarkable. The right adnexa contains a fallopian tube with fimbriated end (_ cm in length with diameter ranging from _ up to _ cm in diameter) and ovary (_ cm) which are unremarkable. RS x 8.
+
+Cassette Summary:
+1: Anterior cervix and lower uterine segment
+2: Posterior cervix and lower uterine segment
+3: Anterior endomyometrium
+4: Posterior endomyometrium
+5: Left fallopian tube with entire fimbrae
+6: Right fallopian tube with entire fimbrae
+7: Left ovary
+8: Right ovary$
+
+#G8.M Endometrial curettage#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of tan-brown tissue and blood clot with aggregate measurement of _ cm. TE x _.$
+
+#G8.N Myomectomy/Fibroids#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is _ grams of tan-pink semi-firm irregular tissue fragments measuring _ cm in aggregate measurement. No pieces of tissue consistent with serosa or endometrium are identified. Sectioning reveals a tan-white whorled appearance of the tissue fragments. RS x _.$
+
+#G8.O Cervical Cone#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an oriented/unoriented cervical cone measuring _ cm. The external os measures _ cm and is closed/patent. The endocervical canal measures _ cm. The ectocervical mucosa is red-brown and smooth. The ectocervical margin is inked black, and the endocervical margin is inked blue. The specimen is radially sectioned and totally submitted. TE x 4.
+
+Cassette Summary:
+1: 12 to 3:00 quadrant
+2: 3 to 6:00 quadrant
+3: 6 to 9:00 quadrant
+4: 9 to 12:00 quadrant$
+
+#G8.P Hysterectomy for cervical dysplasia#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram hysterectomy specimen with fallopian tubes and ovaries measuring _ cm (superior-inferior, cornu-cornu, anterior-posterior). The cervix measures _ cm with a closed/slit-like cervical os. The cervical mucosa is remarkable for _. The lesion extends _. The right parametrial margin is inked black, and the left parametrial margin is inked blue.
+
+The specimen is oriented anatomically, and opened through the cervical canal into anterior and posterior halves. The endocervical canal measures _ cm in length. The cervical lesion is seen extending _ cm up the endocervical canal. The endometrial cavity measures _ cm, with the maximum endometrial thickness of _ cm. The myometrium measures up to _ cm in maximum thickness. No lesions are identified on sectioning of the uterus. The left adnexa contains a fallopian tube with fimbriated end (_ cm in length with diameter ranging from _ up to _ cm in diameter) and ovary (_ cm) which are unremarkable. The right adnexa contains a fallopian tube with fimbriated end (_ cm in length with diameter ranging from _ up to _ cm in diameter) and ovary (_ cm) which are unremarkable. RS x 16.
+
+Cassette Summary:
+1: Right parametrial margin, shave
+2: Left parametrial margin, shave
+3: Anterior vaginal cuff margin
+4: Posterior vaginal cuff margin
+5: Anterior cervix and lower uterine segment
+6: Cervix, 12 to 3:00 quadrant
+7: Cervix, 3 to 6:00 quadrant
+8: Posterior cervix and lower uterine segment
+9: Cervix, 6 to 9:00 quadrant
+10: Cervix, 9 to 12:00 quadrant
+11: Anterior endomyometrium
+12: Posterior endomyometrium
+13: Left fallopian tube with entire fimbrae
+14: Right fallopian tube with entire fimbrae
+15: Left ovary
+16: Right ovary$
+
+#G8.Q Oophorectomy, neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram salpingo-oophorectomy/oophorectomy specimen consisting of ovary (_ cm) and fallopian tube with/without fimbriae (_ cm in length with diameter ranging from _ up to _ cm). The ovary is notable for a _ mass. The mass is _% solid and _% cystic in composition. The solid component is _. The cystic component is _. The cyst wall measures _ cm in average thickness. The cyst is filled with _. The fallopian tube is grossly unremarkable. RS x _.
+1 - _: Representative sections of mass
+_: Representative sections of normal.
+_: Sections of fallopian tube including entire fimbriae$
+
+#G8.R Vulvectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a partial/total vulvectomy specimen measuring _ cm excised to a depth of _ cm. The epidermis is remarkable for a _ lesion measuring _ cm. The lesion is present on the _. It extends to within _ cm from the closest margin (_ margin). The specimen is inked as follows: Right margin = Blue, Left margin = Green, vaginal margin = Black. The specimen is sectioned to reveal _. RS x _.
+
+Cassette Summary:
+1: Right margin
+2: Left margin
+3: Vaginal margin
+4 - _: Sections of lesion
+_ - _: Representative sections of normal appearing skin
+_: One lymph node
+_: _ lymph nodes$
+
+@HEAD AND NECK@
+
+#G9.A Uvula#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a cylindrical portion of smooth, glistening gray tissue grossly consistent with resected uvula measuring _ cm. The specimen is serially sectioned and no lesions are identified. RS x 1.$
+
+#G9.B Tonsil#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a gray-tan furrowed portion of soft tissue measuring _ cm. The specimen is serially sectioned and no lesions are identified. RS x 1.$
+
+#G9.C Adenoids#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple fragments of pink-gray irregular soft tissue measuring _ cm in aggregate. RS x 1.$
+
+#G9.D Sinonasal FESS#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple fragments of tan-pink soft tissue and firm bone measuring _ cm in aggregate. TE x _.$
+
+#G9.E Glossectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a partial/total glossectomy specimen. The specimen is oriented with _. The specimen measures _ cm from anterior to posterior, _ cm from left to right, and _ cm from superior to inferior. The specimen is inked as follows: Anterior margin = orange, posterior margin = black, superior margin = blue, inferior margin = green, and deep margin = red.
+
+The specimen is sectioned to reveal a _ cm _ lesion. The lesion is present _ cm from the _ margin, _ cm from the _ margin, and _ cm from the _ margin. The uninvolved mucosal surface is smooth, pink, and unremarkable. RS x _.
+
+Cassette summary:
+1: _ margin
+2: _ margin
+3: _ margin
+4 - _: Representative sections of lesion
+_: Representative section of normal$
+
+#G9.F Salivary gland#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram brown-tan salivary gland measuring _ cm. The outer surface is inked black. The specimen is serially sectioned to reveal _. The lesion is located _ cm from the closest margin. The uninvolved parenchyma is grossly unremarkable. RS x _.$
+
+#G9.G Thyroid, lobectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram thyroid lobectomy specimen. The specimen is oriented anatomically/by a suture designated as _. The specimen measures _ cm (superior to inferior, left to right, anterior to posterior). The isthmus measures _ cm. The specimen is inked as follows: Superior/anterior = blue, Inferior/anterior = green, posterior = black, isthmus = orange. The specimen is sectioned from superior to inferior into _ slices to reveal _. The remaining cut surface is unremarkable variegated red-brown thyroid tissue. RS x _.
+
+Cassette Summary:
+1: Slice 1, _
+2: Slice 2, _
+3: Slice 3, _
+_: _$
+
+#G9.H Thyroid, total#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram total thyroidectomy specimen The specimen is oriented anatomically/by a suture designated as _. The right thyroid lobe measures _ cm (superior to inferior, medial to lateral, anterior to posterior). The left thyroid lobe measures _ cm (superior to inferior, medial to lateral, anterior to posterior). The isthmus measures _ cm. The specimen is inked as follows: Superior/anterior = blue, Inferior/anterior = green, posterior = black, isthmus = orange. The specimen is sectioned from superior to inferior into _ slices to reveal _. The remaining cut surface is unremarkable variegated red-brown thyroid tissue. RS x _.
+
+Cassette Summary:
+1: Slice 1, _
+2: Slice 2, _
+3: Slice 3, _
+_: _$
+
+#G9.I Parathyroidectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram piece of pink-tan soft tissue measuring _ cm. The specimen is serially section and totally submitted. TE x _.$
+
+#G9.J Hemimandibulectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a right/left hemimandibulectomy specimen measuring _ cm (anterior to posterior, left to right, superior to inferior). The specimen contains _ teeth with _. The mucosa is unremarkable/remarkable for _. The specimen is inked as follows: anterior = red, posterior = black, medial = yellow, lateral = orange, superior = blue, inferior = green. The specimen is serially sectioned to reveal _. The lesion has a _ cm depth of invasion. The lesion is present _ cm from the anterior bone margin, _ cm from the posterior bone margin, _ cm from the medial soft tissue margin, _ cm from the lateral soft tissue margin, _ cm from the inferior soft tissue margin, _ cm from the anterior soft tissue margin, and _ cm from the posterior soft tissue margin. The remaining soft tissue and bone are grossly unremarkable. RS x _.
+
+Cassette Summary:
+1: Anterior bone margin
+2: Posterior bone margin
+3 - _: Representative sections of lesion and association to soft tissue margins$
+
+#G9.K Mandibulectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a mandibulectomy specimen measuring _ cm (anterior to posterior, left to right, superior to inferior). The specimen contains _ teeth with _. The mucosa is unremarkable/remarkable for _. The specimen is inked as follows: anterior = red, posterior = black, medial = yellow, lateral = orange, superior = blue, inferior = green. The specimen is serially sectioned to reveal _. The lesion has a _ cm depth of invasion. The lesion is present _ cm from the medial soft tissue margin, _ cm from the lateral soft tissue margin, _ cm from the inferior soft tissue margin, _ cm from the anterior soft tissue margin, and _ cm from the posterior soft tissue margin. The remaining soft tissue and bone are grossly unremarkable. RS x _.
+
+Cassette Summary:
+1 - _: Representative sections of lesion and association to margins$
+
+#G9.L Maxillectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a left/right total/partial maxillectomy specimen measuring _ cm (anterior to posterior, left to right, superior to inferior). The specimen contains _ teeth with _. The mucosa is unremarkable/remarkable for _. The specimen is inked as follows: anterior = red, posterior = black, medial = yellow, lateral = orange, superior = blue, inferior = green. The lesion has a _ cm depth of invasion. The lesion is present _ cm from the superior bone margin, _ cm from the right bone margin, _ cm from the left bone margin, _ cm from the medial soft tissue margin, _ cm from the lateral soft tissue margin, _ cm from the inferior soft tissue margin, _ cm from the anterior soft tissue margin, and _ cm from the posterior soft tissue margin.
+
+Cassette Summary:
+1: Superior bone margin
+2: Right bone margin
+3: Left bone margin
+4: Representative sections of lesion and association to soft tissue margins$
+
+@HEMATOPATHOLOGY@
+
+#G10.A Lymph node biopsy#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single piece of rubbery tissue consistent with lymph node measuring _ cm. The specimen is serially sectioned to reveal a 'fish-flesh' like appearance. Touch preps were made, and a portion of the specimen is retain in RPMI for flow cytometry. TE x _.$
+
+#G10.B Lymph node dissection#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a portion of tan-yellow fibroadipose tissue measuring _ cm. Sectioning reveals _ lymph node candidates ranging in size from _ up to _ cm in maximum dimension. RS x _ to include all identified lymph nodes.
+
+Cassette Summary:
+_: One Lymph node candidate
+_: Two Lymph node candidates
+_: _$
+
+#G10.C Splenectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram splenectomy specimen measuring _ cm. The capsule is intact/disrupted/ruptured/nodular. The specimen is serially sectioned to reveal _. The remaining parenchyma consists of brown-red hemorrhagic appearing tissue with areas of white pulp and red pulp. The hilar tissue is sectioned and _ lymph node candidates are identified ranging in size from _ up to _ cm. RS x _.
+
+Cassette Summary:
+1 - _: Representative sections of lesion
+_: Representative section of normal appearing spleen
+_: One Lymph node candidate
+_: Two Lymph node candidates
+_: _$
+
+#G10.D Bone marrow, 1 core#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a red-brown cylindrical bone core biopsy measuring _ cm in length with diameter of _ cm. TE x 1, specimen submitted after brief decalcification.$
+
+#G10.E Bone marrow, multiple cores#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are _ red-brown cylindrical bone core biopsies measuring _ cm, _ cm, and _ cm in length with diameter of _ cm. TE x 1, specimen submitted after brief decalcification.$
+
+#G10.F Bone marrow, clot#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a red-brown gelatinous portion of clotted blood measuring _ cm. TE x 1.$
+
+#G10.G Bone marrow, slides#
+$Received as _ glass slides, labeled with the patient's name "patientNameVar" are prepared touch/roll/smear preps of bone marrow $
+
+@HEPATOBILIARY@
+
+#G11.A Gallbladder and contents, non-neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a cholecystectomy specimen measuring _ cm. The serosa is smooth, glistening, and unremarkable. The cystic duct margin is closed with a surgical staple. No lymph nodes are identified near the cystic duct. The specimen is opened to reveal thick green bile. Numerous firm green-yellow gallstones are identified. The stones measure _ cm in aggregate. The mucosa is green and velvety. The wall is uniform in thickness measuring up to _ cm. RS x 3.
+
+Cassette Summary:
+1: Cystic duct
+2-3: Representative sections of gallbladder$
+
+#G11.B Gallbladder and contents, neoplastic#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a intact/disrupted gallbladder specimen measuring _ cm. The attached portion of cystic duct measures _ cm in length and is closed with a surgical staple. The serosa is notable for _.  The hepatic resection margin measures _ cm and is tan-brown and rough without grossly identified adherent liver tissue. The specimen is inked as follows: Hepatic resection margin = Black, Serosa near tumor = Green.
+
+The specimen is opened to reveal viscous green bile and _ stones. The mucosal surface is notable for a _ lesion measuring _ cm. The lesion is present _ cm from the cystic duct margin, and _ cm from the hepatic margin. Sectioning of the mass reveals a depth of _ cm with/without gross invasion of the muscularis propria/serosal surface. No additional lesions are identified. The remainder of the mucosa is green, trabeculated, and unremarkable. The gallbladder wall measurues from _ up to _ cm in thickness.
+
+_ lymph nodes are identified. RS x _.
+
+Cassette Summary:
+1: Cystic duct margin
+2 - _: Representative sections of tumor 
+_: Representative sections of normal appearing gallbladder
+_: One lymph node
+_: _ lymph nodes$
+
+#G11.C Liver, core biopsy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single tan cylindrical tissue fragment measuring _ cm. TE x 1.$
+
+#G11.D Liver, wedge biopsy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram portion of liver measuring _ cm. The capsule is red-tan and smooth/nodular. The capsule is inked black, and the parenchymal resection margin is inked blue. The specimen is serially sectioned to reveal a _ cm _ mass. The mass is present _ cm from the parenchymal resection margin. TE x _.$
+
+#G11.E Liver, partial resection#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram liver lobectomy specimen measuring _ cm (medial to lateral, superior to inferior, anterior to posterior). The capsule is red-tan and smooth/nodular. The capsule is inked black, and the parenchymal resection margin is inked blue. The specimen is serially sectioned to reveal a _ cm _ mass. The mass is present _ cm from the parenchymal resection margin. The remaining parenchyma _. RS x _.
+
+Cassette Summary:
+1: Mass and association to capsule
+2: Mass and closest resection margin
+3 - _: Additional sections of mass
+_: Representative section of normal$
+
+#G11.F Liver, total hepatectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram hepatectomy specimen measuring _ cm (medial to lateral, superior to inferior, anterior to posterior). There is a palpable mass located _. The hepatic capsule is red-tan and smooth/nodular. The capsule overlying the mass is inked black. The liver is serially sectioned to reveal _. The remaining hepatic parenchyma is _. No thrombi are identified in the portal vein, hepatic artery, or hepatic veins. 
+
+The attached gallbladder measures _ cm. The attached portion of cystic duct measures _ cm in length with diameter of _ cm. The serosa is _. The specimen is opened to reveal thick green bile/multiple gall stones measuring _ cm in aggregate. The mucosa is green and velvety. The wall is uniform in thickness measuring up to _ cm. A peri-cystic lymph node is/is not identified. RS x _.
+
+Cassette Summary:
+1: Left and middle hepatic veins
+2: Right hepatic vein
+3: Hepatic artery margin
+4: Portal vein margin
+5: Common bile duct margin
+6 - _: Representative sections of mass
+_: Right lobe, central
+_: Right lobe, peripheral
+_: Left lobe, central
+_: Left lobe, peripheral
+_: Cystic duct margin
+_: Representative sections of gallbladder
+_: One lymph node
+_: _ lymph nodes
+_: _$
+
+@NEUROPATHOLOGY@
+
+#G12.A Brain biopsy with frozen#
+$Received fresh for frozen evaluation, labeled with the patient's name "patientNameVar" and designated "designationVar" are portions of soft tan-pink neural tissue measuring _ cm in aggregate. A Portion of the tissue is used for frozen evaluation in cassette 1. TE x _.$
+
+#G12.B Brain biopsy without frozen#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are portions of soft tan-pink neural tissue measuring _ cm in aggregate. TE x _.$
+
+#G12.C Muscle biopsy#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm portion of muscle. The specimen is sectioned for longitudinal and cross sections and the cut surface is inked green. A portion of the specimen is frozen for histochemistry testing. TE x 2, cross sections in cassette 1 and longitudinal in cassette 2.$
+
+#G12.D Pituitary#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" are fragments of soft pink-tan tissue measuring _ cm. TE x _. $
+
+@OPTHALMIC@
+
+#G13.A Pterygium#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is an unoriented portion of tan-pink soft tissue measuring _ cm. TE x 1.$
+
+#G13.B Eyelid, unoriented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm portion of skin. The specimen is received unoriented. Specimen entirely submitted without sectioning. TE x 1.$
+
+#G13.C Eyelid, oriented#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm eyelid wedge resection. The specimen is oriented with _. There is a _ cm _ lesion. The medial margin is inked blue, lateral margin is inked green, and deep margin is inked black. Specimen entirely submitted without sectioning. TE x 1.$
+
+#G13.D Eye, enucleation#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ cm right/left enucleation specimen (superior to inferior, medial to lateral, anterior to posterior). There is a portion of optic nerve measuring _ cm in length with diameter of _ cm. The specimen is transilluminated to reveal a _ cm lesion present in _. This lesion is present _ cm from the optic nerve and _ cm from the limbus. The eye is cut along the _ plane through the lesion and optic nerve to reveal _. No additional lesions are grossly identified. TE x _. $
+
+@ORAL@
+
+#G14.A Tooth and tissue#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are irregular fragments of gray-tan tissue and tooth. The tooth fragments measure _ cm, and the soft tissue measures _ cm in aggregate. The soft tissue is submitted, and the tooth is retained. RS x 1.$
+
+#G14.B Tooth w/ no tissue#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple hard fragments of tissue consistent with tooth. Multiple caries are identified on the received tooth fragments. No tissue is received in the container. Gross description only.$
+
+@PULMONARY@
+
+#G15.A Lung biopsy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple pieces of tan-pink soft tissue measuring _ cm in aggregate. TE x 1.$
+
+#G15.B Lung wedge#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram lung wedge resection specimen measuring _ cm. The specimen is insufflated with formalin and set to fix. There is a _ cm staple line present at the resection margin. The pleura is _. There is a palpable mass present within the specimen. The staple margin is inked blue, and the pleura associated with the mass is inked green. The specimen is serially sectioned to reveal a _ cm mass. The mass is present _ from the closest staple line margin. The remaining lung parenchyma is red-brown, spongiform, and unremarkable. TE x _.$
+
+#G15.C Lung lobectomy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram lung lobectomy specimen measuring _ cm. The specimen is insufflated with formalin and set to fix. The pleura is _. A palpable mass is present _. There are multiple staple lines closing the bronchovascular and parenchymal margins. The stapled resection margin is inked blue, and the pleura associated with the mass is inked green. 
+
+The specimen is sectioned to reveal _. The mass measures _ cm. It is present _ cm from the serosa, _ cm from the stapled parenchymal margin, _ cm from the bronchial margin, and _ cm from the vascular margin. The uninvolved lung parenchyma is red-brown, spongiform, and unremarkable. 
+
+_ lymph nodes are identified in the hilum and parenchymal ranging in size from _ up to _ cm. RS x _.
+
+Cassette Summary:
+1: Bronchial resection margin
+2: Vascular resection margin
+3 - _: Representative sections of mass
+_: Representative section of normal
+_: One lymph node, hilar
+_: _ lymph nodes, hilar
+_: One lymph node, intraparenchymal
+_: _ lymph nodes, intraparenchymal
+_: _$
+
+#G15.D Thymus#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a _ gram partial/total thymectomy specimen measuring _ cm. The outer surface is _ and is inked black. The specimen is sectioned to reveal _. RS x _.$
+
+#G15.E Mediastinum biopsy#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple fragments of _ tissue measuring _ cm in aggregate. No lesions are grossly identified. TE x _.$
+
+@OTHERS@
+
+#G16.A General lead in only#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" _$
+
+#G16.B General 1 piece#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" is a single tan tissue fragment measuring _ cm. TE x 1.$
+
+#G16.C General multiple pieces#
+$Received in formalin, labeled with the patient's name "patientNameVar" and designated "designationVar" are multiple tan tissue fragments measuring _ cm in aggregate. TE x 1.$
+
+#G16.D Gross description only (GDO)#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is an intact/disrupted _. The device measures _ cm. There is an inscription which reads: _. No tissue is received in the container. Gross description only.$
+
+@GYNECOLOGICAL@
+
+#G17.A Placenta, 28+ weeks#
+$Received fresh, labeled with the patient's name "patientNameVar" and designated "designationVar" is a placental disc (_). The attached 22.5 cm in length x 1.5 cm in diameter trivascular umbilical cord inserts centrally/peripherally/marginally _ cm from the edge of the disc.  The fetal surface is blue-gray with unremarkable vasculature. The membranes are purple-tan to yellow-tan and insert marginally. The maternal surface shows beefy red minimally disrupted cotyledons with scattered tan-yellow calcifications. Sectioning shows a dark red, spongy cut surface without gross lesions. RS x 3.
+
+Trimmed of cord and membranes, the disc weighs _ g.
+
+Representative sections are submitted as follows:
+1: Attached umbilical cord cross-section and membrane roll
+2-3: Sections of placental disk.

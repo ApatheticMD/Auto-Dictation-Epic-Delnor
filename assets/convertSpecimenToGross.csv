@@ -1,0 +1,182 @@
+Specimen Code,Description,Processing - # Blocks,Comments,Gross Template
+BIOPSY,Biopsy,1,yellow,G16.B;G16.C;G5.A;G5.B;G5.C;G5.D
+ADRENAL RESEC,Adrenal Resection,10,yellow,G7.G
+ANUS PAP,Anal Pap,0,,
+ARTERITIS TEMP,"Artery, temporal protocol",1,peach,G3.A;G3.B;G3.C;G6.D
+ARTERY,Artery,1,yellow,G3.B;G3.C;G3.A;G6.D
+AUTOP 1 ORGAN,"Autopsy Limited, Single Organ",10,gray,
+AUTOP REGIONAL,"Autopsy Limited, Regional",15,gray,
+AUTOP W/ CNS,"Autopsy Comprehensive, CNS",25,gray,
+AUTOP W/O CNS,"Autopsy Comprehensive, w/o CNS",20,gray,
+BAL ,Bronchial Alveolar Lavage,0,,
+BLADDER BX,"Bladder, Biopsy",,,G7.X;G7.Y
+BLADDER RESEC,Urinary Bladder Partial/Total Resection,15,yellow,G7.H;G7.I;G7.J;G7.L;G7.M;G7.O
+BLADDER TUR,Urinary Bladder TUR,6,yellow,G7.H
+BM ASPIRATE,"Bone Marrow, Aspirate",0,,G10.G;G10.F
+BM BX,"Bone Marrow, Biopsy",0,,G10.D;G10.E;G10.F
+BONE BX,"Bone, Biopsy/Curettings",1,lilac,G1.M
+BONE RESEC,"Bone, Resection",5,lilac,G1.G;G1.H;G1.I;G1.J;G1.K;G1.L;G1.M;G1.F
+BRST CORE BX,Breast Needle Core Biopsy,3,white,G2.A
+BRST MASS XC BX,"Breast Mass, Excisional Biopsy",10,yellow,G2.B;G2.C;G2.D;G2.E;G2.F;G2.A
+BRUSHING,Brushing Cytology Specimen,0,,
+CARTILAGE SHAV,"Cartilage, Shavings",1,yellow,G1.N;G1.Q;G1.O;G1.P;G1.E
+CELL BLOCK,"Cell Block, Any Source",1,yellow,
+CERVIX BX,"Cervix, Biopsy",1,yellow,G8.B;G8.C;G8.H;G8.O;G8.A
+CERVIX LEEP,"Cervix, LEEP",5,yellow,G8.H;G8.O
+COLON,Colon,15,yellow,G5.P;G5.Q;G5.R;G5.S;G5.T;G5.I;G5.J;G5.G;G5.H;G5.A;G5.B;G5.C;G5.D
+COLON DONUT,"Colon, Donut, Trim",5,yellow,G5.H;G5.I;G5.J
+CSF,Cerebrospinal Fluid,0,,
+ECC CURETTAGE,"Endocervix, Curettage",1,yellow,G8.A
+ENDOMETRIUM BX,Endometrium Biopsy,2,yellow,G8.D;G8.A;G8.M
+ENDOMETRIUM CUR,Endometrial Curetting,1,yellow,G8.D;G8.A;G8.M
+EPIDIDYMIS,Epididymis,1,yellow,G7.U;G7.V;G7.W
+ESOPH RESEC,"Esophagus, Partial/Total Resection",15,yellow,G5.G;G5.K;G5.L
+EYE ENUC,"Eye, Enucleation",0,,G13.D
+EYELID XTUM,"Eyelid, Non-Neoplastic/Blephroplasty",1,yellow,G13.B;G13.C;G13.A;G13.D
+FALLOP T STERIL,"Fallopian Tube, Segment Sterilization",2,peach,G8.I
+FLUID,Fluid Cytology Specimen,1,,
+FOREIGN BODY,Foreign Body,1,,G16.D
+GALLBLADDER,Gallbladder,3,yellow,G11.A;G11.B
+GANGLION CYST,Ganglion Cyst,1,yellow,G1.O;G1.P;G1.Q;G1.N;G1.E;G1.C
+GASTRIC ANT BX,"Gastric Antrum, BX",1,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+GROSS ONLY NOS,Gross Only,0,,G16.D
+HARDWARE,Hardware,0,,G16.D
+HEMORRHOIDS,Hemorrhoids,1,yellow,G6.F;G6.C
+HERNIA,"Hernia Sac, Any location",1,yellow,G6.B;G7.V;G7.W
+HYDROCELE,Hydrocele Sac,1,yellow,G7.V;G6.B;G7.W;G7.U
+JOINT LOOSE,"Joint, Loose Body",1,yellow,G1.N;G1.M;G1.O;G1.P;G1.Q;G1.E
+JOINT RESEC,"Joint, Resection",5,lilac,G1.G;G1.H;G1.I;G1.K;G1.L;G1.F
+KIDNEY RESEC,"Kidney, Partial/Total Nephrectomy",15,yellow,G7.P;G7.Q;G7.R;G7.O;G7.H;G7.M
+LIPOMA,Lipoma,5,yellow,G1.A;G1.B;G1.C;G1.D
+LIVER,"Liver, hepatectomy",15,yellow,G11.D;G11.E;G11.F;G11.C
+LIVER BX SS,"Liver Biopsy, w/Special Stains",1,white,G11.C
+LIVER BX XSS,"Liver Biopsy, No Special Stains",1,white,G11.C
+LIVER RESEC,"Liver, Partial Resection",10,yellow,G11.D;G11.E;G11.F;G11.C
+LUNG BX,"Lung, Biopsy",1,white,G15.A;G15.B
+LUNG RESEC,"Lung, Total/Lobe/Segment Resection",15,yellow,G15.B;G15.C
+LUNG WEDGE BX,"Lung, Wedge Biopsy",10,yellow,G15.B;G15.C
+LYMPH NODE RES,"Lymph Nodes, Regional Resection",1,yellow,G10.A;G10.B
+MEDIASTINUM,"Mediastinum, Biopsy/ Resection",1,yellow,G15.E
+MUSCLE BX,"Muscle, Biopsy",0,,G12.C
+NAIL FUNGUS,"Nail, Fungus",1,lilac,G4.I
+OMENTUM RESECT,"Omentum, Resection/Omentectomy",5,yellow,G5.V
+OTHER CYTOLOGY,Misc. Cytology,0,,
+OTHER SURG PATH,Miscellaneous Surgical Specimen,,yellow,G16.A;G16.B;G16.C;G16.D
+OUTSIDE BLOCK,Outside Block(s),0,,
+OUTSIDE SLIDE,Outside Slide(s),0,,
+PANCREAS BX,"Pancreas, Biopsy",1,yellow,G5.A;G5.B;G5.U
+PANCREAS RESEC,Pancreaticoduodonectomy,15,yellow,G5.U
+PANCREAS SEG,"Pancreas, Segment",10,yellow,G5.U
+PAP 1,"Pap Smear, liquid base One Slide",0,,
+PENIS RESEC,"Penis, Resection",10,yellow,G7.S
+PERIPH BL SMEAR,Peripheral Blood Smear,0,,
+PILONIDAL,Pilonidal Cyst/Sinus,1,yellow,G4.F;G4.G;G4.A;G4.B
+PITUITARY TUM,"Pituitary, Tumor Resection",10,yellow,G12.D
+POC,Products of Conception,5,yellow,G8.G
+PROST NDLE BX,"Prostate, Needle Biopsy",1,white,G7.B;G7.C;G7.D;G7.E;G7.N
+PROSTATE CHIPS,"Prostate Chips, TURP",6,yellow,G7.N
+SALIVARY GL RES,"Salivary Gland, resection",10,yellow,G9.F
+SINUS CONTENTS,Nasal/Sinusoidal Contents,1,lilac,G9.D
+SKIN CYST,"Skin, Cyst",1,pink,G4.F;G4.G;G4.A;G4.B
+SKIN PUNCH,Skin Punch Biopsy,1,pink,G4.D;G4.L
+SKIN PUNCH DIF,"Skin Punch Biopsy, for DIF",,,G4.L;G4.D
+SKIN SHAVE,Skin Shave Biopsy,1,pink,G4.C
+SKIN TAG,"Skin, Tag",1,pink,G4.E
+SKIN WITH MARG,"Skin, excision, oriented",5,pink,G4.A
+SKIN XMARGIN,"Skin, excision, Non-oriented",5,pink,G4.B
+"SKIN, ALOPECIA",Skin for Alopecia ,1,peach,G4.J;G4.K
+SM BOWEL,Small bowel,10,yellow,G5.E;G5.F;G5.G;G5.H;G5.I;G5.J;G5.A;G5.B
+SOFT TISSUE TUM,"Soft Tissue, Tumor",,,G1.C;G1.D;G1.A;G1.B
+SOFT TIS OTHER,"Soft Tissue, Other",5,yellow,G1.C;G1.D;G1.A;G1.B
+SPERMATOCELE,Spermatocele,1,yellow,G7.W;G7.U;G7.V;G6.B
+SPLEEN,Splenectomy,15,yellow,G10.C
+SPUTUM,Sputum,0,,
+STOM RES TUM,"Stomach, Resection, Tumor",15,yellow,G5.N;G5.O;G5.L
+STOM RES XTUM,"Stomach, Resection, Not tumor",10,yellow,G5.M
+SYNOVIUM,Synovium,1,yellow,G1.E;G1.N;G1.M;G1.O;G1.P;G1.Q
+TENDON,Tendon/Tendon Sheath,1,yellow,G1.P;G1.O;G1.Q;G1.N;G1.M
+TESTIS BX,"Testis, Biopsy",1,yellow,G16.B;G16.C
+TESTIS OTHER,"Testis, Nonneoplastic, orchiectomy",15,yellow,G7.Z;G7.T
+TESTIS TUMOR,"Testis, Neoplastic, Orchiectomy",15,yellow,G7.T;G7.Z
+THYROID,"Thyroid, Total/Lobe",15,yellow,G9.G;G9.H;G9.I
+TONSIL ADENOID,Tonsil and/or Adenoids,1,yellow,G9.B;G9.C;G9.A
+TOOTH,Tooth,0,,G14.A;G14.B
+TZANCK HSV,"Tzanck Smear, Herpes",0,,
+URETER RESEC,"Ureter, Resection",10,yellow,G7.M
+UTERIN FIBROID,Fibroid Leiomyoma without Uterus,5,yellow,G8.N
+UTERUS XTUM,"Uterus, w/wo Tubes & Ovaries, Non-Neopla",15,yellow,G8.J;G8.K;G8.L;G8.N;G8.P
+VAS DEF STERIL,"Vas Deferens, Sterilization",1,peach,G7.A
+VEIN,Vein,1,yellow,G6.D
+VULVA RESEC,"Vulva, Total/Subtotal Resection",5,yellow,G8.R
+WASHING,Washing Cytology Specimen,0,,
+FROZEN,Frozen Section,,,
+DIF Skin,Skin Punch for Dif,0,,G4.L
+DIF Dental,Dental for DIF,0,,G4.L
+TOPHI,Tophi/Gout,1,white,G1.Q
+PARATHYROID,Parathyroid,1,yellow,G9.I
+Urine,Urine,0,,
+FNA,Fine Needle Aspirate,0,,
+AMPUT DIGIT,"Amputation, Digit",5,lilac,G1.F
+AMPUT EXTR ,"Amputation, Extremity",5,lilac,G1.G;G1.H;G1.F;G1.K;G1.L
+Appendix,Appendix,3,yellow,G6.A;G6.E
+Breast,Breast Mammoplasty/Gynecomastia,10,yellow,G2.D;G2.B
+Esophagus EMR,Esophagus EMR,1,yellow,G5.G
+Esophagus GMS,Esophagus GMS,1,yellow,G5.A;G5.B;G5.G
+Foreskin,Foreskin,1,yellow,G7.F
+Ovary,Ovary,5,yellow,G8.Q
+GI BIOPSY,GI Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+FNA Core,FNA Core,,yellow,G2.G;G2.H;G2.A
+Duodenum biopsy,Duodenum biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+Gastric biopsies,Gastric biopsies,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+"Esophagus, biopsy","Esophagus, biopsy",,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+Ileum biopsy,Ileum biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+Cecal biopsy,Cecal biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+"Colon, biopsy","Colon, biopsy",,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+Rectal biopsy,Rectal biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+BREAST LUMPECTOMY,"Breast Mass, Lumpectomy",10,yellow,G2.B;G2.C;G2.D;G2.E;G2.F;G2.A;G2.I
+"BREAST, MARGIN","Breast, Margin resection",10,yellow,G2.I;G2.B;G2.C;G2.D;G2.E;G2.F;G2.A
+"PROSTATE, NEEDLE BIOPSY","Prostate, Needle Biopsy",1,white,G7.B;G7.C;G7.D;G7.E;G7.N
+BREAST MASTECTOMY,"Breast, Mastectomy",10,yellow,G2.D;G2.F;G2.B;G2.C;G2.E;G2.A;G2.I
+UTERUS,"Uterus, w/and wo Tubes & Ovaries",15,yellow,G8.J;G8.K;G8.L;G8.N;G8.P
+SOFT TISSUE,"Soft Tissue",5,yellow,G1.C;G1.D;G1.A;G1.B
+"COLON, POLYP",GI Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+ENDOMETRIAL POLYP,Endometrial Curetting,1,yellow,G8.D;G8.A;G8.M
+"GASTROESOPHAGEAL JUNCTION, BIOPSY",GI Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+GASTRIC POLYP,GI Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+EYE LESION,Biopsy,1,yellow,G16.B;G16.C;G5.A;G5.B;G5.C;G5.D
+CECAL POLYP,GI Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+ORAL BIOPSY,Biopsy,1,yellow,G16.B;G16.C;G5.A;G5.B;G5.C;G5.D
+ENDOMETRIAL BIOPSY,Endometrium Biopsy,2,yellow,G8.D;G8.A;G8.M
+STEREOTACTIC BREAST CORE BIOPSY,Breast Stereotactic Biopsy,3,white,G2.A
+CERVICAL BIOPSY,"Cervix, Biopsy",1,yellow,G8.B;G8.C;G8.H;G8.O;G8.A
+RECTAL POLYP,Rectal Polyp,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+PLACENTA (28+ WEEKS), Placenta (28+ weeks),,,G17.A
+BONE FRAGMENT,"Bone, Biopsy/Curettings",1,lilac,G1.M
+"KNEE BONE, RESECTION","Knee Joint, Resection",5,lilac,G1.K;G1.G;G1.H;G1.I;G1.L;G1.F
+BREAST BIOPSY,Breast Biopsy,3,white,G2.A
+SENTINEL LYMPH NODE,"Lymph Node, Sentinel",1,yellow,G10.A;G10.B
+LYMPH NODE,"Lymph Node, Biopsy",1,yellow,G10.A;G10.B
+ENDOCERVICAL CURETTINGS,"Endocervix, Curettage",1,yellow,G8.A
+SIGMOID POLYP,GI Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+FALLOPIAN TUBE,"Fallopian Tube, Salpingectomy",2,peach,G8.I
+PRODUCTS OF CONCEPTION,Products of Conception,5,yellow,G8.G
+GROSS ONLY,Gross exam only,0,,G16.D
+"APPENDIX, APPENDICITIS",Appendix,3,yellow,G6.A;G6.E
+HERNIA SAC,"Hernia Sac, Any location",1,yellow,G6.B;G7.V;G7.W
+ANAL BIOPSY,Anal Biopsy,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+BLADDER TUMOR,Urinary Bladder TURBT,6,yellow,G7.H
+"VULVA, BIOPSY",Skin Punch Biopsy,1,pink,G4.D;G4.L
+"AMPUTATION, DIGIT, NON-TRAUMATIC","Amputation, Digit",5,lilac,G1.F
+"NEEDLE BIOPSY, NOS",Biopsy,1,yellow,G16.B;G16.C;G5.A;G5.B;G5.C;G5.D
+"SKIN, PUNCH BIOPSY",Skin Punch Biopsy,1,pink,G4.D;G4.L
+DUODENUM POLYP,GI Polyp,,yellow,G5.A;G5.B;G5.C;G5.D;G5.G
+Bone,"Bone, Resection",5,lilac,G1.K;G1.G;G1.H;G1.I;G1.L;G1.F
+Cyst,Cyst NOS,1,yellow,G16.B;G16.C;G5.A;G5.B;G5.C;G5.D
+MUELLER's MUSCLE,Mueller's muscle,1,yellow,G16.B;G16.C;G5.A;G5.B;G5.C;G5.D
+COLON RESECTION,Colon,15,yellow,G5.P;G5.Q;G5.R;G5.S;G5.T;G5.I;G5.J;G5.G;G5.H;G5.A;G5.B;G5.C;G5.D
+TONSIL AND/OR ADENOIDS,Tonsil and/or Adenoids,1,yellow,G9.B;G9.C;G9.A
+GASTRIC RESECTION,"Stomach, Resection, Not tumor",10,yellow,G5.M
+"PROSTATE, TUR","Prostate Chips, TURP",6,yellow,G7.N
+ENDOMETRIAL CURETTINGS,Endometrial Curetting,1,yellow,G8.S;G8.D;G8.A;G8.M
+Lymph node for lymphoma protocol,"Lymph Nodes, Regional Resection",1,yellow,G10.A;G10.B
+"Amputation, extremity, non-traumatic","Amputation, Extremity",5,lilac,G1.G;G1.H;G1.F;G1.K;G1.L

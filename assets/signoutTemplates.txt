@@ -1,0 +1,478 @@
+Signout dictation templates
+
+#G1.A Lipoma, single piece#
+$Lipoma, designationVar, excision$
+
+#G1.B Lipoma, multiple pieces#
+$Lipoma, designationVar, excision$
+
+#G1.C Soft tissue mass, non-oriented#
+$Soft tissue, designationVar, excision$
+
+#G1.D Soft tissue mass, oriented#
+$Soft tissue, designationVar, excision$
+
+#G1.E Synovium#
+$Synovium, designationVar, excision$
+
+#G1.F Digit, Amputation#
+$Digit, designationVar, amputation$
+
+#G1.G Below knee amputation, non-neoplastic#
+$Extremity, designationVar, below knee amputation$
+
+#G1.H Upper arm amputation, non-neoplastic#
+$Extremity, designationVar, amputation$
+
+#G1.I Extremity amputation, neoplastic#
+$Extremity, designationVar, amputation$
+
+#G1.J Incidental rib#
+$Bone, designationVar, excision$
+
+#G1.K Knee arthroplasty#
+$Knee, designationVar, knee arthroplasty$
+
+#G1.L Hip Arthroplasty#
+$Bone, designationVar, hip arthroplasty$
+
+#G1.M Bone biopsy/curettage#
+$Bone, designationVar, biopsy$
+
+#G1.N Cartilage shavings/loose bodies#
+$Cartilage, designationVar, arthroscopy$
+
+#G1.O Ganglion cyst#
+$Cyst, designationVar, excision$
+
+#G1.P Tendon sheath#
+$Tendon, designationVar, excision$
+
+#G1.Q Gout curettings#
+$Soft tissue, designationVar, excision$
+
+#G2.A Breast needle biopsy#
+$Breast, designationVar, needle biopsy$
+
+#G2.B Breast lumpectomy, unoriented#
+$Breast, designationVar, lumpectomy$
+
+#G2.C Breast lumpectomy, oriented#
+$Breast, designationVar, lumpectomy$
+
+#G2.D Gynecomastia#
+$Breast, designationVar, lumpectomy$
+
+#G2.E Mastectomy#
+$Breast, designationVar, mastectomy$
+
+#G2.F Mastectomy, skin sparing#
+$Breast, designationVar, nipple sparing mastectomy$
+
+#G2.G FNA core, in Formalin#
+$designationVar, fine needle biopsy$
+
+#G2.H FNA core, in Saline#
+$designationVar, fine needle biopsy$
+
+#G2.I Breast margin, oriented#
+$Breast, designationVar, excision$
+
+#G3.A Artery for arteritis#
+$Artery, designationVar, biopsy$
+
+#G3.B Artery general#
+$Artery, designationVar, biopsy$
+
+#G3.C Endarterectomy#
+$Artery, designationVar, endarterectomy$
+
+#G4.A Skin ellipse, oriented#
+$Skin, designationVar, excision$
+
+#G4.B Skin ellipse, unoriented#
+$Skin, designationVar, excision$
+
+#G4.C Skin shave#
+$Skin, designationVar, shave biopsy$
+
+#G4.D Skin punch#
+$Skin, designationVar, punch biopsy$
+
+#G4.E Skin tag#
+$Skin, designationVar, shave biopsy$
+
+#G4.F Skin cyst, intact#
+$Skin, designationVar, excision$
+
+#G4.G Skin cyst, fragmented#
+$Skin, designationVar, excision$
+
+#G4.H Cicatrix#
+$Skin, designationVar, excision$
+
+#G4.I Nail#
+$Nail, designationVar, clippings$
+
+#G4.J Alopecia, horizontal section#
+$Skin, designationVar, punch biopsy$
+
+#G4.K Alopecia, vertical section#
+$Skin, designationVar, punch biopsy$
+
+#G4.L Skin punch for DIF#
+$Skin, designationVar, punch biopsy$
+
+#G5.A GI biopsy 1 piece#
+$giVar, designationVar, biopsy$
+
+#G5.B GI biopsies multiple pieces#
+$giVar, designationVar, biopsy$
+
+#G5.C GI polyp 1 piece#
+$giVar, designationVar, biopsy$
+
+#G5.D GI polyp multiple pieces#
+$giVar, designationVar, biopsy$
+
+#G5.E Small bowel, non-neoplastic#
+$Small bowel, designationVar, resection$
+
+#G5.F Small bowel, neoplastic#
+$Small bowel, designationVar, resection$
+
+#G5.G Endoscopic mucosal resection (EMR)#
+$giVar, designationVar, endoscopic mucosal resection$
+
+#G5.H Anastomotic ring/Donut#
+$giVar, designationVar, loop anastamosis$
+
+#G5.I Ileostomy, End#
+$giVar, end ileostomy$
+
+#G5.J Ileostomy, Loop#
+$giVar, loop ileostomy$
+
+#G5.K Esophagectomy#
+$Esophagus, esophagectomy$
+
+#G5.L Esophagogastrectomy#
+$Stomach and esophagus, esophagogastrectomy$
+
+#G5.M Sleeve gastrectomy#
+$Stomach, sleeve gastrectomy$
+
+#G5.N Gastrectomy, partial#
+$Stomach, designationVar, partial gastrectomy$
+
+#G5.O Gastrectomy, total#
+$Stomach, designationVar, total gastrectomy$
+
+#G5.P Colon, diverticula#
+$Colon, designationVar, resection$
+
+#G5.Q Colon, ischemic bowel#
+$Colon, designationVar, resection$
+
+#G5.R Colon, neoplastic#
+$Colon, designationVar, resection$
+
+#G5.S Right hemicolectomy#
+$Intestine, right hemicolectomy$
+
+#G5.T Low anterior resection (LAR)#
+$Colon, low anterior resection$
+
+#G5.U Whipple#
+$Pancreas, pancreaticoduodenectomy$
+
+#G5.V Omentum#
+$Omentum, omentectomy$
+
+#G6.A Appendix, non-neoplastic#
+$Appendix, appendectomy$
+
+#G6.B Hernia sac#
+$Hernia sac, designationVar, herniorrhaphy$
+
+#G6.C Hemorrhoidal tissue, multiple pieces#
+$Hemorrhoid, designationVar, hemorrhoidectomy$
+
+#G6.D Varicose veins#
+$Veins, designationVar, phlebectomy$
+
+#G6.E Appendix, neoplastic#
+$Appendix, appendectomy$
+
+#G6.F Hemorrhoidal tissue, single piece#
+$Hemorrhoid, designationVar, hemorrhoidectomy$
+
+#G7.A Vas deferens#
+$vasVar, designationVar, vasectomy$
+
+#G7.B Prostate biopsy, 1 piece#
+$prostateVar, designationVar, core needle biopsy$
+
+#G7.C Prostate biopsy, 2 pieces#
+$prostateVar, designationVar, core needle biopsy$
+
+#G7.D Prostate biopsy, 3 pieces#
+$prostateVar, designationVar, core needle biopsy$
+
+#G7.E Prostate biopsy, multiple pieces#
+$prostateVar, designationVar, core needle biopsy$
+
+#G7.F Penile foreskin#
+$Foreskin, circumcision$
+
+#G7.G Adrenalectomy#
+$designationVar, adrenalectomy$
+
+#G7.H Transurethral resection of bladder tumor (TURBT)#
+$Bladder, designationVar, transurethral resection of bladder tumor$
+
+#G7.I Cystectomy, partial#
+$Bladder, designationVar, partial cystectomy$
+
+#G7.J Cystectomy, Total#
+$Bladder, total cystectomy$
+
+#G7.K Radical prostatectomy#
+$Prostate, radical prostatectomy$
+
+#G7.L Cystoprostatectomy#
+$Prostate and bladder, cystoprostatectomy$
+
+#G7.M Ureterectomy#
+$Ureter, designationVar, ureterectomy$
+
+#G7.N Transurethral resection of prostate (TURP)#
+$Prostate, transurethral resection of prostate$
+
+#G7.O Renal calculi#
+$Stones, ureteroscopic lithotripsy$
+
+#G7.P Nephrectomy, partial#
+$Kidney, designationVar, partial nephrectomy$
+
+#G7.Q Nephrectomy, neoplastic#
+$Kidney, designationVar, nephrectomy$
+
+#G7.R Nephrectomy, non-neoplastic#
+$Kidney, designationVar, nephrectomy$
+
+#G7.S Penectomy#
+$Penis, penectomy$
+
+#G7.T Orchiectomy#
+$Testis, designationVar, orchiectomy$
+
+#G7.U Epididymis#
+$designationVar, epididymectomy$
+
+#G7.V Hydrocele sac#
+$Hydrocele sac, designationVar, hydrocelectomy$
+
+#G7.W Spermatocele#
+$Spermatocele, designationVar, spermatocelectomy$
+
+#G7.X Bladder, biopsy 1 piece#
+$Bladder, designationVar, biopsy$
+
+#G7.Y Bladder, biopsy multiple pieces#
+$Bladder, designationVar, biopsy$
+
+#G7.Z Orchiectomy#
+$Testis, designationVar, orchiectomy$
+
+#G8.A ECC#
+$Endocervix, curettage$
+
+#G8.B Cervix biopsy 1 piece#
+$Cervix, designationVar, biopsy$
+
+#G8.C Cervix biopsy multiple pieces#
+$Cervix, designationVar, biopsy$
+
+#G8.D Endometrial biopsy#
+$Endometrium, biopsy$
+
+#G8.E IUD no tissue#
+$Intrauterine device, removal$
+
+#G8.F IUD w/ tissue#
+$Intrauterine device, removal$
+
+#G8.G POC#
+$Products of conception, dilation and curettage$
+
+#G8.H Cervical LEEP#
+$Cervix, designationVar, loop electrosurgical excision procedure$
+
+#G8.I Fallopian tube#
+$designationVar, salpingectomy$
+
+#G8.J Hysterectomy w/o tubes/ovaries#
+$Uterus, hysterectomy$
+
+#G8.K Hysterectomy w/ tubes#
+$Uterus, hysterectomy with bilateral salpingectomy$
+
+#G8.L Hysterectomy w/ tubes and ovaries#
+$Uterus, hysterectomy with bilateral salpingo-oophorectomy$
+
+#G8.M Endometrial curettage#
+$Endometrium, curettage$
+
+#G8.N Myomectomy/Fibroids#
+$Uterus, myomectomy$
+
+#G8.O Cervical Cone#
+$Cervix, designationVar, cone biopsy$
+
+#G8.P Hysterectomy for cervical dysplasia#
+$Uterus, hysterectomy$
+
+#G8.Q Oophorectomy, neoplastic#
+$Ovary, designationVar, oophorectomy$
+
+#G8.R Vulvectomy#
+$Skin, vulva, vulvectomy$
+
+#G8.S Endometrial curettage#
+$Endometrium, curettage$
+
+#G9.A Uvula#
+$Uvula, uvulectomy$
+
+#G9.B Tonsil#
+$tonsilVar, designationVar, tonsillectomy$
+
+#G9.C Adenoids#
+$Adenoids, designationVar, adenoidectomy$
+
+#G9.D Sinonasal FESS#
+$Sinus contents, designationVar, functional endoscopic sinus surgery$
+
+#G9.E Glossectomy#
+$Tongue, glossectomy$
+
+#G9.F Salivary gland#
+$Salivary gland, designationVar, resection$
+
+#G9.G Thyroid, lobectomy#
+$Thyroid, designationVar, lobectomy$
+
+#G9.H Thyroid, total#
+$Thyroid, total thyroidectomy$
+
+#G9.I Parathyroidectomy#
+$parathyroidVar, designationVar, parathyroidectomy$
+
+#G9.J Hemimandibulectomy#
+$Mandible, designationVar, hemimandibulectomy$
+
+#G9.K Mandibulectomy#
+$Mandible, mandibulectomy$
+
+#G9.L Maxillectomy#
+$Maxilla, designationVar, maxillectomy$
+
+#G10.A Lymph node biopsy#
+$Lymph node, designationVar, biopsy$
+
+#G10.B Lymph node dissection#
+$Lymph nodes, designationVar, lymph node dissection$
+
+#G10.C Splenectomy#
+$Spleen, splenectomy$
+
+#G10.D Bone marrow, 1 core#
+$Bone marrow, designationVar, core biopsy$
+
+#G10.E Bone marrow, multiple cores#
+$Bone marrow, designationVar, core biopsy$
+
+#G10.F Bone marrow, clot#
+$Bone marrow, designationVar, clot$
+
+#G10.G Bone marrow, slides#
+$Bone marrow, designationVar, smears$
+
+#G11.A Gallbladder and contents, non-neoplastic#
+$Gallbladder, cholecystectomy$
+
+#G11.B Gallbladder and contents, neoplastic#
+$Gallbladder, cholecystectomy$
+
+#G11.C Liver, core biopsy#
+$Liver, designationVar, biopsy$
+
+#G11.D Liver, wedge biopsy#
+$Liver, designationVar, wedge biopsy$
+
+#G11.E Liver, partial resection#
+$Liver, designationVar, partial hepatectomy$
+
+#G11.F Liver, total hepatectomy#
+$Liver, total hepatectomy$
+
+#G12.A Brain biopsy with frozen#
+$Brain, designationVar, biopsy$
+
+#G12.B Brain biopsy without frozen#
+$Brain, designationVar, biopsy$
+
+#G12.C Muscle biopsy#
+$Muscle, designationVar, biopsy$
+
+#G12.D Pituitary#
+$Pituitary gland, transsphenoidal endoscopic surgery$
+
+#G13.A Pterygium#
+$Eyelid, designationVar, biopsy$
+
+#G13.B Eyelid, unoriented#
+$Eyelid, designationVar, blepharoplasty$
+
+#G13.C Eyelid, oriented#
+$Eyelid, designationVar, excision$
+
+#G13.D Eye, enucleation#
+$Eye, designationVar, enucleation$
+
+#G14.A Tooth and tissue#
+$Tooth, designationVar, extraction$
+
+#G14.B Tooth w/ no tissue#
+$Tooth, designationVar, extraction$
+
+#G15.A Lung biopsy#
+$Lung, designationVar, biopsy$
+
+#G15.B Lung wedge#
+$Lung, designationVar, wedge biopsy$
+
+#G15.C Lung lobectomy#
+$Lung, designationVar, lobectomy$
+
+#G15.D Thymus#
+$Thymus, thymectomy$
+
+#G15.E Mediastinum biopsy#
+$Mediastinum, biopsy$
+
+#G16.A General lead in only#
+$designationVar, biopsy$
+
+#G16.B General 1 piece#
+$designationVar, biopsy$
+
+#G16.C General multiple pieces#
+$designationVar, biopsy$
+
+#G16.D Gross description only (GDO)#
+$Medical device, designationVar, removal$
+
+#G17.A Placenta 28+ weeks#
+$Placenta, _ grams$

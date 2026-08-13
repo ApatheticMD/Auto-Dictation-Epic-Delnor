@@ -1,0 +1,328 @@
+﻿Specimen_Name,Specimen_Type,Organ,Procedure,Gross_Default
+Abscess ,Miscellaneous,None,Aspiration,Fresh
+Adenoid biopsy ,ENT,Adenoids,Biopsy,Formalin
+Adenoid(s) ,ENT,Adenoids,Adenoidectomy,Formalin
+Adipose tissue ,Soft Tissue,Soft Tissue,Excision,Formalin
+Adrenal Biopsy ,Endocrine,Adrenal gland,Biopsy,Formalin
+"Adrenal, biopsy ",Endocrine,Adrenal gland,Biopsy,Formalin
+"Adrenal, Resection ",Endocrine,Adrenal gland,Adrenalactomy,Formalin
+Ampulla biopsy ,Hepatobiliary,Ampulla,Biopsy,Formalin
+"Amputation, digit, non-traumatic ",Orthopedic,Digit,Amputation,Fresh
+"Amputation, digit, traumatic ",Orthopedic,Digit,Amputation,Fresh
+"Amputation, extremity, non-traumatic ",Orthopedic,Extremity,Amputation,Fresh
+"Amputation, extremity, traumatic ",Orthopedic,Extremity,Amputation,Fresh
+Anal Biopsy ,Gastroenteric,Anus,Biopsy,Formalin
+Anal Condyloma ,Gastroenteric,Anus,Biopsy,Formalin
+Anastomosis biopsy ,Gastroenteric,Anastomosis,Biopsy,Formalin
+Aneurysm ,Cardiovascular,Blood vessel,Aneurysm Repair,Formalin
+"Appendix, appendicitis ",Gastroenteric,Appendix,Appendectomy,Formalin
+"Appendix, incidental ",Gastroenteric,Appendix,Appendectomy,Formalin
+Artery ,Cardiovascular,Blood vessel,Arterectomy,Formalin
+"Artery, biopsy ",Cardiovascular,Blood vessel,Biopsy,Formalin
+Atrial Appendage ,Cardiovascular,Atrial Appendage,Biopsy,Formalin
+Avascular necrosis ,Orthopedic,Bone,Curettage,Formalin
+Bartholin Gland Cyst ,Gynecologic,Skin,Cystectomy,Formalin
+Bladder ,Urologic,Bladder,Radical Cystectomy,Formalin
+Bladder neck ,Urologic,Bladder,Biopsy,Formalin
+Bladder tumor ,Urologic,Bladder,Transurethral Resection of Bladder Tumor,Formalin
+"Bladder, biopsy ",Urologic,Bladder,Biopsy,Formalin
+Body Fluid ,Cytology,Body fluid,Aspiration,None
+Bone ,Orthopedic,Bone,Biopsy,Formalin
+Bone fragment ,Orthopedic,Bone,Biopsy,Formalin
+"Bone, biopsy ",Orthopedic,Bone,Biopsy,Formalin
+"Bone, cyst ",Orthopedic,Bone,Excision,Formalin
+"Bone, exostosis ",Orthopedic,Bone,Exostectomy,Formalin
+"Bone, resection ",Orthopedic,Bone,Resection,Formalin
+Brain ,Neurosurgical,Brain,Biopsy,Fresh
+"Brain, biopsy ",Neurosurgical,Brain,Biopsy,Fresh
+"Brain, biopsy (tumor) ",Neurosurgical,Brain,Biopsy,Fresh
+Branchial cleft cyst ,ENT,Branchial cleft cyst,Excision,Formalin
+Breast biopsy ,Breast,Breast,Biopsy,Formalin
+Breast Lumpectomy ,Breast,Breast,Lumpectomy,Fresh
+Breast mastectomy ,Breast,Breast,Mastectomy,Fresh
+Breast scar ,Breast,Breast,Revision,Formalin
+Breast Skin and Tissue ,Breast,Breast,Mastectomy,Formalin
+Breast tissue ,Breast,Breast,Resection,Fresh
+"Breast, margin ",Breast,Breast,Resection,Formalin
+"Breast, mastectomy, w/ lymph nodes ",Breast,Breast,Mastectomy with Lymph Node Biopsy,Fresh
+"Breast, reduction ",Breast,Breast,Reduction,Formalin
+Bronchial Washing ,Cytology,Bronchus,Washing,None
+Bronchoalveolar Lavage ,Cytology,Bronchus,Bronchoalveolar Lavage,None
+"Bronchus, biopsy ",Pulmonary,Bronchus,Biopsy,Formalin
+Bunion ,Orthopedic,Bone,Bunionectomy,Formalin
+Bursa ,Orthopedic,Joint,Bursectomy,Formalin
+Carina biopsy ,Pulmonary,Carina,Biopsy,Formalin
+Carpal tunnel ,Orthopedic,Soft Tissue,Excision,Formalin
+Cecal biopsy ,Gastroenteric,Colon,Biopsy,Formalin
+Cecal polyp ,Gastroenteric,Colon,Polypectomy,Formalin
+Cervical biopsy ,Gynecologic,Cervix,Biopsy,Formalin
+Cervical cone biopsy ,Gynecologic,Cervix,Cone Biopsy,Formalin
+Cervical polyp ,Gynecologic,Cervix,Polypectomy,Formalin
+"Cervix, cyst ",Gynecologic,Cervix,Cystectomy,Formalin
+Cholesteatoma ,ENT,Skin,Biopsy,Formalin
+Clot ,Hematologic,Clot,Removal,Formalin
+Colon resection ,Gastroenteric,Colon,Resection,Formalin
+"Colon, biopsy ",Gastroenteric,Colon,Biopsy,Formalin
+"Colon, colostomy ",Gastroenteric,Colon,Colostomy Reversal,Formalin
+"Colon, polyp ",Gastroenteric,Colon,Polypectomy,Formalin
+"Conjunctiva, biopsy ",Ophthalmalogic,Conjunctiva,Biopsy,Formalin
+"Cornary artery, biopsy ",Cardiovascular,Blood vessel,Biopsy,Formalin
+"Corneal, biopsy ",Ophthalmalogic,Cornea,Biopsy,Formalin
+"Cul-de-sac, biopsy ",Gynecologic,Cul-de-sac,Biopsy,Formalin
+Cyst ,Miscellaneous,Soft Tissue,Cystectomy,Formalin
+Cyst bartholin ,Gynecologic,Skin,Cystectomy,Formalin
+"Cyst, thyroglossal ",ENT,Soft Tissue,Cystectomy,Formalin
+Debridement ,Miscellaneous,Other,Debridement,Formalin
+Dental cyst ,Oral,Oral Cavity,Biopsy,Formalin
+Dermoid cyst ,Gynecologic,Ovary,Ovarian Cystectomy,Formalin
+Diaphragm ,Pulmonary,Diaphragm,Biopsy,Formalin
+Disc ,Orthopedic,Spine,Discectomy,Formalin
+Distal pa ,Hepatobiliary,Pancreas,Distal Pancreatectomy,Formalin
+Diverticulum ,Gastroenteric,Other,Biopsy,Formalin
+Donuts ,Gastroenteric,Intestine,Anastamosis,Formalin
+Duodenum biopsy ,Gastroenteric,Duodenum,Biopsy,Formalin
+Duodenum polyp ,Gastroenteric,Duodenum,Polypectomy,Formalin
+Ear contents ,ENT,Ear,Curettage,Formalin
+Ear drum ,ENT,Ear,Tympanoplasty,Formalin
+"Ear, biopsy ",ENT,Ear,Biopsy,Formalin
+Ecc cells ,Gynecologic,Endocervix,Curettage,Formalin
+Ectopic pregnancy ,Gynecologic,Fallopian Tube,Salpingectomy,Formalin
+Endocervical curettings ,Gynecologic,Endocervix,Curettage,Formalin
+Endometrial biopsy ,Gynecologic,Endometrium,Biopsy,Formalin
+Endometrial curettings ,Gynecologic,Endometrium,Curettage,Formalin
+Endometrial polyp ,Gynecologic,Endometrium,Polypectomy,Formalin
+Endoscopic shavings ,Miscellaneous,Other,Shaving,Formalin
+Enterocele ,Gynecologic,Other,Enterocele Repair,Formalin
+Epidural mass ,Neurosurgical,Epidural Space,Biopsy,Formalin
+"Epiglottis, biopsy ",ENT,Epiglottis,Biopsy,Formalin
+"Esophagus, biopsy ",Gastroenteric,Esophagus,Biopsy,Formalin
+"Esophagus, resection ",Gastroenteric,Esophagus,Esophagectomy,Formalin
+"Espohagus, polyp ",Gastroenteric,Esophagus,Polypectomy,Formalin
+Eye ,Ophthalmalogic,Eye,Enucleation,Formalin
+Eye lesion ,Ophthalmalogic,Eye,Biopsy,Formalin
+"Eye, Pterygium ",Ophthalmalogic,Eye,Excision,Formalin
+Fallopian tube ,Gynecologic,Fallopian Tube,Salpingectomy,Formalin
+"Fallopian tube, biopsy ",Gynecologic,Fallopian Tube,Biopsy,Formalin
+"Fat Pad, Biopsy ",Miscellaneous,Soft Tissue,Biopsy,Formalin
+Femoral head ,Orthopedic,Bone,Arthroplasty,Fresh
+"Fetus, Gross only ",Autopsy,Other,Autopsy,None
+"Fetus, microscopic ",Autopsy,Other,Autopsy,None
+Fistula ,Miscellaneous,Other,Repair,Formalin
+Foreign body ,Miscellaneous,Foreign body,Removal,Fresh
+"Foreskin, adult ",Urologic,Foreskin,Circumcision,Formalin
+"Foreskin, newborn ",Urologic,Foreskin,Circumcision,Formalin
+Frozen section consult ,Miscellaneous,Other,Biopsy,Fresh
+Gallbladder ,Hepatobiliary,Gallbladder,Cholecystectomy,Formalin
+Ganglion Cyst ,Orthopedic,Soft Tissue,Excision,Formalin
+Gastric biopsies ,Gastroenteric,Stomach,Biopsy,Formalin
+Gastric mass/ulcer ,Gastroenteric,Stomach,Biopsy,Formalin
+Gastric polyp ,Gastroenteric,Stomach,Polypectomy,Formalin
+Gastric resection ,Gastroenteric,Stomach,Resection,Formalin
+"Gastroesophageal Junction, biopsy ",Gastroenteric,Gastroesophageal Junction,Biopsy,Formalin
+Gi mass ,Gastroenteric,Other,Biopsy,Formalin
+Gout ,Orthopedic,Joint,Biopsy,Formalin
+Granulation tissue ,Miscellaneous,Other,Biopsy,Formalin
+Gross only ,Miscellaneous,Other,Other,Fresh
+Heart tumor ,Cardiovascular,Heart,Biopsy,Formalin
+Hematoma ,Miscellaneous,Other,Evacuation,Formalin
+Hemorrhoids ,Gastroenteric,Hemorrhoids,Hemorrhoidectomy,Formalin
+Hernia Sac ,Gastroenteric,Hernia Sac,Herniorrhaphy,Formalin
+Hip membrane ,Orthopedic,Joint,Biopsy,Formalin
+Humeral head ,Orthopedic,Bone,Arthroplasty,Fresh
+Hydrocele Sac ,Urologic,Hydrocele Sac,Hydrocelectomy,Formalin
+Hydrosalpinx ,Urologic,Fallopian Tube,Salpingectomy,Formalin
+Hymen ,Gynecologic,Vaginal Opening,Hymenectomy,Formalin
+Ileal cecal valve biopsy ,Gastroenteric,Ileocecal Valve,Biopsy,Formalin
+Ileum biopsy ,Gastroenteric,Ileum,Biopsy,Formalin
+Inguinal hernia sac ,Miscellaneous,Hernia Sac,Herniorrhaphy,Formalin
+Joint debridement ,Orthopedic,Joint,Debridement,Formalin
+"Joint, Crystal ",Orthopedic,Joint,Aspiration,Fresh
+"Kidney, biopsy ",Urologic,Kidney,Biopsy,Formalin
+"Kidney, partial/total nephrectomy ",Urologic,Kidney,Nephrectomy,Formalin
+"Knee Bone, resection ",Orthopedic,Joint,Arthroplasty,Fresh
+Knee membrane ,Orthopedic,Joint,Biopsy,Formalin
+Labial bx ,Gynecologic,Labia,Biopsy,Formalin
+Lacrimal sac ,Ophthalmalogic,Lacrimal Sac,Biopsy,Formalin
+Laryngeal biopsy ,ENT,Larynx,Biopsy,Formalin
+Larynx ,ENT,Larynx,Laryngectomy,Fresh
+Lesion Biopsy ,Miscellaneous,Other,Biopsy,Formalin
+Lip biopsy ,Dermatologic,Lip,Biopsy,Formalin
+Lipoma ,Soft Tissue,Soft Tissue,Excision,Formalin
+Liver biopsy ,Hepatobiliary,Liver,Biopsy,Formalin
+"Liver, resection, neoplastic ",Hepatobiliary,Liver,Hepatectomy,Fresh
+Loose bodies ,Orthopedic,Joint,Arthroscopy,Fresh
+Lung ,Pulmonary,Lung,Wedge Biopsy,Formalin
+Lung Biopsy ,Pulmonary,Lung,Biopsy,Formalin
+"Lung, resection, non-neoplastic ",Pulmonary,Lung,Lobectomy,Formalin
+Lymph node ,Hematologic,Lymph Node,Biopsy,Formalin
+"Lymph node dissection (axillary), breast cancer, (received as addl part to mastectomy) ",Breast,Lymph Node,Dissection,Formalin
+Lymph node for lymphoma protocol ,Hematologic,Lymph Node,Biopsy,Formalin
+"Lymph node, dissection ",Hematologic,Lymph Node,Dissection,Formalin
+"Lymph Node, Sentinel, Endometrial Cancer ",Gynecologic,Lymph Node,Biopsy,Formalin
+Mastoid contents ,ENT,Sinonasal Cavity,Functional Endoscopic Sinus Surgery,Formalin
+"Mediastinum, biopsy ",Hematologic,Mediastinum,Biopsy,Formalin
+"Mediastinum, resection ",Hematologic,Mediastinum,Mediastinectomy,Formalin
+Meninges ,Neurosurgical,Meninges,Meningectomy,Formalin
+Meniscus ,Orthopedic,Joint,Arthroscopy,Formalin
+Mesenteric ,Gastroenteric,Mesentery,Resection,Formalin
+Miscellaneous Cytology Non-gynecological ,Cytology,Other,Other,Formalin
+Missing part (used by conversions) ,Miscellaneous,Other,Other,None
+Mole ,Dermatologic,Skin,Biopsy,Formalin
+Mucocele ,Miscellaneous,Other,Biopsy,Formalin
+Mucous cyst ,Miscellaneous,Other,Biopsy,Formalin
+Mueller's muscle ,Ophthalmalogic,Muscle,Resection,Formalin
+Muscle ,Soft Tissue,Muscle,Resection,Formalin
+Muscle Biopsy ,Soft Tissue,Muscle,Biopsy,Fresh
+"Myocardium, biopsy ",Cardiovascular,Heart,Biopsy,Formalin
+Myoma ,Soft Tissue,Soft Tissue,Resection,Formalin
+Nail/nail bed ,Dermatologic,Nail,Clipping,Fresh
+"Nasal, biopsy ",ENT,Sinonasal Cavity,Biopsy,Formalin
+"Nasal, polyp ",ENT,Sinonasal Cavity,Polypectomy,Formalin
+"Nasal, septum ",ENT,Sinonasal Cavity,Septoplasty,Formalin
+"Nasal, turbinates ",ENT,Sinonasal Cavity,Turbinatectomy,Formalin
+Nasolacrimal duct ,Ophthalmalogic,Nasolacrimal Duct,Excision,Formalin
+"Needle Biopsy, NOS ",Miscellaneous,Other,Biopsy,Formalin
+Nerve ,Soft Tissue,Nerve,Excision,Formalin
+"Nerve, biopsy ",Soft Tissue,Nerve,Biopsy,Formalin
+Neuroma ,Soft Tissue,Soft Tissue,Excision,Formalin
+Nevus ,Dermatologic,Skin,Biopsy,Formalin
+"Omentum, biopsy ",Gastroenteric,Omentum,Biopsy,Formalin
+"Omentum, resection, neoplastic ",Gastroenteric,Omentum,Resection,Formalin
+"Omentum, resection, non-neoplastic ",Gastroenteric,Omentum,Resection,Formalin
+Oral biopsy ,Oral,Oral Cavity,Biopsy,Formalin
+Oral cyst ,Oral,Oral Cavity,Biopsy,Formalin
+Orbital mass ,Ophthalmalogic,Orbital Cavity,Biopsy,Formalin
+Osteochondroma ,Orthopedic,Bone,Resection,Formalin
+Outside slide consultation ,Miscellaneous,Other,Other,Formalin
+Ovarian cyst ,Gynecologic,Ovary,Cystectomy,Formalin
+Ovaries w/ Fallopian Tubes ,Gynecologic,Ovary and Fallopian Tubes,Salpingo-Oophorectomy,Formalin
+Ovary ,Gynecologic,Ovary,Oophorectomy,Formalin
+"Ovary, biopsy ",Gynecologic,Ovary,Biopsy,Formalin
+"Palate, biopsy ",Oral,Oral Cavity,Biopsy,Formalin
+"Pancreas, biopsy ",Hepatobiliary,Pancreas,Biopsy,Formalin
+"Pancreas, resection ",Hepatobiliary,Pancreas,Resection,Fresh
+"Pancreas, whipple ",Hepatobiliary,Pancreas,Whipple Procedure,Fresh
+"Parathyroid, biopsy ",ENT,Parathyroid Gland,Biopsy,Formalin
+Paratubal cyst ,Gynecologic,Fallopian Tube,Cystectomy,Formalin
+Parotid biopsy ,ENT,Parotid Gland,Biopsy,Formalin
+Parotid gland ,ENT,Parotid Gland,Parotidecotmy,Formalin
+"Pelvic, adhesions ",Gynecologic,Other,Biopsy,Formalin
+"Pelvic, biopsy ",Gynecologic,Other,Biopsy,Formalin
+Penile biopsy ,Urologic,Penis,Biopsy,Formalin
+Perianal Biopsy ,Gastroenteric,Perianal Region,Biopsy,Formalin
+Pericardium ,Cardiovascular,Pericardium,Biopsy,Formalin
+Perineal biopsy ,Gastroenteric,Perineum,Biopsy,Formalin
+Peritoneal biopsy ,Gastroenteric,Peritoneum,Biopsy,Formalin
+Peritubal cyst ,Gynecologic,Fallopian Tube,Cystectomy,Formalin
+"Pharynx, biopsy ",ENT,Pharynx,Biopsy,Formalin
+Pilonidal cyst ,Gastroenteric,Skin,Excision,Formalin
+Pituitary gland ,ENT,Pituitary Gland,Biopsy,Formalin
+Place holder for outside block(s) ,Miscellaneous,Other,Other,None
+Placenta (<28 weeks) ,Obstetric,Placenta,None,Formalin
+Placenta (28+ weeks) ,Obstetric,Placenta,None,Formalin
+Placenta (multiple births under 25 weeks) ,Obstetric,Placenta,None,Formalin
+"Placenta (multiple births, 28 weeks and over) ",Obstetric,Placenta,None,Formalin
+Placenta Fragments - Additional ,Obstetric,Placenta,None,Formalin
+Plaque ,Cardiovascular,Other,Other,Formalin
+"Pleura, biopsy ",Pulmonary,Pleura,Biopsy,Formalin
+Pleural peel ,Pulmonary,Pleura,Decortication,Formalin
+Positive sentinel lymph node ,Hematologic,Lymph Node,Biopsy,Formalin
+Products of conception ,Obstetric,Products of Conception,Dilation and Curettage,Formalin
+Prostate ,Urologic,Prostate,Radical Prostatectomy,Formalin
+"Prostate and Bladder, Resection ",Urologic,Prostate and Bladder,Cystoprostatectomy,Fresh
+"Prostate, needle biopsy ",Urologic,Prostate,Biopsy,Formalin
+"Prostate, resection ",Urologic,Prostate,Prostatectomy,Formalin
+"Prostate, TUR ",Urologic,Prostate,Transurethral Resection of Prostate Tissue,Formalin
+Radical Masectomy ,Breast,Breast,Mastectomy,Fresh
+Rectal biopsy ,Gastroenteric,Rectum,Biopsy,Formalin
+Rectal polyp ,Gastroenteric,Rectum,Polypectomy,Formalin
+Rectocele ,Gastroenteric,Rectum,Colporrhaphy,Formalin
+Rectus muscle ,Miscellaneous,Muscle,Biopsy,Formalin
+Renal biopsy ,Urologic,Kidney,Biopsy,Formalin
+"Retroperitoneum, biopsy ",Soft Tissue,Retroperitoneum,Biopsy,Formalin
+"Retroperitoneum, resection ",Soft Tissue,Retroperitoneum,Resection,Formalin
+"Rib, incidental ",Orthopedic,Bone,Resection,Formalin
+Salivary gland ,ENT,Salivary Gland,Biopsy,Formalin
+Scar ,Dermatologic,Skin,Revision,Formalin
+Schwannoma ,Soft Tissue,Soft Tissue,Resection,Formalin
+Scrotal mass ,Urologic,Scrotum,Biopsy,Formalin
+Seminal Vesicle ,Urologic,Seminal Vesicle,Biopsy,Formalin
+Sentinel lymph node ,Hematologic,Lymph Node,Biopsy,Formalin
+Septum ,ENT,Septum,Septoplasty,Formalin
+Serosa ,Miscellaneous,Serosa,Biopsy,Formalin
+Sigmoid biopsy ,Gastroenteric,Colon,Biopsy,Formalin
+Sigmoid polyp ,Gastroenteric,Colon,Polypectomy,Formalin
+Simple Masectomy ,Breast,Breast,Mastectomy,Formalin
+Sinus Contents ,ENT,Sinus Contents,Functional Endoscopic Sinus Surgery,Formalin
+Skin tag ,Dermatologic,Skin,Excision,Formalin
+"Skin, ellipse/excision ",Dermatologic,Skin,Excision,Formalin
+"Skin, melanoma ",Dermatologic,Skin,Excision,Formalin
+"Skin, punch biopsy ",Dermatologic,Skin,Punch Biopsy,Formalin
+"Skin, shave biopsy ",Dermatologic,Skin,Shave Biopsy,Formalin
+Slide-outside consult ,Miscellaneous,Other,Other,None
+Small bowel biopsy ,Gastroenteric,Small Bowel,Biopsy,Formalin
+Small bowel resection ,Gastroenteric,Small Bowel,Resection,Formalin
+Soft tissue ,Soft Tissue,Soft Tissue,Biopsy,Formalin
+Soft tissue mass ,Soft Tissue,Soft Tissue,Biopsy,Formalin
+Soft tissue tumor resection ,Soft Tissue,Soft Tissue,Resection,Formalin
+"Soft tissue, fascia ",Soft Tissue,Soft Tissue,Biopsy,Formalin
+"Soft tissue, tendon sheath ",Soft Tissue,Soft Tissue,Biopsy,Formalin
+Spermatocele ,Urologic,Spermatocele,Spermatocelectomy,Formalin
+"Spinal cord, biopsy ",Neurosurgical,Spine,Biopsy,Formalin
+Spleen ,Hematologic,Spleen,Splenectomy,Formalin
+Stereotactic breast core biopsy ,Breast,Breast,Stereotactic Biopsy,Formalin
+Stoma ,Gastroenteric,Stoma,Reversal,Formalin
+Synovial cyst ,Orthopedic,Synovium,Biopsy,Formalin
+Synovium ,Orthopedic,Synovium,Biopsy,Formalin
+Teeth ,Oral,Tooth,Extraction,Fresh
+Tendon ,Orthopedic,Tendon,Repair,Formalin
+Testicular torsion ,Urologic,Testis,Orchiectomy,Formalin
+Testis ,Urologic,Testis,Orchiectomy,Formalin
+"Testis, appendage ",Urologic,Testis,Excision,Formalin
+"Testis, biopsy ",Urologic,Testis,Biopsy,Formalin
+"Testis, resection, neoplastic ",Urologic,Testis,Orchiectomy,Formalin
+"Testis, resection, non-neoplastic ",Urologic,Testis,Orchiectomy,Formalin
+"Thymus, tumor ",Endocrine,Thymus,Biopsy,Formalin
+"Thyroid, biopsy ",ENT,Thyroid Gland,Biopsy,Formalin
+"Thyroid, resection ",ENT,Thyroid Gland,Resection,Formalin
+Tissue NOS ,Miscellaneous,Other,Other,Formalin
+Toe nail ,Dermatologic,Nail,Clipping,Fresh
+"Tongue, biopsy ",Oral,Tongue,Biopsy,Formalin
+"Tongue, resection/partial ",Oral,Tongue,Glossectomy,Formalin
+Tonsil ,ENT,Tonsil,Tonsillectomy,Formalin
+Tonsil and/or Adenoids ,ENT,Tonsil,Tonsillectomy and Adenoidectomy,Formalin
+"Tonsil, biopsy ",ENT,Tonsil,Biopsy,Formalin
+Tonsils ,ENT,Tonsil,Tonsillectomy,Formalin
+Touch prep (squash prep) ,Miscellaneous,Other,Other,Fresh
+Touch prep (squash prep) initial site ,Miscellaneous,Other,Other,Fresh
+Tracheal biopsy ,ENT,Trachea,Biopsy,Formalin
+Tympanic membrane ,ENT,Ear,Tympanoplasty,Formalin
+Ulcer - ksh ,Miscellaneous,Other,Biopsy,Formalin
+Umbilical cord ,Obstetric,Umbilical Cord,None,Formalin
+Ureter ,Urologic,Ureter,Biopsy,Formalin
+"Ureter, resection ",Urologic,Ureter,Ureterectomy,Formalin
+"Urethra, biopsy ",Urologic,Urethra,Biopsy,Formalin
+"Urethra, resection ",Urologic,Urethra,Urethrectomy,Formalin
+Uterine Biopsy ,Gynecologic,Uterus,Biopsy,Formalin
+Uterine curettings ,Gynecologic,Uterus,Curettage,Formalin
+Uterus ,Gynecologic,Uterus,Hysterectomy,Formalin
+"Uvula, biopsy- 8305 ",Gynecologic,Uvula,Biopsy,Formalin
+"Uvula, Simple Excision ",Gynecologic,Uvula,Excision,Formalin
+Vaginal biopsy ,Gynecologic,Vagina,Biopsy,Formalin
+Vaginal mucosa ,Gynecologic,Vagina,Biopsy,Formalin
+"Valve, Cardiac ",Cardiovascular,Heart,Valve Repair,Formalin
+Varicocele ,Urologic,Spermatic Cord,Varicocelectomy,Formalin
+Vas deferens ,Urologic,Vas Deferens,Vasectomy,Formalin
+"Vas Deferens, Sterilization ",Urologic,Vas Deferens,Vasectomy,Formalin
+"Vas Deferens, Sterilization, bilateral ",Urologic,Vas Deferens,Vasectomy,Formalin
+Vascular graft material (no block) ,Cardiovascular,Blood vessel,Other,Formalin
+Vascular graft material (section with block) ,Cardiovascular,Blood vessel,Other,Formalin
+Vein ,Cardiovascular,Blood vessel,Phlebectomy,Formalin
+Vertebral body ,Orthopedic,Bone,Biopsy,Formalin
+"Vocal cord, biopsy ",ENT,Vocal Cord,Biopsy,Formalin
+Volar cyst ,Dermatologic,Skin,Biopsy,Formalin
+Vulva ,Gynecologic,Vulva,Biopsy,Formalin
+"Vulva, biopsy ",Gynecologic,Vulva,Biopsy,Formalin
+Vulvar cyst ,Gynecologic,Vulva,Biopsy,Formalin
+Wart ,Dermatologic,Skin,Biopsy,Formalin
+"Whipple (pancreas, duodenum, stomach) ",Hepatobiliary,"Pancreas, Duodenum, and Stomach",Whipple Procedure,Fresh

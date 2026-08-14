@@ -64,128 +64,127 @@ special_capitalization_dict: dict = {
 }
 
 synonym_dict: dict= {
-'none': [''],
-'adenoids': [''],
-'soft tissue': [''],
-'adrenal gland': [''],
-'ampulla': [''],
-'digit': [''],
-'extremity': [''],
-'anus': [''],
-'anastomosis': [''],
-'blood vessel': [''],
-'appendix': [''],
-'atrial appendage': [''],
-'bone': [''],
-'skin': [''],
-'bladder': [''],
-'body fluid': [''],
-'brain': [''],
-'branchial cleft cyst': [''],
-'breast': [''],
-'bronchus': [''],
-'joint': [''],
-'carina': [''],
-'colon': [''],
-'cervix': [''],
-'clot': [''],
-'conjunctiva': [''],
-'cornea': [''],
-'cul-de-sac': [''],
-'other': [''],
-'oral cavity': [''],
-'ovary': [''],
-'diaphragm': [''],
-'spine': [''],
-'pancreas': [''],
-'intestine': [''],
-'duodenum': [''],
-'ear': [''],
-'endocervix': [''],
-'fallopian tube': [''],
-'endometrium': [''],
-'epidural space': [''],
-'epiglottis': [''],
-'esophagus': [''],
-'eye': [''],
-'foreign body': [''],
-'foreskin': [''],
-'gallbladder': [''],
-'stomach': [''],
-'gastroesophageal junction': [''],
-'heart': [''],
-'hemorrhoids': [''],
-'hernia sac': [''],
-'hydrocele sac': [''],
-'vaginal opening': [''],
-'ileocecal valve': [''],
-'ileum': [''],
-'kidney': [''],
-'labia': [''],
-'lacrimal sac': [''],
-'larynx': [''],
-'lip': [''],
-'liver': [''],
-'lung': [''],
-'lymph node': [''],
-'sinonasal cavity': [''],
-'mediastinum': [''],
-'meninges': [''],
-'mesentery': [''],
-'muscle': [''],
-'nail': [''],
-'nasolacrimal duct': [''],
-'nerve': [''],
-'omentum': [''],
-'orbital cavity': [''],
-'ovary and fallopian tubes': [''],
-'parathyroid gland': [''],
-'parotid gland': [''],
-'penis': [''],
-'perianal region': [''],
-'pericardium': [''],
-'perineum': [''],
-'peritoneum': [''],
-'pharynx': [''],
-'pituitary gland': [''],
-'placenta': [''],
-'pleura': [''],
-'products of conception': [''],
-'prostate': [''],
-'prostate and bladder': [''],
-'rectum': [''],
-'retroperitoneum': [''],
-'salivary gland': [''],
-'scrotum': [''],
-'seminal vesicle': [''],
-'septum': [''],
-'serosa': [''],
-'sinus contents': [''],
-'small bowel': [''],
-'spermatocele': [''],
-'spleen': [''],
-'stoma': [''],
-'synovium': [''],
-'tooth': [''],
-'tendon': [''],
-'testis': [''],
-'thymus': [''],
-'thyroid gland': [''],
-'tongue': [''],
-'tonsil': [''],
-'trachea': [''],
-'umbilical cord': [''],
-'ureter': [''],
-'urethra': [''],
-'uterus': [''],
-'uvula': [''],
-'vagina': [''],
-'spermatic cord': [''],
-'vas deferens': [''],
-'vocal cord': [''],
-'vulva': [''],
-'pancreas, duodenum, and stomach': [''],
-
+    'none': [''],
+    'adenoids': [''],
+    'soft tissue': [''],
+    'adrenal gland': [''],
+    'ampulla': [''],
+    'digit': [''],
+    'extremity': [''],
+    'anus': [''],
+    'anastomosis': [''],
+    'blood vessel': [''],
+    'appendix': [''],
+    'atrial appendage': [''],
+    'bone': [''],
+    'skin': [''],
+    'bladder': [''],
+    'body fluid': [''],
+    'brain': [''],
+    'branchial cleft cyst': [''],
+    'breast': [''],
+    'bronchus': [''],
+    'joint': [''],
+    'carina': [''],
+    'colon': [''],
+    'cervix': [''],
+    'clot': [''],
+    'conjunctiva': [''],
+    'cornea': [''],
+    'cul-de-sac': [''],
+    'other': [''],
+    'oral cavity': [''],
+    'ovary': [''],
+    'diaphragm': [''],
+    'spine': [''],
+    'pancreas': [''],
+    'intestine': [''],
+    'duodenum': ['duodenal'],
+    'ear': [''],
+    'endocervix': [''],
+    'fallopian tube': [''],
+    'endometrium': [''],
+    'epidural space': [''],
+    'epiglottis': [''],
+    'esophagus': ['esophageal'],
+    'eye': [''],
+    'foreign body': [''],
+    'foreskin': [''],
+    'gallbladder': [''],
+    'stomach': ['gastric'],
+    'gastroesophageal junction': [''],
+    'heart': [''],
+    'hemorrhoids': [''],
+    'hernia sac': [''],
+    'hydrocele sac': [''],
+    'vaginal opening': [''],
+    'ileocecal valve': [''],
+    'ileum': [''],
+    'kidney': [''],
+    'labia': [''],
+    'lacrimal sac': [''],
+    'larynx': [''],
+    'lip': [''],
+    'liver': [''],
+    'lung': [''],
+    'lymph node': [''],
+    'sinonasal cavity': [''],
+    'mediastinum': [''],
+    'meninges': [''],
+    'mesentery': [''],
+    'muscle': [''],
+    'nail': [''],
+    'nasolacrimal duct': [''],
+    'nerve': [''],
+    'omentum': [''],
+    'orbital cavity': [''],
+    'ovary and fallopian tubes': [''],
+    'parathyroid gland': [''],
+    'parotid gland': [''],
+    'penis': [''],
+    'perianal region': [''],
+    'pericardium': [''],
+    'perineum': [''],
+    'peritoneum': [''],
+    'pharynx': [''],
+    'pituitary gland': [''],
+    'placenta': [''],
+    'pleura': [''],
+    'products of conception': [''],
+    'prostate': [''],
+    'prostate and bladder': [''],
+    'rectum': [''],
+    'retroperitoneum': [''],
+    'salivary gland': [''],
+    'scrotum': [''],
+    'seminal vesicle': [''],
+    'septum': [''],
+    'serosa': [''],
+    'sinus contents': [''],
+    'small bowel': [''],
+    'spermatocele': [''],
+    'spleen': [''],
+    'stoma': [''],
+    'synovium': [''],
+    'tooth': [''],
+    'tendon': [''],
+    'testis': [''],
+    'thymus': [''],
+    'thyroid gland': [''],
+    'tongue': [''],
+    'tonsil': [''],
+    'trachea': [''],
+    'umbilical cord': [''],
+    'ureter': [''],
+    'urethra': [''],
+    'uterus': [''],
+    'uvula': [''],
+    'vagina': [''],
+    'spermatic cord': [''],
+    'vas deferens': [''],
+    'vocal cord': [''],
+    'vulva': [''],
+    'pancreas, duodenum, and stomach': [''],
 }
 
 class SpecimenTemplates:
@@ -270,6 +269,7 @@ class SignoutCleanup:
         self.all_caps_list = all_caps_list
         self.all_lower_list = all_lower_list
         self.special_cap_dict = special_capitalization_dict
+        self.synonym_dict = synonym_dict
         self.st = SpecimenTemplates()
     
     def fix_typos(self):
@@ -600,34 +600,25 @@ class SignoutCleanup:
                 pass
             if organ == "Pancreas, Duodenum, and Stomach":
                 pass
-
-    def remove_duplicate_word_temp(self, to_keep, to_clean):
-        cleaned_list = []
-        for keep_word in to_keep:
-            for clean_word in to_clean:
-                if not keep_word == clean_word:
-                    cleaned_list.append(clean_word)
-                else:
-                    print(f"INFO: Removed duplicate word: '{clean_word}'")
-        return cleaned_list
     
     def remove_duplicate_word(self, to_keep, to_clean):
         rtn= [x for x in to_clean if x not in to_keep]
         return rtn
-    
+
     def keep_duplicate_word(self, list1, list2):
         rtn= [x for x in list1 if x in list2]
         return rtn
-                    
+   
     def remove_duplicate_words(self):
         for key in self.template_dict:
             specimen_name = self.template_dict[key][0].lower()
             template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name)
-            
+        
             organ = template[0].lower().strip()
             if organ == "none": organ = None
             if organ == "other": organ = "***"
             organ_words = list(organ.split(" "))
+            organ_words = organ_words + self.synonym_dict[organ]
             
             description = self.template_dict[key][1].lower().strip()
             description_words = list(description.split(" "))
@@ -636,6 +627,8 @@ class SignoutCleanup:
             if procedure == "none": procedure = None
             if procedure == "other": procedure = "***"
             procedure_words = list(procedure.split(" "))
+            
+            
             
             cleaned_description1 = self.remove_duplicate_word(organ_words, description_words)
             cleaned_description2 = self.remove_duplicate_word(procedure_words, description_words)

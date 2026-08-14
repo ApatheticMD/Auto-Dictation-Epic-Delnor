@@ -63,23 +63,148 @@ special_capitalization_dict: dict = {
     "non-mass": "Non-Mass"
 }
 
+synonym_dict: dict= {
+'none': [''],
+'adenoids': [''],
+'soft tissue': [''],
+'adrenal gland': [''],
+'ampulla': [''],
+'digit': [''],
+'extremity': [''],
+'anus': [''],
+'anastomosis': [''],
+'blood vessel': [''],
+'appendix': [''],
+'atrial appendage': [''],
+'bone': [''],
+'skin': [''],
+'bladder': [''],
+'body fluid': [''],
+'brain': [''],
+'branchial cleft cyst': [''],
+'breast': [''],
+'bronchus': [''],
+'joint': [''],
+'carina': [''],
+'colon': [''],
+'cervix': [''],
+'clot': [''],
+'conjunctiva': [''],
+'cornea': [''],
+'cul-de-sac': [''],
+'other': [''],
+'oral cavity': [''],
+'ovary': [''],
+'diaphragm': [''],
+'spine': [''],
+'pancreas': [''],
+'intestine': [''],
+'duodenum': [''],
+'ear': [''],
+'endocervix': [''],
+'fallopian tube': [''],
+'endometrium': [''],
+'epidural space': [''],
+'epiglottis': [''],
+'esophagus': [''],
+'eye': [''],
+'foreign body': [''],
+'foreskin': [''],
+'gallbladder': [''],
+'stomach': [''],
+'gastroesophageal junction': [''],
+'heart': [''],
+'hemorrhoids': [''],
+'hernia sac': [''],
+'hydrocele sac': [''],
+'vaginal opening': [''],
+'ileocecal valve': [''],
+'ileum': [''],
+'kidney': [''],
+'labia': [''],
+'lacrimal sac': [''],
+'larynx': [''],
+'lip': [''],
+'liver': [''],
+'lung': [''],
+'lymph node': [''],
+'sinonasal cavity': [''],
+'mediastinum': [''],
+'meninges': [''],
+'mesentery': [''],
+'muscle': [''],
+'nail': [''],
+'nasolacrimal duct': [''],
+'nerve': [''],
+'omentum': [''],
+'orbital cavity': [''],
+'ovary and fallopian tubes': [''],
+'parathyroid gland': [''],
+'parotid gland': [''],
+'penis': [''],
+'perianal region': [''],
+'pericardium': [''],
+'perineum': [''],
+'peritoneum': [''],
+'pharynx': [''],
+'pituitary gland': [''],
+'placenta': [''],
+'pleura': [''],
+'products of conception': [''],
+'prostate': [''],
+'prostate and bladder': [''],
+'rectum': [''],
+'retroperitoneum': [''],
+'salivary gland': [''],
+'scrotum': [''],
+'seminal vesicle': [''],
+'septum': [''],
+'serosa': [''],
+'sinus contents': [''],
+'small bowel': [''],
+'spermatocele': [''],
+'spleen': [''],
+'stoma': [''],
+'synovium': [''],
+'tooth': [''],
+'tendon': [''],
+'testis': [''],
+'thymus': [''],
+'thyroid gland': [''],
+'tongue': [''],
+'tonsil': [''],
+'trachea': [''],
+'umbilical cord': [''],
+'ureter': [''],
+'urethra': [''],
+'uterus': [''],
+'uvula': [''],
+'vagina': [''],
+'spermatic cord': [''],
+'vas deferens': [''],
+'vocal cord': [''],
+'vulva': [''],
+'pancreas, duodenum, and stomach': [''],
+
+}
+
 class SpecimenTemplates:
   
-    def __init__(self):  # Establish core class elements  
+    def __init__(self):
         self.signout_template_file = specimen_list_csv
         self.specimen_dict = {}
         self.raw_to_dict()
            
-    def raw_to_dict(self):  # Relate specimen type to codes as dict 
+    def raw_to_dict(self):
         temp_dict = {}
         with open(self.signout_template_file, "r") as csvfile:
             file = csv.reader(csvfile, dialect = 'excel')
             next(file, None)
             for row in file:
                 specimen_name = row[0].lower().strip()
-                specimen_type = row[1].strip()
+                specimen_type = row[1].lower().strip()
                 organ = row[2].strip()
-                procedure = row[3].strip()
+                procedure = row[3].lower().strip()
                 gross_default = row[4].lower().strip()
                 
                 temp_dict[specimen_name] = specimen_type,organ,procedure,gross_default
@@ -94,7 +219,7 @@ class SpecimenTemplates:
             specimen_type_to_match = self.specimen_dict[specimen_name][0]
         except:
             print(f"ERROR in specimen_type_to_procedures: Specimen name ({specimen_name}) not found in the specimen list.")
-            self.same_specimen_type = ["Biopsy","Excision","Resection"]
+            self.same_specimen_type = ["biopsy","excision","resection"]
             return self.same_specimen_type
         
         self.same_specimen_type.append(self.specimen_dict[specimen_name][2])
@@ -103,12 +228,12 @@ class SpecimenTemplates:
                 if self.specimen_dict[item][2] not in self.same_specimen_type:
                     self.same_specimen_type.append(self.specimen_dict[item][2])
         
-        if "Biopsy" not in self.same_specimen_type:
-            self.same_specimen_type.append("Biopsy")
-        if "Excision" not in self.same_specimen_type:
-            self.same_specimen_type.append("Excision")
-        if "Resection" not in self.same_specimen_type:
-            self.same_specimen_type.append("Resection")
+        if "biopsy" not in self.same_specimen_type:
+            self.same_specimen_type.append("biopsy")
+        if "excision" not in self.same_specimen_type:
+            self.same_specimen_type.append("excision")
+        if "resection" not in self.same_specimen_type:
+            self.same_specimen_type.append("resection")
         
         self.same_specimen_type[1:] = sorted(self.same_specimen_type[1:])    
         return self.same_specimen_type
@@ -121,11 +246,20 @@ class SpecimenTemplates:
             specimen_info_list = self.specimen_dict[specimen_name]
         except:
             print(f"ERROR in specimen_name_to_organ_and_procedure: Specimen name ({specimen_name}) not found in the specimen list.")
-            self.specimen_organ_and_procedure = ["", "Biopsy"]  
+            self.specimen_organ_and_procedure = ["***", "***"]  
             return self.specimen_organ_and_procedure
         
         self.specimen_organ_and_procedure = specimen_info_list[1], specimen_info_list[2]
         return  self.specimen_organ_and_procedure
+    
+    def print_organs(self):
+        organ_list = []
+        for key in self.specimen_dict:
+            organ = self.specimen_dict[key][1]
+            if organ not in organ_list:
+                organ_list.append(organ)
+                print(organ)
+        
 
 class SignoutCleanup:
         
@@ -136,6 +270,7 @@ class SignoutCleanup:
         self.all_caps_list = all_caps_list
         self.all_lower_list = all_lower_list
         self.special_cap_dict = special_capitalization_dict
+        self.st = SpecimenTemplates()
     
     def fix_typos(self):
         typo_list = list(self.typo_dict)
@@ -150,7 +285,7 @@ class SignoutCleanup:
                     description_list.append(self.typo_dict[word])
                 else:
                     description_list.append(word)
-                self.template_dict[key][1] = (" ").join(description_list)
+                self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
                 
     def expand_acronyms(self):
         acronym_list = list(self.acronym_dict)
@@ -165,13 +300,13 @@ class SignoutCleanup:
                     description_list.append(self.acronym_dict[word])
                 else:
                     description_list.append(word)
-                self.template_dict[key][1] = (" ").join(description_list)
+                self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
     
     def handle_capitalization(self):
         uppercase_list = self.all_caps_list
         lowercase_list = self.all_lower_list
         for key in self.template_dict:
-            description_list = []
+            description_list: list = []
             description = self.template_dict[key][1]
             description_words = description.split(" ")
             for word in description_words:
@@ -182,7 +317,7 @@ class SignoutCleanup:
                     description_list.append(word.lower())
                 else:
                     description_list.append(word.capitalize())
-                self.template_dict[key][1] = (" ").join(description_list)
+                self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
         
     def special_capitalization(self):
         special_cap_list = list(self.special_cap_dict)
@@ -197,25 +332,366 @@ class SignoutCleanup:
                     description_list.append(self.special_cap_dict[check_word])
                 else:
                     description_list.append(word)
-                self.template_dict[key][1] = (" ").join(description_list)
+                self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
     
+    def special_cleanup(self):
+        for key in self.template_dict:
+            description = self.template_dict[key][1].lower()
+            if "to r/o" in description:
+                description = description.split("to r/o")
+                self.template_dict[key] = self.template_dict[key][0], description[0]
+            elif "r/o" in description:
+                description = description.split("r/o")
+                self.template_dict[key] = self.template_dict[key][0], description[0]
+    
+    def organ_specific_cleanup(self):
+        for key in self.template_dict:
+            specimen_name = self.template_dict[key][0].lower().strip()
+            template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name)
+            organ = template[0].strip()
+            if organ == "None":
+                pass
+            if organ == "Adenoids":
+                pass
+            if organ == "Soft Tissue":
+                pass
+            if organ == "Adrenal gland":
+                pass
+            if organ == "Ampulla":
+                pass
+            if organ == "Digit":
+                pass
+            if organ == "Extremity":
+                pass
+            if organ == "Anus":
+                pass
+            if organ == "Anastomosis":
+                pass
+            if organ == "Blood vessel":
+                pass
+            if organ == "Appendix":
+                pass
+            if organ == "Atrial Appendage":
+                pass
+            if organ == "Bone":
+                pass
+            if organ == "Skin":
+                pass
+            if organ == "Bladder":
+                pass
+            if organ == "Body fluid":
+                pass
+            if organ == "Brain":
+                pass
+            if organ == "Branchial cleft cyst":
+                pass
+            if organ == "Breast":
+                description_list = []
+                description = self.template_dict[key][1]
+                description_words = description.split(" ")
+                for word in description_words:
+                    if word.lower() == "right" or word.lower() == "left":
+                        description_list.insert(0, f"{word},")
+                    else:
+                        description_list.append(word)
+                self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
+                        
+            if organ == "Bronchus":
+                pass
+            if organ == "Joint":
+                pass
+            if organ == "Carina":
+                pass
+            if organ == "Colon":
+                pass
+            if organ == "Cervix":
+                pass
+            if organ == "Clot":
+                pass
+            if organ == "Conjunctiva":
+                pass
+            if organ == "Cornea":
+                pass
+            if organ == "Cul-de-sac":
+                pass
+            if organ == "Other":
+                pass
+            if organ == "Oral Cavity":
+                pass
+            if organ == "Ovary":
+                pass
+            if organ == "Diaphragm":
+                pass
+            if organ == "Spine":
+                pass
+            if organ == "Pancreas":
+                pass
+            if organ == "Intestine":
+                pass
+            if organ == "Duodenum":
+                pass
+            if organ == "Ear":
+                pass
+            if organ == "Endocervix":
+                pass
+            if organ == "Fallopian Tube":
+                pass
+            if organ == "Endometrium":
+                pass
+            if organ == "Epidural Space":
+                pass
+            if organ == "Epiglottis":
+                pass
+            if organ == "Esophagus":
+                pass
+            if organ == "Eye":
+                pass
+            if organ == "Foreign body":
+                pass
+            if organ == "Foreskin":
+                pass
+            if organ == "Gallbladder":
+                pass
+            if organ == "Stomach":
+                pass
+            if organ == "Gastroesophageal Junction":
+                pass
+            if organ == "Heart":
+                pass
+            if organ == "Hemorrhoids":
+                pass
+            if organ == "Hernia Sac":
+                pass
+            if organ == "Hydrocele Sac":
+                pass
+            if organ == "Vaginal Opening":
+                pass
+            if organ == "Ileocecal Valve":
+                pass
+            if organ == "Ileum":
+                pass
+            if organ == "Kidney":
+                pass
+            if organ == "Labia":
+                pass
+            if organ == "Lacrimal Sac":
+                pass
+            if organ == "Larynx":
+                pass
+            if organ == "Lip":
+                pass
+            if organ == "Liver":
+                pass
+            if organ == "Lung":
+                pass
+            if organ == "Lymph Node":
+                pass
+            if organ == "Sinonasal Cavity":
+                pass
+            if organ == "Mediastinum":
+                pass
+            if organ == "Meninges":
+                pass
+            if organ == "Mesentery":
+                pass
+            if organ == "Muscle":
+                pass
+            if organ == "Nail":
+                pass
+            if organ == "Nasolacrimal Duct":
+                pass
+            if organ == "Nerve":
+                pass
+            if organ == "Omentum":
+                pass
+            if organ == "Orbital Cavity":
+                pass
+            if organ == "Ovary and Fallopian Tubes":
+                pass
+            if organ == "Parathyroid Gland":
+                pass
+            if organ == "Parotid Gland":
+                pass
+            if organ == "Penis":
+                pass
+            if organ == "Perianal Region":
+                pass
+            if organ == "Pericardium":
+                pass
+            if organ == "Perineum":
+                pass
+            if organ == "Peritoneum":
+                pass
+            if organ == "Pharynx":
+                pass
+            if organ == "Pituitary Gland":
+                pass
+            if organ == "Placenta":
+                pass
+            if organ == "Pleura":
+                pass
+            if organ == "Products of Conception":
+                pass
+            if organ == "Prostate":
+                pass
+            if organ == "Prostate and Bladder":
+                pass
+            if organ == "Rectum":
+                pass
+            if organ == "Retroperitoneum":
+                pass
+            if organ == "Salivary Gland":
+                pass
+            if organ == "Scrotum":
+                pass
+            if organ == "Seminal Vesicle":
+                pass
+            if organ == "Septum":
+                pass
+            if organ == "Serosa":
+                pass
+            if organ == "Sinus Contents":
+                pass
+            if organ == "Small Bowel":
+                pass
+            if organ == "Spermatocele":
+                pass
+            if organ == "Spleen":
+                pass
+            if organ == "Stoma":
+                pass
+            if organ == "Synovium":
+                pass
+            if organ == "Tooth":
+                pass
+            if organ == "Tendon":
+                pass
+            if organ == "Testis":
+                pass
+            if organ == "Thymus":
+                pass
+            if organ == "Thyroid Gland":
+                pass
+            if organ == "Tongue":
+                pass
+            if organ == "Tonsil":
+                pass
+            if organ == "Trachea":
+                pass
+            if organ == "Umbilical Cord":
+                pass
+            if organ == "Ureter":
+                pass
+            if organ == "Urethra":
+                pass
+            if organ == "Uterus":
+                pass
+            if organ == "Uvula":
+                pass
+            if organ == "Vagina":
+                pass
+            if organ == "Spermatic Cord":
+                pass
+            if organ == "Vas Deferens":
+                pass
+            if organ == "Vocal Cord":
+                pass
+            if organ == "Vulva":
+                pass
+            if organ == "Pancreas, Duodenum, and Stomach":
+                pass
+
+    def remove_duplicate_word_temp(self, to_keep, to_clean):
+        cleaned_list = []
+        for keep_word in to_keep:
+            for clean_word in to_clean:
+                if not keep_word == clean_word:
+                    cleaned_list.append(clean_word)
+                else:
+                    print(f"INFO: Removed duplicate word: '{clean_word}'")
+        return cleaned_list
+    
+    def remove_duplicate_word(self, to_keep, to_clean):
+        rtn= [x for x in to_clean if x not in to_keep]
+        return rtn
+    
+    def keep_duplicate_word(self, list1, list2):
+        rtn= [x for x in list1 if x in list2]
+        return rtn
+                    
     def remove_duplicate_words(self):
-        pass
+        for key in self.template_dict:
+            specimen_name = self.template_dict[key][0].lower()
+            template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name)
+            
+            organ = template[0].lower().strip()
+            if organ == "none": organ = None
+            if organ == "other": organ = "***"
+            organ_words = list(organ.split(" "))
+            
+            description = self.template_dict[key][1].lower().strip()
+            description_words = list(description.split(" "))
+            
+            procedure = template[1].lower().strip()
+            if procedure == "none": procedure = None
+            if procedure == "other": procedure = "***"
+            procedure_words = list(procedure.split(" "))
+            
+            cleaned_description1 = self.remove_duplicate_word(organ_words, description_words)
+            cleaned_description2 = self.remove_duplicate_word(procedure_words, description_words)
+            cleaned_description3 = self.keep_duplicate_word(cleaned_description1, cleaned_description2)
+            
+            self.template_dict[key] = (self.template_dict[key][0], (" ").join(cleaned_description3))
+        return self.template_dict  
+    
+    def strip_description(self):
+        for key in self.template_dict:
+            self.template_dict[key] = (self.template_dict[key][0], self.template_dict[key][1].strip(",").strip().strip("'").strip('"'))
     
     def initial_cleanup(self):
         self.fix_typos()
         self.expand_acronyms()
+        self.strip_description()
+        self.special_cleanup()
+        self.strip_description()
+        self.organ_specific_cleanup()
+        self.strip_description()
+        self.remove_duplicate_words()
+        return self.template_dict
+
+    def final_cleanup(self):
+        self.strip_description()
         self.handle_capitalization()
         self.special_capitalization()
         return self.template_dict
-           
+
+    def build_signout_template(self):
+        self.return_dict: dict = {}
+        self.initial_cleanup()
+        self.final_cleanup()
+        for key in self.template_dict:
+            specimen_name = self.template_dict[key][0].strip()
+            template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name.lower())
+            
+            organ = template[0].strip()
+            description = self.template_dict[key][1].strip()
+            procedure = template[1].strip()
+            
+            if description:
+                self.return_dict[key] = (f"{organ.title()}, {description}, {procedure.title()}:")
+            else:
+                self.return_dict[key] = (f"{organ.title()}, {procedure.title()}:")
+            
+            
+        return self.return_dict
+            
 def main():
 
-    test_dict = {'A': ['Breast mastectomy', "Right breast stitch at 12 o'clcok clcok NME"], 'B': ['Breast, margin', 'Rt chest wall margin, stitch at new margin'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
-    
+    test_dict = {'A': ['Breast mastectomy', "mass in right breast stitch at 12 o'clcok clcok NME"], 'B': ['Gastric biopsies', 'Rt stomach, r/o h. pylori'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
     st = SpecimenTemplates()
     sc = SignoutCleanup(template_dict=test_dict)
-    print(sc.initial_cleanup())
+    #print(sc.build_signout_template())
+    st.print_organs()
 
 if __name__ == "__main__":
     main()

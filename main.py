@@ -26,20 +26,14 @@ def test():
     print("Import test: success")
 
 def main():
-    from functions import epic_control
-    from functions import template_handler
-    
-    part = "A"
+    from functions import epic_control, template_handler, process_input
     
     ec = epic_control.EpicControlNative()
     specimen_dict = ec.run_safe_automation()
     print(specimen_dict)
-    description = specimen_dict[part][1]
     
-    st = template_handler.SpecimenTemplates()
-    template = st.specimen_name_to_organ_and_procedure(specimen_name=specimen_dict[part][0].lower())
-    
-    print(template[0], ",", description, ",", template[1])
+    sc = template_handler.SignoutCleanup(template_dict=specimen_dict)
+    print(sc.build_signout_template())
 
 if __name__ == "__main__":
     main()

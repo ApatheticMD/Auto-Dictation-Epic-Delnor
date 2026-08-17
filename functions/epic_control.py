@@ -12,6 +12,7 @@ parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 
 from pywinauto import Application, findwindows
+
 from functions import computer_control
 
 epic_window_name = r"Foundation Production"

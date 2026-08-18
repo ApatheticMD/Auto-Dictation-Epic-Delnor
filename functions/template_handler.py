@@ -43,7 +43,8 @@ acronym_dict: dict = {
     "rt": "right",
     "cmfn": "centimeters from the nipple",
     "nme": "non-mass enhancement",
-    "ecc": "endocervical curettage"
+    "ecc": "endocervical curettage",
+    "@": "at"
 }
 
 all_caps_list: list = [

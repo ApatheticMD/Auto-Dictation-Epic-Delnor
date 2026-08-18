@@ -96,7 +96,7 @@ class EpicControlNative:
     def navigate_to_specimens(self):
         snapshot_tab = self.main_window.child_window(
             title="Snapshot", 
-            auto_id="0|LAB_SXS_DETAIL_SUMMARY_tab_846", 
+            #auto_id="0|LAB_SXS_DETAIL_SUMMARY_tab_846", 
             control_type="TabItem"
         )
         snapshot_tab.wait('visible', timeout=1)
@@ -219,7 +219,6 @@ class EpicControlNative:
             try:
                 if self.get_specimens():
                     if self.process_specimens():
-                        #print(self.process_specimens())
                         return self.process_specimens()
                     else:
                         i += 1
@@ -236,7 +235,8 @@ class EpicControlNative:
 def main():
     ec = EpicControlNative()
     start_time = time.perf_counter()
-    print(ec.run_safe_automation())
+    ec.navigate_to_specimens()
+    #print(ec.run_safe_automation())
     end_time = time.perf_counter()
     print(f"INFO: The script took {end_time - start_time:.4f} seconds to run.")
 

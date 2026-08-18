@@ -26,7 +26,7 @@ def test():
     print("Import test: success")
 
 def main():
-    from functions import epic_control, template_handler, process_input
+    from functions import epic_control, template_handler
     
     ec = epic_control.EpicControlNative()
     specimen_dict = ec.run_safe_automation()

@@ -28,7 +28,7 @@ typo_dict: dict = {
     "o'clcok": "o'clock",
     "o'clokc": "o'clock",
     "junciton": "junction",
-    "heptaic": "hepatic"
+    "heptaic": "hepatic",
 }
 
 acronym_dict: dict = {
@@ -42,7 +42,8 @@ acronym_dict: dict = {
     "lt": "left",
     "rt": "right",
     "cmfn": "centimeters from the nipple",
-    "nme": "non-mass enhancement"
+    "nme": "non-mass enhancement",
+    "ecc": "endocervical curettage"
 }
 
 all_caps_list: list = [
@@ -101,7 +102,7 @@ synonym_dict: dict= {
     'intestine': [''],
     'duodenum': ['duodenal'],
     'ear': [''],
-    'endocervix': [''],
+    'endocervix': ['endocervical'],
     'fallopian tube': [''],
     'endometrium': [''],
     'epidural space': [''],
@@ -429,7 +430,19 @@ class SignoutCleanup:
             if organ == "Intestine":
                 pass
             if organ == "Duodenum":
-                pass
+                description_list = []
+                description = self.template_dict[key][1].lower().strip()
+                description_words = description.split(" ")
+                if "small" and "bowel" in description_words:
+                    for word in description_words:
+                        if word == "small":
+                            pass
+                        elif word == "bowel":
+                            pass
+                        else:
+                            description_list.append(word)
+                    self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
+                    
             if organ == "Ear":
                 pass
             if organ == "Endocervix":
@@ -615,20 +628,25 @@ class SignoutCleanup:
             template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name)
         
             organ = template[0].lower().strip()
-            if organ == "none": organ = None
-            if organ == "other": organ = "***"
+            if organ == "none": 
+                organ = None
+            if organ == "other": 
+                organ = "***"
             organ_words = list(organ.split(" "))
-            organ_words = organ_words + self.synonym_dict[organ]
+            try:
+                organ_words = organ_words + self.synonym_dict[organ]
+            except:
+                pass
             
             description = self.template_dict[key][1].lower().strip()
             description_words = list(description.split(" "))
             
             procedure = template[1].lower().strip()
-            if procedure == "none": procedure = None
-            if procedure == "other": procedure = "***"
+            if procedure == "none": 
+                procedure = None
+            if procedure == "other":
+                procedure = "***"
             procedure_words = list(procedure.split(" "))
-            
-            
             
             cleaned_description1 = self.remove_duplicate_word(organ_words, description_words)
             cleaned_description2 = self.remove_duplicate_word(procedure_words, description_words)
@@ -667,11 +685,23 @@ class SignoutCleanup:
             template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name.lower())
             
             organ = template[0].strip()
+            if organ == "None": 
+                organ = None
+            if organ == "Other": 
+                organ = "***"
             description = self.template_dict[key][1].strip()
             procedure = template[1].strip()
+            if procedure == "None": 
+                procedure = None
+            if procedure == "Other":
+                procedure = "***"
             
-            if description:
+            if description and organ and procedure:
                 self.return_dict[key] = (f"{organ.title()}, {description}, {procedure.title()}:")
+            elif description and procedure:
+                self.return_dict[key] = (f"{description}, {procedure.title()}:")
+            elif description and organ:
+                self.return_dict[key] = (f"{organ.title()}, {description}")
             else:
                 self.return_dict[key] = (f"{organ.title()}, {procedure.title()}:")
             

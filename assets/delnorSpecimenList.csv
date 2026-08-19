@@ -26,7 +26,7 @@ Bladder ,Urologic,Bladder,Radical Cystectomy,Formalin
 Bladder neck ,Urologic,Bladder,Biopsy,Formalin
 Bladder tumor ,Urologic,Bladder,Transurethral Resection of Bladder Tumor,Formalin
 "Bladder, biopsy ",Urologic,Bladder,Biopsy,Formalin
-Body Fluid ,Cytology,Body fluid,Aspiration,None
+Body Fluid ,Cytology,Body fluid,Cytology,None
 Bone ,Orthopedic,Bone,Biopsy,Formalin
 Bone fragment ,Orthopedic,Bone,Biopsy,Formalin
 "Bone, biopsy ",Orthopedic,Bone,Biopsy,Formalin

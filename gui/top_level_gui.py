@@ -1,12 +1,15 @@
 import sys
 import os
-import  inspect
+import inspect
+import time
+import keyboard
 
 import customtkinter as tk
 import pywinstyles
 import ctypes
 import cv2
 import PIL
+import pyautogui
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
@@ -45,7 +48,6 @@ class TopLevelGUI:
         self.screen_height = int(self.root.winfo_screenheight() / self.scale_factor)
         self.active_frame_name = None
         self.scheduled_callbacks = []
-        self.option = None
         
         self.icon_frames = self.extract_frames_from_video(resource_path('gui/assets/animated_icon.mp4'), 32, 32)
         self.icon_frame = 1
@@ -75,8 +77,8 @@ class TopLevelGUI:
         
     def configure_ui(self):
         self.root.title("Auto Dictation")
-        self.full_width = int(self.screen_width * 0.8)
-        self.full_height = int(self.screen_height * 0.8)
+        self.full_width = int(self.screen_width * 0.5)
+        self.full_height = int(self.screen_height * 0.5)
         x_gap = int(self.root.winfo_screenwidth() * 0.1)
         y_gap = int(self.screen_height * 0.1)
         self.root.geometry(f"{self.full_width}x{self.full_height}+{x_gap}+{y_gap}")
@@ -100,7 +102,10 @@ class TopLevelGUI:
         self.label.pack(side="top", fill="both", padx=10, pady=10)
 
         buttons = [
-            ("Signout Template", lambda: self.show_frame('Signout Template', signout_only=True)),
+            ("Signout Microscope", lambda: self.show_frame('Signout Template-M', signout_only=True, microscope_comment=True)),
+            ("Signout Microscope and Digital", lambda: self.show_frame('Signout Template-MD', signout_only=True, microscope_comment=True, digital_comment=True)),
+            ("Signout Digital", lambda: self.show_frame('Signout Template-D', signout_only=True, digital_comment=True)),
+            ("Signout No Micro Comment", lambda: self.show_frame('Signout Template-None', signout_only=True)),
         ]
 
         for text, command in buttons:
@@ -123,15 +128,20 @@ class TopLevelGUI:
             #button.pack(pady=10, padx=10, anchor="w")
             pass
     
-    def show_frame(self, frame_name, signout_only=False):
+    def show_frame(self, frame_name, signout_only=False, microscope_comment=False, digital_comment=False):
+        self.micro_comment = None
+        if microscope_comment and not digital_comment:
+            self.micro_comment = 0
+        if microscope_comment and digital_comment:
+            self.micro_comment = 1
+        if digital_comment and not microscope_comment:
+            self.micro_comment = 2
         if self.active_frame_name == frame_name:
-            # If the same button is pressed, toggle the frame off
             if self.active_frame:
                 self.active_frame.destroy()
                 self.active_frame = None
                 self.active_frame_name = None
         else:
-            # If a different button is pressed, replace the current frame
             try:
                 if self.active_frame:
                     self.active_frame.destroy()
@@ -146,37 +156,31 @@ class TopLevelGUI:
             self.active_frame_name = frame_name
             
             if signout_only:
-                self.option = "signout"
                 self.signout_only()
             else:
                 self.active_frame_label = tk.CTkLabel(self.active_frame, text="", font=tk.CTkFont(size=20))
                 self.active_frame_label.pack(pady=20)
     
     def signout_only(self):
-        self.ok_clicked()
-        #self.description_label = tk.CTkLabel(self.active_frame, text="Signout Template Builder", font=tk.CTkFont(size=20))
-        #self.description_label.pack(pady=10)
+        self.description_label = tk.CTkLabel(self.active_frame, text="Signout Template Builder", font=tk.CTkFont(size=20))
+        self.description_label.pack(pady=10)
         
-        #self.barcode_label = tk.CTkLabel(self.active_frame, text="Run Signout Template Auto Dictation?", font=tk.CTkFont(size=14))
-        #self.barcode_label.pack(pady=10)
+        self.label_name = "Run Signout Template Auto Dictation?"
+        if self.micro_comment == 0:
+            self.label_name = self.label_name + "\n\nMicroscope review only comment"
+        if self.micro_comment == 1:
+            self.label_name = self.label_name + "\n\nUse of microscope and digital comment"
+        if self.micro_comment == 2:
+            self.label_name = self.label_name + "\n\nDigital review only comment"
+        if self.micro_comment == None:
+            self.label_name = self.label_name + "\n\nNo microscopic description comment"
         
-        #self.create_ok_cancel(self.active_frame)
+        self.barcode_label = tk.CTkLabel(self.active_frame, text=self.label_name, font=tk.CTkFont(size=14))
+        self.barcode_label.pack(pady=10)
         
-        #self.barcode_entry = tk.CTkEntry(self.active_frame)
-        #self.barcode_entry.focus_set()
-        #self.barcode_entry.pack(pady=10)
-        #self.barcode_entry.bind('<Return>', lambda event: self.retrieve_barcode())
-        #self.barcode_entry.focus_set()
-        
-    def create_ok_cancel(self, frame):
-        self.buttonframe = tk.CTkFrame(frame)
-        self.buttonframe.columnconfigure(0, weight=1)
-        self.buttonframe.columnconfigure(1, weight=1)
-        self.okbutton = tk.CTkButton(self.buttonframe, text="OK", command=self.ok_clicked)
-        self.okbutton.grid(row=1, column=0)
-        self.cancelbutton = tk.CTkButton(self.buttonframe, text="Cancel", command=self.cancel_clicked)
-        self.cancelbutton.grid(row=1, column=1)
-        self.buttonframe.pack(side="bottom", ipadx=15, padx=5, pady=20, fill="both", expand=False)
+        self.barcode_button = tk.CTkButton(self.active_frame, text="OK", command=self.ok_clicked)
+        self.barcode_button.pack(pady=10)
+        self.barcode_button.bind('<Return>', lambda event: self.ok_clicked())
         
     def ok_clicked(self):
         ec = epic_control.EpicControlNative()
@@ -185,13 +189,28 @@ class TopLevelGUI:
             print(f"INFO: Specimen information extracted:\n{specimen_dict}")
         except:
             print(f"ERROR: Unable to obtain specimen information. Please ensure Epic is opened and try again.")
-            pass
+            return False
         try:
             sc = template_handler.SignoutCleanup(template_dict=specimen_dict)
+            dictation_template = sc.build_signout_template()
             print(f"INFO: Cleaned specimen template:\n{sc.build_signout_template()}")
         except:
             print(f"ERROR: Unable to build the signout dictation. Please try again.")
-            pass
+            return False
+        dictation_string = sc.signout_dict_to_string()
+        start_pos = pyautogui.position()
+        if not self.micro_comment == None:
+            ec.select_drop_down_template(box_hotkey="alt+6", down_press=(self.micro_comment + 1))
+        time.sleep(0.01)
+        keyboard.press_and_release('alt+1')
+        ec.input_dictation(box_hotkey="alt+1", dictation=dictation_string)
+        time.sleep(0.01)
+        keyboard.press_and_release('ctrl+a')
+        time.sleep(0.01)
+        keyboard.press_and_release('ctrl+b')
+        time.sleep(0.01)
+        keyboard.press_and_release('f2')
+        pyautogui.moveTo(start_pos)
         
     def cancel_clicked(self):
         self.return_dict.clear()

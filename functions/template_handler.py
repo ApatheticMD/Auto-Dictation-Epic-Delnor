@@ -101,7 +101,7 @@ synonym_dict: dict= {
     'spine': [''],
     'pancreas': [''],
     'intestine': [''],
-    'duodenum': ['duodenal'],
+    'duodenum': ['duodenal', 'small bowel'],
     'ear': [''],
     'endocervix': ['endocervical'],
     'fallopian tube': [''],
@@ -702,20 +702,24 @@ class SignoutCleanup:
             elif description and procedure:
                 self.return_dict[key] = (f"{description}, {procedure.title()}:")
             elif description and organ:
-                self.return_dict[key] = (f"{organ.title()}, {description}")
+                self.return_dict[key] = (f"{organ.title()}, {description}:")
             else:
                 self.return_dict[key] = (f"{organ.title()}, {procedure.title()}:")
-            
-            
         return self.return_dict
+    
+    def signout_dict_to_string(self):
+        return_string = ""
+        for key in self.return_dict:
+            return_string = return_string + f"{key}: {self.return_dict[key]}\n   -***\n\n"
+        return return_string.strip()
             
 def main():
 
     test_dict = {'A': ['Breast mastectomy', "mass in right breast stitch at 12 o'clcok clcok NME"], 'B': ['Gastric biopsies', 'Rt stomach, r/o h. pylori'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
     st = SpecimenTemplates()
     sc = SignoutCleanup(template_dict=test_dict)
-    #print(sc.build_signout_template())
-    st.print_organs()
+    sc.build_signout_template()
+    print(sc.signout_dict_to_string())
 
 if __name__ == "__main__":
     main()

@@ -6,6 +6,9 @@ import threading
 import pyautogui
 import re
 import pyperclip
+import ctypes
+import pynput
+import keyboard
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
@@ -76,7 +79,6 @@ class EpicControlNative:
     def reactivate_epic(self):
         hwnd = self.epic_handle()
         if hwnd:
-            import ctypes
             ctypes.windll.user32.ShowWindow(hwnd, 3)
             ctypes.windll.user32.SetForegroundWindow(hwnd)
 
@@ -143,10 +145,14 @@ class EpicControlNative:
     def copy_all_specimens(self):
         for _ in range(4):
             pyautogui.press('down')
+        time.sleep(0.01)
         pyautogui.press('enter')
           
     def get_specimens(self):
         status = None
+        if not self.check_epic_active():
+            print(f"INFO: Epic not currently focused, reactivating window.")
+            self.reactivate_epic()
         try:
             status = self.click_specimens()
         except:
@@ -217,6 +223,7 @@ class EpicControlNative:
         i=0
         while i < 3:
             try:
+                self.check_epic_active()
                 if self.get_specimens():
                     if self.process_specimens():
                         return self.process_specimens()
@@ -231,12 +238,49 @@ class EpicControlNative:
             finally:
                 stop_event.set()
                 monitor_thread.join()
-            
+    
+    def input_dictation(self, box_hotkey, dictation):
+        try:
+            self.reactivate_epic()
+            mouse_listener = pynput.mouse.Listener(suppress=True)
+            mouse_listener.start()
+            keyboard.press_and_release(box_hotkey)
+            time.sleep(0.05)
+            keyboard.press_and_release("ctrl+a")
+            time.sleep(0.05)
+            computer_control.set_clipboard(dictation)
+            keyboard.press_and_release('ctrl+v')
+            time.sleep(0.05)
+        finally:
+            mouse_listener.stop()
+    
+    def select_drop_down_template(self, box_hotkey, down_press):
+        try:
+            self.reactivate_epic()
+            mouse_listener = pynput.mouse.Listener(suppress=True)
+            mouse_listener.start()
+            keyboard.press_and_release(box_hotkey)
+            time.sleep(0.05)
+            keyboard.press_and_release('ctrl+home')
+            time.sleep(0.05)
+            keyboard.press_and_release("shift+right")
+            time.sleep(0.05)
+            keyboard.press_and_release("enter")
+            time.sleep(0.05)
+            for _ in range(down_press): 
+                keyboard.press_and_release("down")
+                time.sleep(0.05)
+            keyboard.press_and_release("enter")
+            time.sleep(0.05)
+        finally:
+            mouse_listener.stop()
+
 def main():
     ec = EpicControlNative()
     start_time = time.perf_counter()
-    ec.navigate_to_specimens()
+    #ec.navigate_to_specimens()
     #print(ec.run_safe_automation())
+    ec.select_drop_down_template("alt+6", 3)
     end_time = time.perf_counter()
     print(f"INFO: The script took {end_time - start_time:.4f} seconds to run.")
 

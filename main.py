@@ -2,6 +2,8 @@ import sys
 import os
 from ctypes import windll
 
+from gui import top_level_gui
+
 windll.user32.ShowWindow(windll.kernel32.GetConsoleWindow(), 1)
 
 def resource_path(relative_path):
@@ -26,14 +28,7 @@ def test():
     print("Import test: success")
 
 def main():
-    from functions import epic_control, template_handler
-    
-    #ec = epic_control.EpicControlNative()
-    #specimen_dict = ec.run_safe_automation()
-    #print(specimen_dict)
-    
-    #sc = template_handler.SignoutCleanup(template_dict=specimen_dict)
-    #print(sc.build_signout_template())
+    gui = top_level_gui.TopLevelGUI()
 
 if __name__ == "__main__":
     main()

@@ -2,14 +2,15 @@ import sys
 import os
 import inspect
 import time
-import keyboard
+import ctypes
 
 import customtkinter as tk
 import pywinstyles
-import ctypes
 import cv2
 import PIL
 import pyautogui
+import screeninfo
+import keyboard
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
@@ -43,6 +44,13 @@ class TopLevelGUI:
         self.root = tk.CTk()
         tk.set_default_color_theme("dark-blue")
         tk.set_appearance_mode("dark")
+        
+        monitors = screeninfo.get_monitors()
+        if len(monitors) > 1:
+            self.target_monitor = monitors[1]
+        else:
+            self.target_monitor = monitors[0]
+            
         self.scale_factor = ctypes.windll.shcore.GetScaleFactorForDevice(0) / 100
         self.screen_width = int(self.root.winfo_screenwidth() / self.scale_factor)
         self.screen_height = int(self.root.winfo_screenheight() / self.scale_factor)
@@ -75,13 +83,15 @@ class TopLevelGUI:
         print("INFO: Completed UI configuration.")
         self.root.mainloop()
         
-    def configure_ui(self):
+    def configure_ui(self):            
         self.root.title("Auto Dictation")
         self.full_width = int(self.screen_width * 0.5)
         self.full_height = int(self.screen_height * 0.5)
         x_gap = int(self.root.winfo_screenwidth() * 0.1)
         y_gap = int(self.screen_height * 0.1)
-        self.root.geometry(f"{self.full_width}x{self.full_height}+{x_gap}+{y_gap}")
+        x_pos = self.target_monitor.x + (self.target_monitor.width//2) - (self.full_width//2)
+        y_pos = self.target_monitor.y + (self.target_monitor.height//2) - (self.full_height//2)
+        self.root.geometry(f"{self.full_width}x{self.full_height}+{x_pos}+{y_pos}")
 
         self.main_frame = self.create_main_frame(self.full_width, self.full_height)
         
@@ -193,7 +203,6 @@ class TopLevelGUI:
         try:
             sc = template_handler.SignoutCleanup(template_dict=specimen_dict)
             dictation_template = sc.build_signout_template()
-            print(f"INFO: Cleaned specimen template:\n{sc.build_signout_template()}")
         except:
             print(f"ERROR: Unable to build the signout dictation. Please try again.")
             return False

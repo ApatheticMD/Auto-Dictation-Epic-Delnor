@@ -3,16 +3,19 @@ import os
 import time
 
 import cv2
+print(f"SETUP: Importing numpy.")
 import numpy as np
 import pyautogui
 import time
 import os
 
+print(f"SETUP: Importing win32 utilities.")
 from win32clipboard import OpenClipboard, GetClipboardData, CloseClipboard, EmptyClipboard, SetClipboardText
-from keyboard import press_and_release
-from pywinauto import Desktop
 from win32gui import GetWindowText, GetForegroundWindow, SetForegroundWindow, ShowWindow
 from win32con import SW_MAXIMIZE
+from keyboard import press_and_release
+from pywinauto import Desktop
+print(f"SETUP: Importing pathlib.")
 from pathlib import Path
 from PIL import Image, ImageGrab
 from screeninfo import get_monitors

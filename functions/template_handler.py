@@ -1,5 +1,6 @@
 import sys
 import os
+print(f"SETUP: Importing csv.")
 import csv
 
 def resource_path(relative_path):
@@ -141,6 +142,7 @@ synonym_dict: dict= {
     'omentum': [''],
     'orbital cavity': [''],
     'ovary and fallopian tubes': [''],
+    'pancreas, duodenum, and stomach': [''],
     'parathyroid gland': [''],
     'parotid gland': [''],
     'penis': [''],
@@ -186,7 +188,6 @@ synonym_dict: dict= {
     'vas deferens': [''],
     'vocal cord': [''],
     'vulva': [''],
-    'pancreas, duodenum, and stomach': [''],
 }
 
 class SpecimenTemplates:
@@ -206,9 +207,13 @@ class SpecimenTemplates:
                 specimen_type = row[1].lower().strip()
                 organ = row[2].strip()
                 procedure = row[3].lower().strip()
-                gross_default = row[4].lower().strip()
+                if row[4] == "None":
+                    smartlist = None
+                else:
+                    smartlist = row[4].strip()
+                gross_default = row[5].lower().strip()
                 
-                temp_dict[specimen_name] = specimen_type,organ,procedure,gross_default
+                temp_dict[specimen_name] = specimen_type, organ, procedure, smartlist, gross_default
         self.specimen_dict = temp_dict        
         return self.specimen_dict
     
@@ -253,6 +258,20 @@ class SpecimenTemplates:
         self.specimen_organ_and_procedure = specimen_info_list[1], specimen_info_list[2]
         return  self.specimen_organ_and_procedure
     
+    def specimen_name_to_smartlist(self, specimen_name):
+            
+        self.smartlist = []
+        
+        try:
+            specimen_info_list = self.specimen_dict[specimen_name.lower()]
+        except:
+            print(f"ERROR in specimen_name_to_smartlist: Specimen name ({specimen_name}) not found in the specimen list.")
+            self.smartlist = [None]
+            return self.smartlist
+        
+        self.smartlist = specimen_info_list[3]
+        return  self.smartlist
+    
     def print_organs(self):
         organ_list = []
         for key in self.specimen_dict:
@@ -261,7 +280,6 @@ class SpecimenTemplates:
                 organ_list.append(organ)
                 print(organ)
         
-
 class SignoutCleanup:
         
     def __init__(self, template_dict):
@@ -345,6 +363,15 @@ class SignoutCleanup:
             elif "r/o" in description:
                 description = description.split("r/o")
                 self.template_dict[key] = self.template_dict[key][0], description[0]
+                
+            description = self.template_dict[key][1].lower()
+            temp_list = []
+            description_words = description.split(" ")
+            for word in description_words:
+                if word == "biopsies":
+                    word = "biopsy"
+                temp_list.append(word)
+            self.template_dict[key] = self.template_dict[key][0], (" ").join(temp_list)
     
     def organ_specific_cleanup(self):
         for key in self.template_dict:
@@ -637,21 +664,48 @@ class SignoutCleanup:
             try:
                 organ_words = organ_words + self.synonym_dict[organ]
             except:
-                pass
+                organ_words = [""]
             
             description = self.template_dict[key][1].lower().strip()
             description_words = list(description.split(" "))
             
             procedure = template[1].lower().strip()
-            if procedure == "none": 
-                procedure = None
+            try:
+                procedure_words = list(procedure.split(" "))
+            except:
+                procedure_words = [""]
+                
             if procedure == "other":
                 procedure = "***"
-            procedure_words = list(procedure.split(" "))
-            
-            cleaned_description1 = self.remove_duplicate_word(organ_words, description_words)
-            cleaned_description2 = self.remove_duplicate_word(procedure_words, description_words)
-            cleaned_description3 = self.keep_duplicate_word(cleaned_description1, cleaned_description2)
+                            
+            if procedure == "none": 
+                procedure = None
+                try:
+                    cleaned_description1 = self.remove_duplicate_word(organ_words, description_words)
+                    self.template_dict[key] = (self.template_dict[key][0], (" ").join(cleaned_description1))
+                    return self.template_dict
+                except:
+                    return None
+                
+            if organ == None:
+                try:
+                    cleaned_description2 = self.remove_duplicate_word(procedure_words, description_words)
+                    self.template_dict[key] = (self.template_dict[key][0], (" ").join(cleaned_description2))
+                    return self.template_dict
+                except:
+                    return None
+            try:
+                cleaned_description1 = self.remove_duplicate_word(organ_words, description_words)
+            except:
+                cleaned_description1 = None
+            try:
+                cleaned_description2 = self.remove_duplicate_word(procedure_words, description_words)
+            except:
+                cleaned_description2 = None
+            try:
+                cleaned_description3 = self.keep_duplicate_word(cleaned_description1, cleaned_description2)
+            except:
+                cleaned_description3 = None
             
             self.template_dict[key] = (self.template_dict[key][0], (" ").join(cleaned_description3))
         return self.template_dict  
@@ -686,17 +740,18 @@ class SignoutCleanup:
             template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name.lower())
             
             organ = template[0].strip()
-            if organ == "None": 
-                organ = None
-            if organ == "Other": 
+            if organ.lower() == "other": 
                 organ = "***"
+            if organ.lower() == "none": 
+                organ = None
             description = self.template_dict[key][1].strip()
             procedure = template[1].strip()
-            if procedure == "None": 
-                procedure = None
-            if procedure == "Other":
+            if procedure.lower() == "other":
                 procedure = "***"
+            if procedure.lower() == "none": 
+                procedure = None
             
+            print(f"test1: {description}, {organ}, {procedure}")
             if description and organ and procedure:
                 self.return_dict[key] = (f"{organ.title()}, {description}, {procedure.title()}:")
             elif description and procedure:
@@ -705,17 +760,30 @@ class SignoutCleanup:
                 self.return_dict[key] = (f"{organ.title()}, {description}:")
             else:
                 self.return_dict[key] = (f"{organ.title()}, {procedure.title()}:")
+        print(f"test2: {self.return_dict}")
         return self.return_dict
+    
+    def pull_smartlist(self, specimen_name):
+        smartlist = None
+        smartlist = self.st.specimen_name_to_smartlist(specimen_name)
+        return smartlist
     
     def signout_dict_to_string(self):
         return_string = ""
         for key in self.return_dict:
-            return_string = return_string + f"{key}: {self.return_dict[key]}\n   -***\n\n"
+            specimen_name = self.template_dict[key][0].strip()
+            smartlist = self.pull_smartlist(specimen_name)
+            if smartlist:
+                print(f"INFO: Smartlist identified for specimen({specimen_name}): {smartlist}")
+                return_string = return_string + f"{key}: {self.return_dict[key]}\n   -{smartlist}\n\n"
+            else:
+                print(f"INFO: No smartlist identified for specimen ({specimen_name})")
+                return_string = return_string + f"{key}: {self.return_dict[key]}\n   -***\n\n"
         return return_string.strip()
             
 def main():
 
-    test_dict = {'A': ['Breast mastectomy', "mass in right breast stitch at 12 o'clcok clcok NME"], 'B': ['Gastric biopsies', 'Rt stomach, r/o h. pylori'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
+    test_dict = {'A': ('Placenta (28+ weeks)', '37.4 Week'), 'B': ['Gastric biopsies', 'Rt stomach, r/o h. pylori'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
     st = SpecimenTemplates()
     sc = SignoutCleanup(template_dict=test_dict)
     sc.build_signout_template()

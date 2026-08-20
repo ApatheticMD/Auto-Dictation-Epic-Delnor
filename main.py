@@ -1,10 +1,17 @@
+print(f"SETUP: Importing sys.")
 import sys
+print(f"SETUP: Importing os.")
 import os
+print(f"SETUP: Importing ctypes.")
 from ctypes import windll
 
+print(f"SETUP: Importing top_level_gui.")
 from gui import top_level_gui
 
+print(f"SETUP: Establishing windows.")
 windll.user32.ShowWindow(windll.kernel32.GetConsoleWindow(), 1)
+
+print(f"SETUP: Setup complete.")
 
 def resource_path(relative_path):
     """

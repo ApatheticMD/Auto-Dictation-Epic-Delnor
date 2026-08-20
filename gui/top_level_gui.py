@@ -1,22 +1,34 @@
 import sys
 import os
+print(f"SETUP: Importing inspect.")
 import inspect
+print(f"SETUP: Importing time.")
 import time
 import ctypes
-
+print(f"SETUP: Importing customtkinter.")
 import customtkinter as tk
+print(f"SETUP: Importing pywinstyles.")
 import pywinstyles
 import cv2
+print(f"SETUP: Importing pillow.")
 import PIL
+print(f"SETUP: Importing pyautogui.")
 import pyautogui
+print(f"SETUP: Importing screeninfo.")
 import screeninfo
+print(f"SETUP: Importing keyboard.")
 import keyboard
 
+print(f"SETUP: Stabilizing path.")
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 
-from functions import template_handler, epic_control
+print(f"SETUP: Importing template_handler.")
+from functions import template_handler
+
+print(f"SETUP: Importing epic_control.")
+from functions import epic_control
 
 ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 
@@ -204,7 +216,8 @@ class TopLevelGUI:
             sc = template_handler.SignoutCleanup(template_dict=specimen_dict)
             dictation_template = sc.build_signout_template()
         except:
-            print(f"ERROR: Unable to build the signout dictation. Please try again.")
+            dictation_template = None
+            print(f"ERROR: Unable to build the signout dictation. Please try again. \n specimen_dict: {specimen_dict}\n dictation_template: {dictation_template}")
             return False
         dictation_string = sc.signout_dict_to_string()
         start_pos = pyautogui.position()

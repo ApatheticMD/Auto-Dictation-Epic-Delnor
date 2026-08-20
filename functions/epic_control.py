@@ -1,12 +1,18 @@
 import sys
 import os
+print(f"SETUP: Importing inspect.")
 import inspect
+print(f"SETUP: Importing time.")
 import time
+print(f"SETUP: Importing threading.")
 import threading
 import pyautogui
+print(f"SETUP: Importing regex.")
 import re
+print(f"SETUP: Importing pyperclip.")
 import pyperclip
 import ctypes
+print(f"SETUP: Importing pynput.")
 import pynput
 import keyboard
 
@@ -14,8 +20,10 @@ currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentfram
 parentdir = os.path.dirname(currentdir)
 sys.path.insert(0, parentdir)
 
+print(f"SETUP: Importing pywinauto.")
 from pywinauto import Application, findwindows
 
+print(f"SETUP: Importing computer_control.")
 from functions import computer_control
 
 epic_window_name = r"Foundation Production"
@@ -98,7 +106,6 @@ class EpicControlNative:
     def navigate_to_specimens(self):
         snapshot_tab = self.main_window.child_window(
             title="Snapshot", 
-            #auto_id="0|LAB_SXS_DETAIL_SUMMARY_tab_846", 
             control_type="TabItem"
         )
         snapshot_tab.wait('visible', timeout=1)
@@ -120,6 +127,7 @@ class EpicControlNative:
         computer_control.empty_clipboard()
         self.click_specimen_coords()
         self.copy_all_specimens()
+        time.sleep(0.05)
         
         try:
             raw_clipboard = pyperclip.paste()
@@ -127,6 +135,7 @@ class EpicControlNative:
             print(f"ERROR: Error accessing clipboard: {e}")
         
         if not raw_clipboard:
+            print(f"WARN: Unable to grab specimen information from the clipboard during click_specimens.")
             return False
         
         self.raw_clipboard = raw_clipboard
@@ -153,10 +162,12 @@ class EpicControlNative:
         if not self.check_epic_active():
             print(f"INFO: Epic not currently focused, reactivating window.")
             self.reactivate_epic()
+            time.sleep(0.05)
         try:
             status = self.click_specimens()
         except:
             try:
+                print(f"WARN: Issue right clicking specimens.")
                 self.wait_if_paused()
                 self.navigate_to_specimens()
                 self.wait_if_paused()
@@ -165,6 +176,7 @@ class EpicControlNative:
             except Exception as e:
                 print(f"ERROR: Execution failed: {e}")
                 print(f"INFO: Please ensure Epic is opened and a case is selected and re-run program.")
+        print(f"INFO: get_specimens status: {status}")
         return status
 
     def process_specimens(self):
@@ -279,8 +291,8 @@ def main():
     ec = EpicControlNative()
     start_time = time.perf_counter()
     #ec.navigate_to_specimens()
-    #print(ec.run_safe_automation())
-    ec.select_drop_down_template("alt+6", 3)
+    print(ec.run_safe_automation())
+    #ec.select_drop_down_template("alt+6", 3)
     end_time = time.perf_counter()
     print(f"INFO: The script took {end_time - start_time:.4f} seconds to run.")
 

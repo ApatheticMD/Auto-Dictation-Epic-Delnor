@@ -208,7 +208,7 @@ class TopLevelGUI:
         ec = epic_control.EpicControlNative()
         try:
             specimen_dict = ec.run_safe_automation()
-            print(f"INFO: Specimen information extracted:\n{specimen_dict}")
+            print(f"INFO: Specimen information extracted:\n  {specimen_dict}")
         except:
             print(f"ERROR: Unable to obtain specimen information. Please ensure Epic is opened and try again.")
             return False
@@ -217,7 +217,7 @@ class TopLevelGUI:
             dictation_template = sc.build_signout_template()
         except:
             dictation_template = None
-            print(f"ERROR: Unable to build the signout dictation. Please try again. \n specimen_dict: {specimen_dict}\n dictation_template: {dictation_template}")
+            print(f"ERROR: Unable to build the signout dictation. Please try again. \n  specimen_dict: {specimen_dict}\n  dictation_template: {dictation_template}")
             return False
         dictation_string = sc.signout_dict_to_string()
         start_pos = pyautogui.position()

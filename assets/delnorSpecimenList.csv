@@ -1,4 +1,4 @@
-﻿Specimen_Name,Specimen_Type,Organ,Procedure,Smartlist,Gross_Default
+﻿n,Specimen_Type,Organ,Procedure,Smartlist,Gross_Default
 Abscess ,Miscellaneous,None,Aspiration,None,Fresh
 Adenoid biopsy ,ENT,Adenoids,Biopsy,None,Formalin
 Adenoid(s) ,ENT,Adenoids,Adenoidectomy,None,Formalin
@@ -181,7 +181,7 @@ Nail/nail bed ,Dermatologic,Nail,Clipping,None,Fresh
 "Nasal, septum ",ENT,Sinonasal Cavity,Septoplasty,None,Formalin
 "Nasal, turbinates ",ENT,Sinonasal Cavity,Turbinatectomy,None,Formalin
 Nasolacrimal duct ,Ophthalmalogic,Nasolacrimal Duct,Excision,None,Formalin
-"Needle Biopsy, NOS ",Miscellaneous,Other,Biopsy,None,Formalin
+"Needle Biopsy, NOS ",Miscellaneous,None,Biopsy,None,Formalin
 Nerve ,Soft Tissue,Nerve,Excision,None,Formalin
 "Nerve, biopsy ",Soft Tissue,Nerve,Biopsy,None,Formalin
 Neuroma ,Soft Tissue,Soft Tissue,Excision,None,Formalin

@@ -200,6 +200,10 @@
   {
    "optionDest": "hiddenimports",
    "value": "win32con"
+  },
+  {
+   "optionDest": "hiddenimports",
+   "value": "getpass"
   }
  ],
  "nonPyinstallerOptions": {

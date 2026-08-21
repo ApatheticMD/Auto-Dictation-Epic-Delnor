@@ -3,6 +3,8 @@ import os
 print(f"SETUP: Importing csv.")
 import csv
 
+from functions import computer_control
+
 def resource_path(relative_path):
     """
     Takes in the relative_path of the file, and converts if needed to allow compiling.
@@ -45,7 +47,8 @@ acronym_dict: dict = {
     "cmfn": "centimeters from the nipple",
     "nme": "non-mass enhancement",
     "ecc": "endocervical curettage",
-    "@": "at"
+    "@": "at",
+    "emb": "endometrial biopsy",
 }
 
 all_caps_list: list = [
@@ -106,7 +109,7 @@ synonym_dict: dict= {
     'ear': [''],
     'endocervix': ['endocervical'],
     'fallopian tube': [''],
-    'endometrium': [''],
+    'endometrium': ['endometrial'],
     'epidural space': [''],
     'epiglottis': [''],
     'esophagus': ['esophageal'],
@@ -314,10 +317,10 @@ class SignoutCleanup:
             description = self.template_dict[key][1]
             description_words = description.split(" ")
             for word in description_words:
-                check_word = word.lower()
-                if word in acronym_list:
+                check_word = word.lower().strip().strip(",").strip("'").strip('"').strip(".")
+                if check_word in acronym_list:
                     print(f"INFO: Expanded an identified acronym: '{word}' corrected to '{self.acronym_dict[check_word]}'")
-                    description_list.append(self.acronym_dict[word])
+                    description_list.append(self.acronym_dict[check_word])
                 else:
                     description_list.append(word)
                 self.template_dict[key] = (self.template_dict[key][0], (" ").join(description_list))
@@ -660,8 +663,8 @@ class SignoutCleanup:
                 organ = None
             if organ == "other": 
                 organ = "***"
-            organ_words = list(organ.split(" "))
             try:
+                organ_words = list(organ.split(" "))
                 organ_words = organ_words + self.synonym_dict[organ]
             except:
                 organ_words = [""]
@@ -733,25 +736,24 @@ class SignoutCleanup:
 
     def build_signout_template(self):
         self.return_dict: dict = {}
-        self.initial_cleanup()
-        self.final_cleanup()
+        print(f"INFO: Initial cleanup: {self.initial_cleanup()}")
+        print(f"INFO: Final cleanup: {self.final_cleanup()}")
         for key in self.template_dict:
             specimen_name = self.template_dict[key][0].strip()
             template = self.st.specimen_name_to_organ_and_procedure(specimen_name=specimen_name.lower())
-            
             organ = template[0].strip()
             if organ.lower() == "other": 
                 organ = "***"
             if organ.lower() == "none": 
                 organ = None
             description = self.template_dict[key][1].strip()
+            
             procedure = template[1].strip()
             if procedure.lower() == "other":
                 procedure = "***"
             if procedure.lower() == "none": 
                 procedure = None
             
-            print(f"test1: {description}, {organ}, {procedure}")
             if description and organ and procedure:
                 self.return_dict[key] = (f"{organ.title()}, {description}, {procedure.title()}:")
             elif description and procedure:
@@ -760,7 +762,6 @@ class SignoutCleanup:
                 self.return_dict[key] = (f"{organ.title()}, {description}:")
             else:
                 self.return_dict[key] = (f"{organ.title()}, {procedure.title()}:")
-        print(f"test2: {self.return_dict}")
         return self.return_dict
     
     def pull_smartlist(self, specimen_name):
@@ -770,20 +771,25 @@ class SignoutCleanup:
     
     def signout_dict_to_string(self):
         return_string = ""
+        signout_format = "\t–"
+        if computer_control.get_username() == "NM347247":
+            print(f"Greetings, Creator")
+            signout_format = "   -"
         for key in self.return_dict:
             specimen_name = self.template_dict[key][0].strip()
             smartlist = self.pull_smartlist(specimen_name)
             if smartlist:
                 print(f"INFO: Smartlist identified for specimen({specimen_name}): {smartlist}")
-                return_string = return_string + f"{key}: {self.return_dict[key]}\n   -{smartlist}\n\n"
+                return_string = return_string + f"{key}: {self.return_dict[key]}\n{signout_format}{smartlist}\n\n"
             else:
                 print(f"INFO: No smartlist identified for specimen ({specimen_name})")
-                return_string = return_string + f"{key}: {self.return_dict[key]}\n   -***\n\n"
+                return_string = return_string + f"{key}: {self.return_dict[key]}\n{signout_format}***\n\n"
         return return_string.strip()
             
 def main():
 
     test_dict = {'A': ('Placenta (28+ weeks)', '37.4 Week'), 'B': ['Gastric biopsies', 'Rt stomach, r/o h. pylori'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
+    test_dict = {'A': ['Needle Biopsy, NOS', 'Right lung lesion']}
     st = SpecimenTemplates()
     sc = SignoutCleanup(template_dict=test_dict)
     sc.build_signout_template()

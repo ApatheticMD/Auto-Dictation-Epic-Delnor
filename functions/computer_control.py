@@ -8,6 +8,8 @@ import numpy as np
 import pyautogui
 import time
 import os
+print(f"SETUP: Importing getpass.")
+import getpass
 
 print(f"SETUP: Importing win32 utilities.")
 from win32clipboard import OpenClipboard, GetClipboardData, CloseClipboard, EmptyClipboard, SetClipboardText
@@ -120,6 +122,15 @@ def activate_window(handle):
     SetForegroundWindow(handle)
     ShowWindow(handle, SW_MAXIMIZE)
     SetForegroundWindow(handle)
+    
+def get_username():
+    try:
+        username = getpass.getuser()
+        print(f"INFO: Username = {username}")
+    except:
+        username = None
+        print(f"WARN: Username not found.")
+    return username
 
 def search_screen(image_path, threshold=0.9):
     loc=False
@@ -277,6 +288,7 @@ def search_and_click(image_path, method=cv2.TM_CCOEFF_NORMED, confidence_thresho
 
 def main():
     list_windows()
+    print(get_username())
       
 if __name__ == "__main__":
     main()

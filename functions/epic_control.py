@@ -113,14 +113,15 @@ class EpicControlNative:
         
         summary_btn = self.main_window.child_window(title="Summary", control_type="Button")
         summary_btn.wait('visible', timeout=1)
-        time.sleep(0.2)
+        print(f"INFO: toggling button: {summary_btn.toggle()}")
+        #time.sleep(0.2)
 
-        rect = summary_btn.rectangle()
-        click_x = rect.left + (rect.width() // 2)
-        click_y = rect.top + (rect.height() // 2)
+        #rect = summary_btn.rectangle()
+        #click_x = rect.left + (rect.width() // 2)
+        #click_y = rect.top + (rect.height() // 2)
         
-        pyautogui.click(click_x, click_y, duration=0.1)
-        time.sleep(0.8)
+        #pyautogui.click(click_x, click_y, duration=0.1)
+        time.sleep(0.05)
 
     def click_specimens(self):
         raw_clipboard = None
@@ -144,25 +145,33 @@ class EpicControlNative:
     def click_specimen_coords(self):
         specimen_image = self.main_window.child_window(title="Specimens", control_type="Text")
         specimen_image.wait('visible', timeout=1)
+        specimen_image.click_input("right")
 
-        rect = specimen_image.rectangle()
-        click_x = rect.left + (rect.width() // 2)
-        click_y = rect.top + (rect.height() // 2)
+        #rect = specimen_image.rectangle()
+        #click_x = rect.left + (rect.width() // 2)
+        #click_y = rect.top + (rect.height() // 2)
         
-        pyautogui.click(click_x, click_y, duration=0.1, button="right")
+        #pyautogui.click(click_x, click_y, duration=0.1, button="right")
         
     def copy_all_specimens(self):
-        for _ in range(4):
-            pyautogui.press('down')
-        time.sleep(0.01)
-        pyautogui.press('enter')
+        #for _ in range(4):
+        #    pyautogui.press('down')
+        #time.sleep(0.01)
+        #pyautogui.press('enter')
+        copy_button = self.main_window.child_window(
+            title="Copy All ", 
+            class_name="cmBtn imgBtn",
+            #control_type="cmBtn"
+        )
+        copy_button.wait('visible', timeout=1)
+        copy_button.click_input()
           
     def get_specimens(self):
         status = None
         if not self.check_epic_active():
             print(f"INFO: Epic not currently focused, reactivating window.")
             self.reactivate_epic()
-            time.sleep(0.05)
+            time.sleep(0.01)
         try:
             status = self.click_specimens()
         except:
@@ -267,17 +276,25 @@ class EpicControlNative:
             mouse_listener.stop()
     
     def select_drop_down_template(self, box_hotkey, down_press):
+        microscopic_comment = "{Microscopic or Digitally Reviewed:68854}"
         try:
             self.reactivate_epic()
             mouse_listener = pynput.mouse.Listener(suppress=True)
             mouse_listener.start()
             keyboard.press_and_release(box_hotkey)
             time.sleep(0.05)
-            keyboard.press_and_release('ctrl+home')
+            keyboard.press_and_release("ctrl+a")
             time.sleep(0.05)
-            keyboard.press_and_release("shift+right")
+            computer_control.set_clipboard(microscopic_comment)
             time.sleep(0.05)
-            keyboard.press_and_release("enter")
+            keyboard.press_and_release("f2")
+            
+            #keyboard.press_and_release('ctrl+home')
+            #time.sleep(0.05)
+            #keyboard.press_and_release("shift+right")
+            #time.sleep(0.05)
+            #keyboard.press_and_release("enter")
+            
             time.sleep(0.05)
             for _ in range(down_press): 
                 keyboard.press_and_release("down")
@@ -291,8 +308,11 @@ def main():
     ec = EpicControlNative()
     start_time = time.perf_counter()
     #ec.navigate_to_specimens()
+    #ec.click_specimen_coords()
+    #ec.copy_all_specimens()
     print(ec.run_safe_automation())
     #ec.select_drop_down_template("alt+6", 3)
+    
     end_time = time.perf_counter()
     print(f"INFO: The script took {end_time - start_time:.4f} seconds to run.")
 

@@ -28,7 +28,7 @@ print(f"SETUP: Importing template_handler.")
 from functions import template_handler
 
 print(f"SETUP: Importing epic_control.")
-from functions import epic_control
+from functions import epic_control, computer_control
 
 ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
 
@@ -225,6 +225,20 @@ class TopLevelGUI:
             ec.select_drop_down_template(box_hotkey="alt+6", down_press=(self.micro_comment + 1))
         time.sleep(0.01)
         keyboard.press_and_release('alt+1')
+        time.sleep(0.05)
+        
+        clipboard = None
+        computer_control.empty_clipboard()
+        keyboard.press_and_release('ctrl+a')
+        time.sleep(0.05)
+        keyboard.press_and_release('ctrl+c')
+        time.sleep(0.05)
+        clipboard = computer_control.grab_clipboard().strip()
+        time.sleep(0.1)
+        if clipboard:
+            print(f"INFO: Dictation not entered. Detected text already in the diagnosis field:\n  {clipboard}")
+            return False
+        
         ec.input_dictation(box_hotkey="alt+1", dictation=dictation_string)
         time.sleep(0.01)
         keyboard.press_and_release('ctrl+a')

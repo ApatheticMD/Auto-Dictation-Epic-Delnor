@@ -8,7 +8,7 @@ def extract_elements(element, file_handle, depth=0):
     auto_id = element.AutomationId
     class_name = element.ClassName
     
-    file_handle.write(f"{indent}[{control_type}] Name: '{name}' | ID: '{auto_id}' | Class: '{class_name}'\n")
+    file_handle.write(f"{indent}[{control_type}] Name: '{name}' | ID: '{auto_id}' | Class: '{class_name}' | Depth: '{depth}'\n")
     
     child = element.GetFirstChildControl()
     while child:
@@ -22,7 +22,7 @@ def main():
     epic_window = auto.WindowControl(searchDepth=1, SubName="Foundation Production")
     
     if not epic_window.Exists(maxSearchSeconds=5):
-        print("Error: Could not find the Epic application window.")
+        print("EERROR: Could not find the Epic application window.")
         return
         
     print(f"INFO: Connected successfully to: {epic_window.Name}")
@@ -36,4 +36,6 @@ def main():
     print("INFO: Extraction complete")
 
 if __name__ == "__main__":
+    import time
+    time.sleep(2)
     main()

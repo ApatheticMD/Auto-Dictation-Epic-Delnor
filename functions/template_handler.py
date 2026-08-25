@@ -369,7 +369,12 @@ class SignoutCleanup:
                 
             description = self.template_dict[key][1].lower()
             temp_list = []
+            
             description_words = description.split(" ")
+            if description_words[0] == "and":
+                print(f"INFO: Found a special case: deleting leading word {description_words[0]}")
+                description_words = description_words[1:]
+            
             for word in description_words:
                 if word == "biopsies":
                     word = "biopsy"
@@ -726,6 +731,9 @@ class SignoutCleanup:
         self.organ_specific_cleanup()
         self.strip_description()
         self.remove_duplicate_words()
+        self.strip_description()
+        self.special_cleanup()
+        self.strip_description()
         return self.template_dict
 
     def final_cleanup(self):
@@ -789,7 +797,6 @@ class SignoutCleanup:
 def main():
 
     test_dict = {'A': ('Placenta (28+ weeks)', '37.4 Week'), 'B': ['Gastric biopsies', 'Rt stomach, r/o h. pylori'], 'C': ['leep', 'leep stitch at 12 clock'], 'D': ['Breast mastectomy', "12 CM breast lesion"]}
-    test_dict = {'A': ['Needle Biopsy, NOS', 'Right lung lesion']}
     st = SpecimenTemplates()
     sc = SignoutCleanup(template_dict=test_dict)
     sc.build_signout_template()

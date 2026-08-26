@@ -287,6 +287,8 @@ class EpicControlNative:
             time.sleep(0.05)
             computer_control.set_clipboard(microscopic_comment)
             time.sleep(0.05)
+            computer_control.press_and_release("ctrl+v")
+            time.sleep(0.05)
             keyboard.press_and_release("f2")
             
             #keyboard.press_and_release('ctrl+home')

@@ -49,6 +49,8 @@ acronym_dict: dict = {
     "ecc": "endocervical curettage",
     "@": "at",
     "emb": "endometrial biopsy",
+    "fn": "from nipple",
+    "t.i": "terminal ileum",
 }
 
 all_caps_list: list = [

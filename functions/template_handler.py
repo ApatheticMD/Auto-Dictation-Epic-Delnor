@@ -41,7 +41,9 @@ acronym_dict: dict = {
     "bx": "biopsy",
     "bxs": "biopsies",
     "cxbx": "cervical biopsy",
+    "cx bx": "cervical biopsy",
     "cxbxs": "cervical biopsies",
+    "cx bxs": "cervical biopsies",
     "lt": "left",
     "rt": "right",
     "cmfn": "centimeters from the nipple",
@@ -51,6 +53,7 @@ acronym_dict: dict = {
     "emb": "endometrial biopsy",
     "fn": "from nipple",
     "t.i": "terminal ileum",
+    "cx": "cervical"
 }
 
 all_caps_list: list = [
@@ -95,7 +98,7 @@ synonym_dict: dict= {
     'joint': [''],
     'carina': [''],
     'colon': ['colonic'],
-    'cervix': [''],
+    'cervix': ['cervical'],
     'clot': [''],
     'conjunctiva': [''],
     'cornea': [''],

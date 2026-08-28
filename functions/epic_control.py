@@ -295,6 +295,7 @@ class EpicControlNative:
                 time.sleep(0.05)
             time.sleep(0.05)
             keyboard.press_and_release("enter")
+            time.sleep(0.05)
         except:
             print(f"ERROR: Issue placing microscopic description. Settings: box_hotkey: {box_hotkey}, down_press: {down_press}")
         finally:

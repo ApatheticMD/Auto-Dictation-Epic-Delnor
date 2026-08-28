@@ -30,8 +30,10 @@ typo_dict: dict = {
     "clokc": "clock",
     "o'clcok": "o'clock",
     "o'clokc": "o'clock",
+    "oclock": "o'clock",
     "junciton": "junction",
     "heptaic": "hepatic",
+    "recatal": "rectal"
 }
 
 acronym_dict: dict = {
@@ -40,6 +42,7 @@ acronym_dict: dict = {
     "ti": "terminal ileum",
     "bx": "biopsy",
     "bxs": "biopsies",
+    "bx's": "biopsies",
     "cxbx": "cervical biopsy",
     "cx bx": "cervical biopsy",
     "cxbxs": "cervical biopsies",
@@ -51,7 +54,7 @@ acronym_dict: dict = {
     "ecc": "endocervical curettage",
     "@": "at",
     "emb": "endometrial biopsy",
-    "fn": "from nipple",
+    "fn": "from the nipple",
     "t.i": "terminal ileum",
     "cx": "cervical"
 }

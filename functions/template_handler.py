@@ -658,8 +658,8 @@ class SignoutCleanup:
             if organ == "Pancreas, Duodenum, and Stomach":
                 pass
     
-    def remove_duplicate_word(self, to_keep, to_clean):
-        rtn= [x for x in to_clean if x not in to_keep]
+    def remove_duplicate_word(self, list1, list2):
+        rtn= [x for x in list2 if x not in list1]
         return rtn
 
     def keep_duplicate_word(self, list1, list2):

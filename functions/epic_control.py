@@ -289,13 +289,12 @@ class EpicControlNative:
             computer_control.press_and_release("ctrl+v")
             time.sleep(0.05)
             keyboard.press_and_release("f2")
-            time.sleep(0.05)
             for _ in range(down_press): 
-                keyboard.press_and_release("down")
                 time.sleep(0.05)
-            time.sleep(0.05)
+                keyboard.press_and_release("down")
+            time.sleep(0.1)
             keyboard.press_and_release("enter")
-            time.sleep(0.05)
+            time.sleep(0.1)
         except:
             print(f"ERROR: Issue placing microscopic description. Settings: box_hotkey: {box_hotkey}, down_press: {down_press}")
         finally:

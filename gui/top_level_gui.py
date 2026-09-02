@@ -223,7 +223,7 @@ class TopLevelGUI:
         start_pos = pyautogui.position()
         if not self.micro_comment == None:
             ec.select_drop_down_template(box_hotkey="alt+6", down_press=(self.micro_comment + 1))
-        time.sleep(0.01)
+        time.sleep(0.04)
         keyboard.press_and_release('alt+1')
         time.sleep(0.05)
         
@@ -240,11 +240,11 @@ class TopLevelGUI:
             return False
         
         ec.input_dictation(box_hotkey="alt+1", dictation=dictation_string)
-        time.sleep(0.01)
+        time.sleep(0.02)
         keyboard.press_and_release('ctrl+a')
-        time.sleep(0.01)
+        time.sleep(0.02)
         keyboard.press_and_release('ctrl+b')
-        time.sleep(0.01)
+        time.sleep(0.04)
         keyboard.press_and_release('f2')
         pyautogui.moveTo(start_pos)
         

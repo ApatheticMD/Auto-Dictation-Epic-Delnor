@@ -290,9 +290,9 @@ class EpicControlNative:
             time.sleep(0.05)
             keyboard.press_and_release("f2")
             for _ in range(down_press): 
-                time.sleep(0.05)
+                time.sleep(0.1)
                 keyboard.press_and_release("down")
-            time.sleep(0.1)
+            time.sleep(0.2)
             keyboard.press_and_release("enter")
             time.sleep(0.1)
         except:

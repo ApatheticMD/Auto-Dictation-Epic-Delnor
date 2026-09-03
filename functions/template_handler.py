@@ -49,7 +49,7 @@ acronym_dict: dict = {
     "cx bxs": "cervical biopsies",
     "lt": "left",
     "rt": "right",
-    "cmfn": "centimeters from the nipple",
+    "cmfn": "cm from the nipple",
     "nme": "non-mass enhancement",
     "ecc": "endocervical curettage",
     "@": "at",
@@ -70,6 +70,9 @@ all_lower_list: list = [
     'cm', 'cm,',
     'and', 'and,',
     'at', 'at,'
+    'the', 'the,',
+    'from', 'from,',
+    'in', 'in,',
 ]
 
 special_capitalization_dict: dict = {

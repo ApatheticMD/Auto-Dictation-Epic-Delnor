@@ -185,7 +185,7 @@ class EpicControlNative:
             except Exception as e:
                 print(f"ERROR: Execution failed: {e}")
                 print(f"INFO: Please ensure Epic is opened and a case is selected and re-run program.")
-        print(f"INFO: get_specimens status: {status}")
+        # print(f"INFO: get_specimens status: {status}")
         return status
 
     def process_specimens(self):
@@ -204,7 +204,7 @@ class EpicControlNative:
         for element in table_start_list:
             element = element.replace("\t", "|")
             if element==f"\r\n":
-                break
+                pass
             element = element.replace("\r\n", "")
             combined_list.append(element)
         

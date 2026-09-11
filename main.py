@@ -31,9 +31,6 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-def test():
-    print("Import test: success")
-
 def main():
     gui = top_level_gui.TopLevelGUI()
 

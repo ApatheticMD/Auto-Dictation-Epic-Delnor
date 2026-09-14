@@ -33,7 +33,8 @@ typo_dict: dict = {
     "oclock": "o'clock",
     "junciton": "junction",
     "heptaic": "hepatic",
-    "recatal": "rectal"
+    "recatal": "rectal",
+    "anestomosis": "anastomosis"
 }
 
 acronym_dict: dict = {

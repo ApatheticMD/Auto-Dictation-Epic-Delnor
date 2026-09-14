@@ -22,7 +22,7 @@ def main():
     epic_window = auto.WindowControl(searchDepth=1, SubName="Foundation Production")
     
     if not epic_window.Exists(maxSearchSeconds=5):
-        print("EERROR: Could not find the Epic application window.")
+        print("ERROR: Could not find the Epic application window.")
         return
         
     print(f"INFO: Connected successfully to: {epic_window.Name}")

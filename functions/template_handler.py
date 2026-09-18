@@ -372,11 +372,14 @@ class SignoutCleanup:
     def special_cleanup(self):
         for key in self.template_dict:
             description = self.template_dict[key][1].lower()
-            if "to r/o" in description:
+            if " to r/o" in description:
                 description = description.split("to r/o")
                 self.template_dict[key] = self.template_dict[key][0], description[0]
-            elif "r/o" in description:
+            elif " r/o" in description:
                 description = description.split("r/o")
+                self.template_dict[key] = self.template_dict[key][0], description[0]
+            elif " to h. pylori" in description:
+                description = description.split("to h.")
                 self.template_dict[key] = self.template_dict[key][0], description[0]
                 
             description = self.template_dict[key][1].lower()

@@ -114,6 +114,29 @@ class TopLevelGUI:
         main_frame = tk.CTkFrame(self.root, width=width, height=height)
         main_frame.pack(fill="both", expand=True)
         return main_frame
+
+    def create_background(self):
+        logo_path = resource_path(f'gui/assets/logo.png')
+        logo_image = PIL.Image.open(resource_path(logo_path))
+        self.logo_image = tk.CTkImage(dark_image=logo_image, size=(self.screen_width/5, self.screen_height/5))
+        self.logo_label = tk.CTkLabel(self.main_frame, image=self.logo_image, text="")
+        self.logo_label.place(relwidth=1, relheight=1)
+        pywinstyles.set_opacity(self.logo_label, value=0.9)
+        
+        copyright_path = resource_path(f'gui/assets/copyright.png')
+        copyright_image = PIL.Image.open(resource_path(copyright_path))
+        self.copyright_image = tk.CTkImage(dark_image=copyright_image, size=(self.screen_width/6, self.screen_height/60))
+        self.copyright_label = tk.CTkLabel(self.main_frame, image=self.copyright_image, text="")
+        self.copyright_label.place(relwidth=1, relheight=0.1, rely=0.85)
+        pywinstyles.set_opacity(self.copyright_label, value=0)
+        self.copyright_forward = True
+
+        background_path = resource_path(f'gui/assets/background_only.png')
+        backround_image = PIL.Image.open(resource_path(background_path))
+        self.background_image = tk.CTkImage(dark_image=backround_image, size=(self.screen_width*1.1, self.screen_height*1.1))
+        self.background_label = tk.CTkLabel(self.main_frame, image=self.background_image, text="")
+        self.background_label.place(relwidth=1.1, relheight=1.1, x=0, y=self.animation_pad)
+        pywinstyles.set_opacity(self.background_label, value=0.2)
     
     def create_button_frame(self, width, height):
         self.button_frame = tk.CTkFrame(self.main_frame, width=int(width * 0.3), height=int(height * 0.8))
@@ -352,29 +375,6 @@ class TopLevelGUI:
             self.background_animate=True
         else:
             self.root.after(25, self.background_intro)  
-
-    def create_background(self):
-        logo_path = resource_path(f'gui/assets/logo.png')
-        logo_image = PIL.Image.open(resource_path(logo_path))
-        self.logo_image = tk.CTkImage(dark_image=logo_image, size=(self.screen_width/5, self.screen_height/5))
-        self.logo_label = tk.CTkLabel(self.main_frame, image=self.logo_image, text="")
-        self.logo_label.place(relwidth=1, relheight=1)
-        pywinstyles.set_opacity(self.logo_label, value=0.9)
-        
-        copyright_path = resource_path(f'gui/assets/copyright.png')
-        copyright_image = PIL.Image.open(resource_path(copyright_path))
-        self.copyright_image = tk.CTkImage(dark_image=copyright_image, size=(self.screen_width/6, self.screen_height/60))
-        self.copyright_label = tk.CTkLabel(self.main_frame, image=self.copyright_image, text="")
-        self.copyright_label.place(relwidth=1, relheight=0.1, rely=0.85)
-        pywinstyles.set_opacity(self.copyright_label, value=0)
-        self.copyright_forward = True
-
-        background_path = resource_path(f'gui/assets/background_only.png')
-        backround_image = PIL.Image.open(resource_path(background_path))
-        self.background_image = tk.CTkImage(dark_image=backround_image, size=(self.screen_width*1.1, self.screen_height*1.1))
-        self.background_label = tk.CTkLabel(self.main_frame, image=self.background_image, text="")
-        self.background_label.place(relwidth=1.1, relheight=1.1, x=0, y=self.animation_pad)
-        pywinstyles.set_opacity(self.background_label, value=0.2)
 
 def main():
     gui = TopLevelGUI()

@@ -57,7 +57,8 @@ acronym_dict: dict = {
     "emb": "endometrial biopsy",
     "fn": "from the nipple",
     "t.i": "terminal ileum",
-    "cx": "cervical"
+    "cx": "cervical",
+    "roi#": "roi #"
 }
 
 all_caps_list: list = [

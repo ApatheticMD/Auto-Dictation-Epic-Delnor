@@ -109,18 +109,24 @@ class EpicControlNative:
             control_type="TabItem"
         )
         snapshot_tab.wait('visible', timeout=1)
-        snapshot_tab.select()
+        try:
+            snapshot_tab.select()
+        except Exception as e:
+            print(f"ERROR: Unable to select snapshot tab: {e}")
         
-        summary_btn = self.main_window.child_window(title="Summary", control_type="Button")
-        summary_btn.wait('visible', timeout=1)
-        print(f"INFO: toggling button: {summary_btn.toggle()}")
-        #time.sleep(0.2)
+        try:
+            summary_btn = self.main_window.child_window(title="Summary", control_type="Button")
+            summary_btn.wait('visible', timeout=1)
+            print(f"INFO: toggling button: {summary_btn.toggle()}")
+        except Exception as e:
+            print(f"WARN: Unable to select summary button on first attempt. Trying backup: {e}")
+            try:
+                summary_btn = self.main_window.child_window(title="Summary", control_type="Button", found_index=0)
+                summary_btn.wait('visible', timeout=1)
+                print(f"INFO: toggling button: {summary_btn.toggle()}")
+            except Exception as e:
+                print(f"ERROR: Unable to select summary button on backup: {e}")
 
-        #rect = summary_btn.rectangle()
-        #click_x = rect.left + (rect.width() // 2)
-        #click_y = rect.top + (rect.height() // 2)
-        
-        #pyautogui.click(click_x, click_y, duration=0.1)
         time.sleep(0.05)
 
     def click_specimens(self):
@@ -131,13 +137,29 @@ class EpicControlNative:
         time.sleep(0.05)
         
         try:
-            raw_clipboard = pyperclip.paste()
+            #raw_clipboard = pyperclip.paste()
+            raw_clipboard = computer_control.grab_clipboard()
+            print(f"TESTING: clipboard contents after initial: {raw_clipboard}")
         except pyperclip.PyperclipException as e:
-            print(f"ERROR: Error accessing clipboard: {e}")
-        
+            print(f"ERROR: Error accessing clipboard. Trying backup: {e}")
+            raw_clipboard = pyperclip.paste()
+            print(f"TESTING: clipboard contents after backup: {raw_clipboard}")
+            
         if not raw_clipboard:
-            print(f"WARN: Unable to grab specimen information from the clipboard during click_specimens.")
-            return False
+            print(f"WARN: Failed to grab specimen information from the clipboard during click_specimens. Attempting backup...\n   raw_clipboard = {raw_clipboard}")
+            self.click_specimen_coords()
+            time.sleep(0.1)
+            self.copy_all_specimens()
+            time.sleep(0.5)
+            
+            try:
+                raw_clipboard = pyperclip.paste()
+            except pyperclip.PyperclipException as e:
+                print(f"ERROR: Error accessing clipboard: {e}")
+            
+            if not raw_clipboard:
+                print(f"WARN: Unable to grab specimen information from the clipboard during click_specimens.\n   raw_clipboard = {raw_clipboard}")
+                return False
         
         self.raw_clipboard = raw_clipboard
         return True
@@ -178,13 +200,19 @@ class EpicControlNative:
             try:
                 print(f"WARN: Issue right clicking specimens.")
                 self.wait_if_paused()
-                self.navigate_to_specimens()
+                try:
+                    self.navigate_to_specimens()
+                except Exception as e:
+                    print(f"ERROR: Unable to navigate to specimens: {e}")
                 self.wait_if_paused()
-                status = self.click_specimens()
+                
+                try:
+                    status = self.click_specimens()
+                except Exception as e:
+                    print(f"ERROR: Unable to click specimens on backup: {e}")
                 
             except Exception as e:
                 print(f"ERROR: Execution failed: {e}")
-                print(f"INFO: Please ensure Epic is opened and a case is selected and re-run program.")
         # print(f"INFO: get_specimens status: {status}")
         return status
 
@@ -306,7 +334,8 @@ def main():
     #ec.navigate_to_specimens()
     #ec.click_specimen_coords()
     #ec.copy_all_specimens()
-    print(ec.run_safe_automation())
+    ec.click_specimens()
+    #print(ec.run_safe_automation())
     #ec.select_drop_down_template("alt+6", 3)
     
     end_time = time.perf_counter()
